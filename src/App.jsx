@@ -12,13 +12,14 @@ function App() {
 
   return (
     <>
-     <Menu />
+    <Menu />
       <ButtonDonate />
       <ButtonReadMore />
       <ButtonTranslate />
       <section className=' w-full'>
         <Footer />
         <img src={logo} alt="logo" className='ml-[5rem] mt-[3rem]' />
+    </section>
     </>
   )
 }
