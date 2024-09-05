@@ -123,23 +123,23 @@ function Footer() {
           <hr />
           <section className="flex">
             <section className="ml-[4rem]">
-              <h1 className="text-white text-[2rem] font-bold mt-[2rem]">
+              <h1 className="text-white text-[3rem] font-bold mt-[0.5rem]">
                 Subscribe Now
               </h1>
-              <p className=" text-white text-[1rem] ">
-                Stay updated with our latest news and initiatives
+              <p className=" text-white text-[2rem] ">
+                Stay updated with our latest news <br/> and initiatives
               </p>
               <input
                 type="text"
                 placeholder="Enter your email address"
-                class="w-[60%] px-2 py-1 my-2 inline-block border border-gray-300 box-border mt-[7rem]"
+                class="w-[60%] px-2 py-[1rem] my-2 inline-block border border-gray-300 box-border mt-[2.5rem]"
               />
-              <button className=" px-6 py-[0.3rem] text-white font-bold bg-orange-600">
+              <button className=" px-6 py-[1rem] text-white font-bold bg-orange-600">
                 Send
               </button>
             </section>
-            <section className=" w-full h-[300px] gap-[2rem] flex  items-center ml-[4rem]">
-              <a className="text-[3rem] ml-[25rem] " href="">
+            <section className=" w-[40%] h-[300px] gap-[2rem] flex  items-center ml-[4rem]">
+              <a className="text-[3rem] ml-[15rem] " href="">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
               <a className="text-[3rem]" href="">
