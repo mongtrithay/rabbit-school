@@ -1,3 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faEnvelope,
+  faPhone,
+  faGlobe,
+} from "@fortawesome/free-solid-svg-icons"
+
+
 function Footer() {
   return (
     <>
@@ -17,11 +25,11 @@ function Footer() {
         </section>
         <section className="w-full m-auto h-[800px] bg-blue-600">
           <section className="flex justify-start w-[100%] h-[500px] ">
-            <div className="w-[20%] h-[70%]  ml-[3rem] mt-[5rem]">
-              <img src="" alt="logo-footer" className="" />
+            <div className="w-[20%] h-[400px] flex justify-center items-center  ml-[3rem] mt-[5rem]">
+              <img src="./images/logo.png" alt="logo" />
             </div>
-            <nav className="w-[1000px] ml-[7rem] mt-[4rem]">
-              <ul className="flex gap-[4rem] text-[1.7rem] text-white font-bold">
+            <nav className="w-[1200px] ml-[7rem] mt-[5rem]">
+              <ul className="flex gap-[6rem] text-[2rem] text-white font-bold">
                 <li>
                   <a href="">Home</a>
                 </li>
@@ -39,15 +47,15 @@ function Footer() {
                 </li>
               </ul>
               <div>
-                <section className="flex gap-[1rem] text-white text-[1rem] leading-7">
-                  <div className="mr-[1rem]">
+                <section className="flex gap-[1rem] text-white text-[1.5rem] leading-10">
+                  <div className="mr-[0.6rem]">
                     <ul>
                       <li>
                         <a href="">Rabbit History</a>
                       </li>
                     </ul>
                   </div>
-                  <div className=" mr-[3.5rem] ">
+                  <div className=" mr-[3.3rem] ">
                     <ul>
                       <li>
                         <a href="">History</a>
@@ -69,7 +77,7 @@ function Footer() {
                       </li>
                     </ul>
                   </div>
-                  <div className="mr-[3rem]">
+                  <div className="mr-[2rem]">
                     <ul>
                       <li>
                         <a href="">Special Education</a>
@@ -85,7 +93,7 @@ function Footer() {
                       </li>
                     </ul>
                   </div>
-                  <div className="mr-[1.5rem] ">
+                  <div className=" ">
                     <ul>
                       <li>
                         <a href="">Make a donation</a>
@@ -130,10 +138,16 @@ function Footer() {
                 Send
               </button>
             </section>
-            <section className="ml-[4rem]">
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
+            <section className=" w-full h-[300px] gap-[2rem] flex  items-center ml-[4rem]">
+              <a className="text-[3rem] ml-[25rem] " href="">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+              <a className="text-[3rem]" href="">
+                <FontAwesomeIcon icon={faPhone} />
+              </a>
+              <a className="text-[3rem]" href="">
+                <FontAwesomeIcon icon={faGlobe} />
+              </a>
               <a href=""></a>
             </section>
           </section>
