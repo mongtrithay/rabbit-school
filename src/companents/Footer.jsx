@@ -12,7 +12,7 @@ function Footer() {
   return (
     <>
       <footer className="w-full h-[900px]">
-        <section className=" w-full m-auto  image bg-blue-600 image bg-no-repeat bg-center h-[850px]">
+        <section className=" w-full m-auto  image bg-sky-700 image bg-no-repeat bg-center h-[850px]">
           <div className="w-full h-full bler bg-black/25 flex items-center">
             <nav className="w-[60%] h-[250px] mt-[80px] ml-[250px]">
               <h1 className="text-white mb-4 text-6xl">Rabbit Shcool</h1>
@@ -25,7 +25,7 @@ function Footer() {
             </nav>
           </div>
         </section>
-        <section className="w-full m-auto h-[800px] bg-blue-600">
+        <section className="w-full m-auto h-[800px] bg-sky-700">
           <section className="flex justify-start w-[100%] h-[500px] ">
             <div className="w-[20%] h-[400px] flex justify-center items-center  ml-[3rem] mt-[2.5rem]">
             <img src={imageSrc} alt="logo" className='ml-[5rem] mt-[3rem] ' />
