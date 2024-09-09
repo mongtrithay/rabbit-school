@@ -5,6 +5,7 @@ import ButtonReadMore from './companents/ButtonReadMore'
 import ButtonTranslate from './companents/ButtonTranslate'
 import Footer from './companents/Footer'
 import logo from "./images/logo.png"
+import AboutPage from './pages/About'
 
 
 
@@ -12,14 +13,7 @@ function App() {
 
   return (
     <>
-    <Menu />
-      <ButtonDonate />
-      <ButtonReadMore />
-      <ButtonTranslate />
-      <section className=' w-full'>
-        <Footer />
-        <img src={logo} alt="logo" className='ml-[5rem] mt-[3rem]' />
-    </section>
+    <AboutPage/>
     </>
   )
 }
