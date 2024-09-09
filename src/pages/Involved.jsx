@@ -1,6 +1,17 @@
 import React from 'react';
 import Menu from '../companents/Menu';
 import Footer from'../companents/Footer';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faBookOpenReader,
+  faUsers,
+  faGraduationCap,
+  faHeart,
+  faSackDollar,
+  faChartLine,
+  faCalendarCheck,
+  faHouseMedicalCircleCheck,
+} from "@fortawesome/free-solid-svg-icons"
 
 function Involved() {
   return (
@@ -14,9 +25,9 @@ function Involved() {
       <div className="flex flex-col md:flex-row max-w-8xl mx-auto bg-sky-700 shadow-lg overflow-hidden h-[500px] mt-8">
         <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
           <h1 className="text-[40px] font-bold text-white ml-8">
-            Explore Job
+           EXPLORE JOB
           </h1>
-          <hr className="mb-8 mt-2 ml-8 border-4 w-[400px] border-orange-500" />
+          <hr className="mb-8 mt-2 ml-8 border-4 w-[300px] border-orange-500" />
           <p className="text-[24px] text-white leading-relaxed ml-8">
             Make a difference in children's lives by joining our passionate team.
             Whether you're an educator, social worker, or support staff, find a role that matches your
@@ -28,7 +39,7 @@ function Involved() {
         </div>
         <div className="w-full md:w-1/2">
           <img
-            src="https://via.placeholder.com/800x600"
+            src="https://media.discordapp.net/attachments/1198512111777763432/1282633933162549298/image.png?ex=66e0116f&is=66debfef&hm=0443d2d5e873ebb6f92bd121bf8ad01a7ec34d8ce3e03556695d73fa5d9039f0&=&format=webp&quality=lossless&width=1173&height=660"
             alt="Involved"
             className="w-full h-full object-cover"
           />
@@ -61,29 +72,29 @@ function Involved() {
           <h1 className="text-[40px] font-bold text-sky-700 mb-6 text-center">COMPANY BENEFITS</h1>
           <ul className="space-y-8 ml-8">
             <li className="flex items-center">
-              <svg className="w-[92px] h-[101px] text-orange-500 mr-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12V7H9V6h2zM9 8h2v6H9V8z"></path></svg>
-              <div>
+            <FontAwesomeIcon icon={faSackDollar} className="w-[100px] h-[100px] text-sky-700" />
+              <div className='ml-8'>
                 <p className="text-[30px] font-bold text-sky-700">Competitive salary</p>
                 <p className="text-[20px] text-gray-700">We offer a salary package that reflects your skills, experience, and contributions.</p>
               </div>
             </li>
             <li className="flex items-center">
-              <svg className="w-[92px] h-[101px] text-orange-500 mr-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12V7H9V6h2zM9 8h2v6H9V8z"></path></svg>
-              <div>
+            <FontAwesomeIcon icon={faChartLine} className="w-[100px] h-[100px] text-sky-700" />
+              <div className='ml-8'>
                 <p className="text-[30px] font-bold text-sky-700">Career Development Opportunities</p>
                 <p className="text-[20px] text-gray-700">We provide opportunities for career growth and professional development.</p>
               </div>
             </li>
             <li className="flex items-center">
-              <svg className="w-[92px] h-[101px] text-orange-500 mr-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12V7H9V6h2zM9 8h2v6H9V8z"></path></svg>
-              <div>
+            <FontAwesomeIcon icon={faCalendarCheck} className="w-[100px] h-[100px] text-sky-700" />
+              <div className='ml-8'>
                 <p className="text-[30px] font-bold text-sky-700">Generous paid time off</p>
                 <p className="text-[20px] text-gray-700">Enjoy generous paid time off, including vacation days and public holidays.</p>
               </div>
             </li>
             <li className="flex items-center">
-              <svg className="w-[92px] h-[101px] text-orange-500 mr-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12V7H9V6h2zM9 8h2v6H9V8z"></path></svg>
-              <div>
+            <FontAwesomeIcon icon={faHouseMedicalCircleCheck}className="w-[100px] h-[100px] text-sky-700" />
+              <div className='ml-8'>
                 <p className="text-[30px] font-bold text-sky-700">Comprehensive health benefits</p>
                 <p className="text-[20px] text-gray-700">Comprehensive health benefits covering medical, dental, and optical needs.</p>
               </div>
@@ -97,16 +108,16 @@ function Involved() {
       <div className="flex flex-col md:flex-row max-w-8xl mx-auto bg-sky-700 shadow-lg overflow-hidden h-[500px]">
         <div className="w-full md:w-1/2">
           <img
-            src="https://via.placeholder.com/800x600"
+            src="https://cdn.discordapp.com/attachments/1198512111777763432/1282634727693488229/image.png?ex=66e0122d&is=66dec0ad&hm=8908f87cca0fcd812f8ac4c4abe45097f8495f628ec67ca9d49a0cc1077464d1&"
             alt="Involved"
             className="w-full h-full object-cover"
           />
         </div>
         <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
           <h1 className="text-[40px] font-bold text-white ml-8">
-          Give Your Time and Skills
+          OFFER EXPERTISE
           </h1>
-          <hr className="mb-8 mt-2 ml-8 border-4 w-[600px] border-orange-500" />
+          <hr className="mb-8 mt-2 ml-8 border-4 w-[380px] border-orange-500" />
           <p className="text-[24px] text-white leading-relaxed ml-8">
             Make a positive impact on children's lives by volunteering your skills or joining our team.
             Whether you want to lend your expertise, support our programs, or contribute to our mission in other ways,
@@ -119,34 +130,34 @@ function Involved() {
 
       {/* //section4 */}
 
-       <div className="flex flex-col md:flex-row max-w-10xl mx-auto bg-white   overflow-hidden h-auto">
+       <div className="flex flex-col md:flex-row max-w-10xl mx-auto bg-white  overflow-hidden h-auto">
         <div className="w-full md:w-2/2 p-8 bg-white-100">
           <h1 className="text-[40px] font-bold text-sky-700 mb-6 text-center ">WHY VOLUNTEER?</h1>
           <ul className="space-y-8 ml-8">
             <li className="flex items-center">
-              <svg className="w-[135px] h-[120px] text-orange-500 mr-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12V7H9V6h2zM9 8h2v6H9V8z"></path></svg>
-              <div>
-                <p className="text-[35px] font-bold text-sky-700">Classroom Support</p>
+            <FontAwesomeIcon icon={faBookOpenReader} className="w-[100px] h-[100px] text-sky-700"/>
+           <div className='ml-12'>
+                <p className="text-[35px] font-bold text-sky-700  ">Classroom Support</p>
                 <p className="text-[30px] text-gray-600">Help teachers with classroom activities and provide one-on-one support to students.</p>
               </div>
             </li>
             <li className="flex items-center">
-              <svg className="w-[135px] h-[120px] text-orange-500 mr-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12V7H9V6h2zM9 8h2v6H9V8z"></path></svg>
-              <div>
+            <FontAwesomeIcon icon={faUsers}  className="w-[100px] h-[100px] text-sky-700" />
+              <div className='ml-12' >
                 <p className="text-[35px] font-bold text-sky-700">Event Planning and Fundraising</p>
                 <p className="text-[30px] text-gray-600">Assist in planning and running school events and funFundraisingdraising efforts.</p>
               </div>
             </li>
             <li className="flex items-center">
-              <svg className="w-[135px] h-[120px] text-orange-500 mr-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12V7H9V6h2zM9 8h2v6H9V8z"></path></svg>
-              <div>
+            <FontAwesomeIcon icon={faGraduationCap}className="w-[100px] h-[100px] text-sky-700"/>
+              <div className='ml-12'>
                 <p className="text-[40px] font-bold text-sky-700">Academic Guidance</p>
                 <p className="text-[30px] text-gray-600">Provide academic support and guidance to students.</p>
               </div>
             </li>
             <li className="flex items-center ">
-              <svg className="w-[135px] h-[120px]  text-orange-500 mr-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12V7H9V6h2zM9 8h2v6H9V8z"></path></svg>
-              <div>
+            <FontAwesomeIcon icon={faHeart} className="w-[100px] h-[100px] text-sky-700"/>
+              <div className='ml-12'>
                 <p className="text-[40px] font-bold text-sky-700">Library Management</p>
                 <p className="text-[30px] text-gray-600">Help manage the school library and assist students with finding resources.</p>
               </div>
@@ -158,7 +169,7 @@ function Involved() {
       {/* //section5 */}
       {/* left Section */}
 
-      <div className="flex flex-col md:flex-row max-w-10xl mx-auto h-[600px]">
+      <div className="flex flex-col md:flex-row max-w-10xl mx-auto h-[550px]">
    <div className="w-full md:w-1/2 p-8  bg-sky-700 ">
     <h1 className="text-[40px] text-white font-bold mb-6 text-center">CONTACT US</h1>
     <div className="text-[20px] text-white space-y-4">
@@ -180,7 +191,7 @@ function Involved() {
   </div>
 
   {/* Right Section */}
-  <div className="relative w-full md:w-1/2 p-8 h-[600px] bg-white">
+  <div className="relative w-full md:w-1/2 p-8 h-[550px] bg-white">
   <div className="absolute top-0 left-0 w-full h-[7px] bg-sky-700"></div>
   <h1 className="text-[40px] font-bold text-sky-700 mb-6 text-center mt-4">GET INVOLVED</h1>
   <form className="space-y-4 flex flex-col items-center">
