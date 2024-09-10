@@ -5,11 +5,12 @@ import ButtonReadMore from './companents/ButtonReadMore'
 import ButtonTranslate from './companents/ButtonTranslate'
 import Footer from './companents/Footer'
 import KeyFigures from './companents/KeyFigures'
+import Homepage from './pages/Home'
+import OurAction from './pages/OurAction'
+// import ImageSlider from './companents/Slider'
 import Involved from './pages/Involved'
 import SliderAction from './companents/SliderAction'
 import StaticAutoSlider from './companents/StaticAutoSlider'
-
-
 
 
 
