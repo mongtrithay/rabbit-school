@@ -9,24 +9,24 @@ function Menu() {
             </div>
             <div className='flex items-center justify-end w-full h-200 '>
                 <div className="mr-[50px] ">
-                    <ul className="flex gap-20 text-white font-semibold text-xl">
+                    <ul className="flex gap-20 text-white font-semibold ">
                         <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors">HOME</a>
+                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">HOME</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors">ABOUT US</a>
+                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">ABOUT US</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors">OUR ACTIONS</a>
+                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">OUR ACTIONS</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors">GET INVOLVED</a>
+                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">GET INVOLVED</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors">SPORT US</a>
+                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">SPORT US</a>
                         </li>
                         <li className="">
-                            <a href="#" className="hover:text-gray-600 transition-colors">CONTACT</a>
+                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">CONTACT</a>
                         </li>
                     </ul>
                 </div>
