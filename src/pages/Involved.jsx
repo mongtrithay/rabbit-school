@@ -1,6 +1,7 @@
 import React from "react";
 import Menu from "../companents/Menu";
 import Footer from "../companents/Footer";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBookOpenReader,
@@ -316,7 +317,6 @@ function Involved() {
               className="w-[400px] p-3 text-[20px] border border-sky-700  focus:outline-none focus:ring-2 focus:ring-sky-500"
             />
 
-            
             <input
               type="email"
               placeholder="Email"
