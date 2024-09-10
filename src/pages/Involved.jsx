@@ -315,6 +315,8 @@ function Involved() {
               placeholder="Full Name"
               className="w-[400px] p-3 text-[20px] border border-sky-700  focus:outline-none focus:ring-2 focus:ring-sky-500"
             />
+
+            
             <input
               type="email"
               placeholder="Email"
