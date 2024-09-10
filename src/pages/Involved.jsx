@@ -160,7 +160,7 @@ function Involved() {
         </div>
       </div>
 
-      {/* //section3 */}
+      g{/* //section3 */}
 
       <div className="flex flex-col md:flex-row max-w-8xl mx-auto bg-sky-700 shadow-lg overflow-hidden h-[500px]">
         <div className="w-full md:w-1/2">
