@@ -189,6 +189,7 @@ function Involved() {
       </div>
 
       {/* //section4 */}
+      {/*//time to read */}
 
       <div className="flex flex-col md:flex-row max-w-10xl mx-auto bg-white  overflow-hidden h-auto">
         <div className="w-full md:w-2/2 p-8 bg-white-100">
