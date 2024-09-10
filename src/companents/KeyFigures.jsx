@@ -1,3 +1,27 @@
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import image1 from "../assets/images/pic1.jpeg";
+import image2 from "../assets/images/pic2.jpeg";
+import image3 from "../assets/images/pic3.jpeg";
+import image4 from "../assets/images/pic4.jpeg";
+import image5 from "../assets/images/pic5.jpeg";
+import image6 from "../assets/images/pic6.jpeg";
+
+const settings = {
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  pauseOnHover: false,
+};
+
+const images = [image1, image2, image3, image4, image5, image6];
+
 function KeyFigures() {
   return (
     <>
@@ -110,7 +134,17 @@ function KeyFigures() {
                 </div>
               </div>
             </div>
-            <div className="w-[48%] h-full bg-blue-600 "></div>
+            <div className="w-[48%] h-[1000px] bg-blue-600 ">
+              <div className=" w-[100%] m-[auto] ">
+                <Slider {...settings}>
+                  {images.map((image, index) => (
+                    <div key={index}>
+                      <img src={image} alt={`Slide ${index + 1}`} className="w-[100%] h-[1000px]" />
+                    </div>
+                  ))}
+                </Slider>
+              </div>
+            </div>
           </div>
         </div>
       </section>

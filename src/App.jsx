@@ -7,6 +7,7 @@ import Footer from './companents/Footer'
 import KeyFigures from './companents/KeyFigures'
 import Involved from './pages/Involved'
 import SliderAction from './companents/SliderAction'
+import StaticAutoSlider from './companents/StaticAutoSlider'
 
 
 
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <>
-    <Involved />
+    <StaticAutoSlider />
     </>
   )
 }
