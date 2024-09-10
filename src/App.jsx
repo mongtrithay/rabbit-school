@@ -7,6 +7,8 @@ import Footer from './companents/Footer'
 import Homepage from './pages/Home'
 import OurAction from './pages/OurAction'
 // import ImageSlider from './companents/Slider'
+import Involved from './pages/Involved'
+import SliderAction from './companents/SliderAction'
 
 
 
@@ -14,11 +16,9 @@ function App() {
 
   return (
     <>
-    {/* <ImageSlider/> */}
-    <Homepage></Homepage>
-    {/* <OurAction/> */}
+    
+    <Involved />
 
-   
     </>
   )
 }

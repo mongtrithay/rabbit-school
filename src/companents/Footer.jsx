@@ -13,7 +13,7 @@ function Footer() {
   return (
     <>
       <footer className="w-full h-[900px]">
-        <section className=" w-full m-auto  image bg-blue-600 image bg-no-repeat bg-center h-[850px]">
+        <section className=" w-full m-auto  image bg-sky-700 image bg-no-repeat bg-center h-[850px]">
           <div className="w-full h-full bler bg-black/25 flex items-center">
             <nav className="w-[60%] h-[250px] mt-[80px] ml-[250px]">
               <h1 className="text-slate-300  mb-4 text-[48px] font-bold">Rabbit Shcool</h1>
