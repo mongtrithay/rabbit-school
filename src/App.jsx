@@ -4,8 +4,13 @@ import ButtonDonate from './companents/ButtonDonate'
 import ButtonReadMore from './companents/ButtonReadMore'
 import ButtonTranslate from './companents/ButtonTranslate'
 import Footer from './companents/Footer'
+import Homepage from './pages/Home'
+import OurAction from './pages/OurAction'
+// import ImageSlider from './companents/Slider'
 import Involved from './pages/Involved'
 import SliderAction from './companents/SliderAction'
+import Detail from './pages/Detail'
+
 
 
 
@@ -15,8 +20,8 @@ function App() {
 
   return (
     <>
-    
     <Involved/>
+
     </>
   )
 }
