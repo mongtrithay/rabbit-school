@@ -6,6 +6,7 @@ import ButtonTranslate from './companents/ButtonTranslate'
 import Footer from './companents/Footer'
 
 import AboutPage from './pages/About'
+import ContactPage from './pages/Contact'
 
 
 
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <>
-    <AboutPage />
+    <ContactPage />
     </>
   )
 }
