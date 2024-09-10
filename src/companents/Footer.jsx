@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 import React from "react"
 import imageSrc from '../assets/images/img2.png';
+import ButtonDonate from "./ButtonDonate";
 
 
 function Footer() {
@@ -15,17 +16,18 @@ function Footer() {
         <section className=" w-full m-auto  image bg-sky-700 image bg-no-repeat bg-center h-[850px]">
           <div className="w-full h-full bler bg-black/25 flex items-center">
             <nav className="w-[60%] h-[250px] mt-[80px] ml-[250px]">
-              <h1 className="text-white mb-4 text-6xl">Rabbit Shcool</h1>
-              <p className="text-white text-[30px] ">
+              <h1 className="text-slate-300  mb-4 text-[48px] font-bold">Rabbit Shcool</h1>
+              <p className="text-white text-[32px] ">
                 At Rabbit School, we are committed to making a positive impact
                 in our community. Your support helps us provide essential
                 services and create meaningful change. Stay connected and join
                 us in our mission to improve lives.
               </p>
+              <ButtonDonate/>
             </nav>
           </div>
         </section>
-        <section className="w-full m-auto h-[800px] bg-sky-700">
+        <section className="w-full m-auto h-[800px] bg-[#276BA3]">
           <section className="flex justify-start w-[100%] h-[500px] ">
             <div className="w-[20%] h-[400px] flex justify-center items-center  ml-[3rem] mt-[2.5rem]">
             <img src={imageSrc} alt="logo" className='ml-[5rem] mt-[3rem] ' />
@@ -49,7 +51,7 @@ function Footer() {
                 </li>
               </ul>
               <div>
-                <section className="flex gap-[1rem] text-white text-[1.5rem] leading-10">
+                <section className="flex gap-[1rem] text-white text-[1.5rem] leading-10 mt-[20px]">
                   <div className="mr-[0.6rem]">
                     <ul>
                       <li>
@@ -57,7 +59,7 @@ function Footer() {
                       </li>
                     </ul>
                   </div>
-                  <div className=" mr-[3.3rem] ">
+                  <div className=" mr-[3.3rem]  ">
                     <ul>
                       <li>
                         <a href="">History</a>
@@ -125,27 +127,28 @@ function Footer() {
           <hr />
           <section className="flex">
             <section className="ml-[4rem]">
-              <h1 className="text-white text-[3rem] font-bold mt-[0.5rem]">
+              <h1 className="text-slate-300 text-[40px] font-bold mt-[0.5rem]">
                 Subscribe Now
               </h1>
-              <p className=" text-white text-[2rem] ">
+              <p className=" text-white text-[20px] ">
                 Stay updated with our latest news <br/> and initiatives
               </p>
               <input
                 type="text"
                 placeholder="Enter your email address"
-                class="w-[60%] px-2 py-[1rem] my-2 inline-block border border-gray-300 box-border mt-[2.5rem]"
+                class="w-[60%] px-6 py-[1rem] my-2 inline-block border border-gray-300 box-border mt-[2.5rem]"
               />
-              <button className=" px-6 py-[1rem] text-white font-bold bg-orange-600">
+              <button className=" px-6 py-[1rem] text-white font-bold bg-[#F0990E]">
                 Send
               </button>
             </section>
-            <section className=" w-[40%] h-[300px] gap-[2rem] flex  items-center ml-[4rem]">
+            <section className=" w-[40%] h-[300px] gap-[2rem] flex  items-center ml-[4rem] decoration-white">
               <a className="text-[3rem] ml-[15rem] " href="">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
-              <a className="text-[3rem]" href="">
-                <FontAwesomeIcon icon={faPhone} />
+              <a className="text-[3rem] decoration-white " href="">
+                <FontAwesomeIcon icon={faPhone}
+/ >
               </a>
               <a className="text-[3rem]" href="">
                 <FontAwesomeIcon icon={faGlobe} />
