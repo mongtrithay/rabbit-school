@@ -20,9 +20,7 @@ function App() {
 
   return (
     <>
-    
-
-    <Detail />
+    <Involved/>
 
     </>
   )
