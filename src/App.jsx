@@ -9,6 +9,10 @@ import OurAction from './pages/OurAction'
 // import ImageSlider from './companents/Slider'
 import Involved from './pages/Involved'
 import SliderAction from './companents/SliderAction'
+import Detail from './pages/Detail'
+
+
+
 
 
 
@@ -17,7 +21,8 @@ function App() {
   return (
     <>
     
-    <Involved />
+
+    <Detail />
 
     </>
   )
