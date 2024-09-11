@@ -23,7 +23,9 @@ function Menu() {
                             <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">GET INVOLVED</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">SPORT US</a>
+
+                            <a href="#" className="hover:text-gray-600 transition-colors">SUPPORT</a>
+
                         </li>
                         <li className="">
                             <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">CONTACT</a>
