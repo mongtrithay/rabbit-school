@@ -1,51 +1,101 @@
 import Menu from "../companents/Menu";
-import image15 from '../assets/images/image15.png';
+import image14 from "../assets/images/image14.png";
 import Footer from "../companents/Footer";
-function SupportPage(){
-    return(
-        <>
-        <div>
-            <Menu />
-            <h1 className="text-[40px] text-sky-700 font-bold text-center mt-24">Support Rabbit School</h1>
-            <p className="text-[20px] text-gray-500 text-center">We are in need of various resources to support our educational and therapeutic programs. Your <br />
-            donations help us provide essential tools and materials for our community.</p>
 
-            <div className="w-[75%] m-auto mt-14">
-                <div className="flex flex-col gap-7">
-                    <h1 className="text-[40px] text-sky-700 font-bold">DONATE RESOURCES</h1>
-                    <p className="text-[20px]">
-                        <span className="text-sky-700">School Materials: </span>Books, pencils, DVDs, educational games.
-                    </p>
-                    <p className="text-[20px]">
-                        <span className="text-sky-700">Children's Books:</span>Children’s books, especially in Khmer.
-                    </p>
-                    <p className="text-[20px]">
-                        <span className="text-sky-700">Physiotherapy Devices: </span> Special devices and toys for physiotherapy.
-                    </p>
-                </div>
-                <div className="flex mt-24">
-                    <div className="flex-1 flex flex-col gap-7">
-                    <h1 className="text-[40px] text-sky-700 font-bold">FINANCIAL DONATIONS</h1>
-                    <p>To make a financial contribution, please deposit your donation into <br /> <br />the following bank </p>
-                    <p><span className="font-bold"> Bank:</span>ACLEDA Bank Plc</p>
-                    <p><span className="font-bold"> Account name:</span> Rabbit School</p>
-                    <p><span className="font-bold"> Account number:</span>  2900-01-005152-1-2</p>
-                    </div>
-                    <div className="flex1">
-                    <img src={image15} alt="" className="w-[340px] h-[338px]"/>
-                    </div>
-                </div>
-            </div>
+function ContactPage() {
+  return (
+    <>
+      <div>
+        <Menu />
+        <h1 className="text-[40px] sm:text-[50px] text-sky-700 font-bold text-center mt-10">
+          GET IN TOUCH WITH US
+        </h1>
+        <p className="text-[18px] sm:text-[20px] text-neutral-500 text-center mt-5">
+          We’re excited to hear from you!
+        </p>
 
-            <p className="text-[20px] text-gray-500 text-center mt-10">A receipt will be sent on your request to: afm.rabbitschool@gmail.com <br />
-            We thank you for your generosity.
-            </p>
+        <div className="flex flex-col sm:flex-row w-[90%] sm:w-[65%] justify-center items-center m-auto gap-10 sm:gap-40 mt-10 sm:mt-16">
+          {/* Contact Form Section */}
+          <div className="flex-1 w-full">
+            <form className="space-y-4">
+              <div>
+                <label htmlFor="fullName" className="block text-gray-700">
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  id="fullName"
+                  name="fullName"
+                  className="w-full sm:w-[433px] h-[50px] p-2 border border-red-700  "
+                />
+              </div>
 
-            <div className="mt-16">
-                <Footer />
-            </div>
+              <div>
+                <label htmlFor="email" className="block text-gray-700">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className="w-full sm:w-[433px] h-[50px] p-2 border border-sky-700  mt-3"
+                />
+              </div>
+
+              <div>
+                <label htmlFor="message" className="block text-gray-700">
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  className="w-full sm:w-[433px] h-[120px] sm:h-[150px] p-2 border border-sky-700  mt-3"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="w-full sm:w-[433px] bg-yellow-500 text-white p-2 rounded"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+
+          {/* Image Section */}
+          <div className="flex-1 w-full sm:w-[552px] h-[400px] sm:h-[480px] mt-10 sm:mt-0">
+            <img src={image14} alt="" className="w-full h-full object-cover" />
+          </div>
         </div>
-        </>
-    )
+
+        <div className="flex flex-col sm:flex-row w-[90%] sm:w-[65%] m-auto gap-6 sm:gap-10 mt-10">
+          <div className="flex-1 text-center">
+            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold">Address</h1>
+            <p className="text-[18px] sm:text-[20px] text-gray-500">
+              https:/goo.glmapsjvMBC2MgTz1kUyoh6
+            </p>
+          </div>
+          <div className="flex-1 text-center">
+            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold">Email</h1>
+            <p className="text-[18px] sm:text-[20px] text-gray-500">
+              sor.sothearom@rabbitschoolcambodia.net <br />
+              hun.touch@rabbitschoolcambodia.net
+            </p>
+          </div>
+          <div className="flex-1 text-center">
+            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold">Phone </h1>
+            <p className="text-[18px] sm:text-[20px] text-gray-500">
+              +855 68 901 971 <br />
+              +855 17 525 815
+            </p>
+          </div>
+        </div>
+        <div className="mt-20">
+          <Footer />
+        </div>
+      </div>
+    </>
+  );
 }
-export default SupportPage ;
+
+export default ContactPage;
