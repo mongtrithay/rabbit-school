@@ -7,6 +7,7 @@ import Footer from './companents/Footer'
 
 import AboutPage from './pages/About'
 import ContactPage from './pages/Contact'
+import SupportPage from './pages/Support'
 
 
 
@@ -14,9 +15,10 @@ function App() {
 
   return (
     <>
-    <ContactPage />
+    <SupportPage />
     </>
   )
 }
+
 
 export default App;
