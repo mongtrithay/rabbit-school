@@ -17,7 +17,7 @@ function Involved() {
   return (
     // section1
     <div className="min-h-screen bg-gray-100">
-      <Menu />
+      {/* <Menu /> */}
       <h1 className="text-4xl md:text-5xl font-bold text-center mt-10 text-sky-700 ml-4">
         DO YOU WANT TO GET INVOLVED?
       </h1>
@@ -331,7 +331,7 @@ function Involved() {
             />
             <button
               type="submit"
-              className="w-[90%] md:w-[400px] p-2 text-[16px] md:text-[20px] bg-orange-400 text-white font-bold hover:bg-gray-500 focus:outline-none focus:ring-2"
+              className="w-[90%] md:w-[400px] p-2 text-[16px] md:text-[20px] bg-orange-500 text-white font-bold hover:bg-gray-500 focus:outline-none focus:ring-2"
             >
               Submit
             </button>
@@ -339,7 +339,7 @@ function Involved() {
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
