@@ -1,5 +1,5 @@
 import Menu from "../companents/Menu";
-import image15 from '../assets/images/image15.png';
+import image14 from "../assets/images/image14.png";
 import Footer from "../companents/Footer";
 function SupportPage(){
     return(
@@ -48,7 +48,34 @@ function SupportPage(){
                 <Footer />
             </div> */}
         </div>
-        </>
-    )
+
+        <div className="flex flex-col sm:flex-row w-[90%] sm:w-[65%] m-auto gap-6 sm:gap-10 mt-10">
+          <div className="flex-1 text-center">
+            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold">Address</h1>
+            <p className="text-[18px] sm:text-[20px] text-gray-500">
+              https:/goo.glmapsjvMBC2MgTz1kUyoh6
+            </p>
+          </div>
+          <div className="flex-1 text-center">
+            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold">Email</h1>
+            <p className="text-[18px] sm:text-[20px] text-gray-500">
+              sor.sothearom@rabbitschoolcambodia.net <br />
+              hun.touch@rabbitschoolcambodia.net
+            </p>
+          </div>
+          <div className="flex-1 text-center">
+            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold">Phone </h1>
+            <p className="text-[18px] sm:text-[20px] text-gray-500">
+              +855 68 901 971 <br />
+              +855 17 525 815
+            </p>
+          </div>
+        </div>
+        <div className="mt-20">
+          <Footer />
+        </div>
+      </div>
+    </>
+  );
 }
 export default SupportPage;
