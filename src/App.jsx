@@ -8,6 +8,7 @@ import Footer from './companents/Footer'
 import AboutPage from './pages/About'
 import ContactPage from './pages/Contact'
 import SupportPage from './pages/Support'
+import ArticleCard from './companents/ArticleCard'
 
 
 
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <>
-    <Menu />
+    <ArticleCard />
     </>
   )
 }
