@@ -4,6 +4,7 @@ import {
   faPhone,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import ButtonDonate from "./ButtonDonate";
 // Use the newly uploaded image here
@@ -166,9 +167,12 @@ function Footer() {
                 </button>
               </div>
             </div>
-            <div className="flex space-x-2 text-white text-lg md:space-x-4 text-3xl md:ml-[20rem] md:mt-[3rem] max-md:m-2">
+            <div className="flex space-x-2 text-white text-6lg md:space-x-6 text-3xl md:ml-[20rem] md:mt-[3rem] max-md:m-2">
               <a href="#">
                 <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+              <a href="#">
+                <FontAwesomeIcon icon={faFacebookF} />
               </a>
               <a href="#">
                 <FontAwesomeIcon icon={faPhone} />
