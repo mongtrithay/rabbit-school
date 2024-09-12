@@ -15,6 +15,7 @@ import SliderPartner from './companents/SliderPartner'
 import AboutPage from './pages/About'
 import Contact from './pages/Contact'
 import SupportPage from './pages/Support'
+import ArticleCard from './companents/ArticleCard'
 
 
 
