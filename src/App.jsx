@@ -9,6 +9,7 @@ import OurAction from './pages/OurAction'
 // import ImageSlider from './companents/Slider'
 import Involved from './pages/Involved'
 import SliderAction from './companents/SliderAction'
+import SliderPartner from './companents/SliderPartner'
 
 
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <>
     
-    <Involved />
+    <SliderPartner />
 
     </>
   )
