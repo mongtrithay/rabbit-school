@@ -21,17 +21,10 @@ function App() {
 
   return (
     <>
-    
-<<<<<<< HEAD
     {/* <Involved /> */}
-
-    {/* <Homepage/> */}
-    <OurAction/>
-
-  
-=======
-    <SliderPartner />
->>>>>>> main
+    <Homepage/>
+    {/* <OurAction/> */}
+    {/* <SliderPartner /> */}
 
     </>
   )

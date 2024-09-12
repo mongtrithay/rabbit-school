@@ -6,7 +6,7 @@ import { faUsers } from "@fortawesome/free-solid-svg-icons";
 import Footer from "../companents/Footer";
 import ButtonReadMore from "../companents/ButtonReadMore";
 import pic1 from "../assets/images/pic1.jpeg";
-import pic3 from "../assets/images/P3-home.jpg";
+// import pic3 from "../assets/images/P3-home.jpg";
 import pic5 from "../assets/images/where.png";
 import pic6 from "../assets/images/main-fund.jpg";
 import icon1 from "../assets/images/respect.png";
@@ -15,6 +15,10 @@ import icon3 from "../assets/images/icon-gender.png";
 import icon4 from "../assets/images/community.png";
 import icon5 from "../assets/images/idea.png";
 import icon6 from "../assets/images/using.png";
+import home2 from "../assets/images/homepage2.jpg";
+// import header from "../assets/images/hearderHome.jpg";
+import header from "../assets/images/headerHome.jpg";
+
 
 import SliderAction from "../companents/SliderAction";
 
@@ -25,20 +29,20 @@ function Homepage() {
       {/* <SliderAction/> */}
       <div
         className="relative w-full lg:h-[43.75rem] h-[25rem] bg-cover bg-center"
-        style={{ backgroundImage: `url(${imageSrc})` }}
+        style={{ backgroundImage: `url(${header})` }}
       >
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="bg-black bg-opacity-50 w-screen">
             <h1 className="text-center text-white lg:text-[4.6875rem] text-[1rem] sm:text-[2rem] md:text-[3rem] mt-8">
               Welcome to the Rabbit School Organization
             </h1>
-            <div className="flex flex-wrap justify-center mt-[4.375rem] lg:-ml-[20rem] -ml-[0.75rem]">
-              <div className="lg:w-[15.375rem] w-[3rem] lg:h-[0.3125rem] h-[0.20rem] lg:ml-[3.125rem] ml-[1.5rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
-              <div className="lg:w-[5.125rem] w-[1.50rem] lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem] ml-[0.75rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
-              <div className="lg:w-[2.875rem] w-[0.80rem] lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem] ml-[0.75rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
-              <div className="lg:w-[1.9375rem] w-[0.30rem] lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem] ml-[0.75rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
-              <div className="lg:w-[0.625rem] w-[0.30rem] lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem] ml-[0.75rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
-              <p className="text-white lg:text-[1.25rem] text-[0.30rem] sm:text-[0.75rem] md:text-[1rem] lg:-mt-[4.0625rem] -mt-[3.00rem] lg:ml-[1.875rem] ml-[0.75rem]">
+            <div className="flex flex-wrap justify-center mt-[3.50rem]  lg:-ml-[20rem] -ml-[4rem] lg:mt-[4rem]">
+              <div className="lg:w-[15.375rem] w-[3rem] lg:h-[0.3125rem] h-[0.15rem] lg:ml-[3.125rem] ml-[1.5rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
+              <div className="lg:w-[5.125rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
+              <div className="lg:w-[2.875rem] lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
+              <div className="lg:w-[1.9375rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
+              <div className="lg:w-[0.625rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
+              <p className="text-white lg:text-[1.25rem] text-[0.40rem] sm:text-[0.75rem] md:text-[1rem] lg:-mt-[4.0625rem] -mt-[3.00rem] lg:ml-[1.875rem] ml-[0.75rem]">
                 The Rabbit School is a Cambodian NGO that was established in May
                 1997.
               </p>
@@ -82,7 +86,7 @@ function Homepage() {
         <div className="h-[40rem] lg:h-full lg:w-[50%] flex justify-center items-center p-4 lg:p-0">
           <div className="bg-yellow-300 h-[35rem] lg:h-[30rem] w-full lg:w-[50rem] max-w-full">
             <img
-              src={pic3}
+              src={home2}
               alt="Description of image"
               className="w-[100%] h-[100%] object-cover"
             />
@@ -95,12 +99,12 @@ function Homepage() {
             Disability in Cambodia, a persistent taboo
           </h1>
           <div className="w-[10rem] lg:w-[14rem] h-[0.3125rem] bg-[#F0990E] mb-4 lg:mb-6"></div>
-          <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6">
+          <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6 mt-5">
             In Cambodia, which has a predominantly Buddhist population,
             disability is often viewed as a taboo subject due to reincarnation
             beliefs.
           </p>
-          <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6">
+          <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6" >
             Unfortunately, many schools in Cambodia are not equipped to
             accommodate children with intellectual disabilities (CWIDs), with
             only a handful of special education schools available, most of which
@@ -113,7 +117,7 @@ function Homepage() {
             particularly mothers, who are unable to work and provide financial
             support for their families while also caring for their child.
           </p>
-          <div className="flex flex-wrap mt-8 lg:mt-12">
+          <div className="flex flex-wrap mt-1   lg:mt-12">
             <div className="w-[7.5rem] lg:w-[15.375rem] h-[0.3125rem] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
             <div className="w-[2.5rem] lg:w-[3.125rem] h-[0.3125rem] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
             <div className="w-[1.5rem] lg:w-[1.875rem] h-[0.3125rem] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
@@ -131,6 +135,7 @@ function Homepage() {
       </div>
 
       <section className="h-[1000px] w-full flex">
+        {/* <SliderAction/> */}
         <div className="bg-red-500 w-[50%] h-full"></div>
         <div className="bg-green-500 w-[50%]" h-full></div>
       </section>
