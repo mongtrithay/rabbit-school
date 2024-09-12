@@ -45,7 +45,7 @@ function Footer() {
         {/* Footer Links Section */}
         <section className="w-full bg-[#276BA3] text-white py-12">
           <div className="container mx-auto flex flex-wrap ">
-            <div className="max-md:w-1/4 md:w-1/4 max-md:flex max-md:mt-[-30px] max-md:ml-4 md:ml-[-6rem]  max-md:justify-center max-md:items-center">
+            <div className="max-md:w-1/4 md:w-1/4 max-md:flex max-md:mt-[-30px] max-md:ml-4 md:ml-[1rem]  max-md:justify-center max-md:items-center">
               <img src={Image} alt="logo" className="max-md:w-1/2  md:w-1/2 " />
             </div>
             <div className="max-md:grid max-md:grid-cols-2 max-md:ml-10 max-md:gap-2 md:ml-20 md:space-x-16 max-md:mt-2 flex flex-col md:flex-row md:space-x-16">
@@ -150,17 +150,17 @@ function Footer() {
         <section className="bg-[#276BA3] py-8">
           <div className="container flex items-center">
             <div>
-              <h1 className="max-md:ml-2 md:ml-[4rem] text-slate-300 max-md:text-lg font-bold">
+              <h1 className="max-md:ml-2 md:ml-[11rem] text-slate-300 max-md:text-lg font-bold">
                 Subscribe Now
               </h1>
-              <p className="md:ml-[4rem] max-md:ml-2 text-white max-md:text-2lg">
+              <p className="md:ml-[11rem] max-md:ml-2 text-white max-md:text-2lg">
                 Stay updated with our latest news and initiatives
               </p>
               <div className="mt-4 max-md:ml-2 flex">
                 <input
                   type="text"
                   placeholder="Enter your email address"
-                  className="w-3/4 md:ml-[4rem] px-4 py-2 border border-gray-300"
+                  className="w-3/4 md:ml-[11rem] px-4 py-2 border border-gray-300"
                 />
                 <button className="px-6 py-2 text-white font-bold bg-[#F0990E]">
                   Send
