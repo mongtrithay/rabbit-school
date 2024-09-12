@@ -18,7 +18,7 @@ function Menu() {
       </div>
 
       {/* Hamburger icon for small screens */}
-      <div className="lg:hidden ml-[70%] ">
+      <div className="lg:hidden ml-[60%] ">
         <FontAwesomeIcon
           icon={faBars}
           className=" bx bx-menu xl:hidden block text-5xl text-white cursor-pointer "

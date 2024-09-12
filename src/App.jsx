@@ -11,6 +11,11 @@ import OurAction from './pages/OurAction'
 import Involved from './pages/Involved'
 import SliderAction from './companents/SliderAction'
 import StaticAutoSlider from './companents/StaticAutoSlider'
+import SliderPartner from './companents/SliderPartner'
+import AboutPage from './pages/About'
+import Contact from './pages/Contact'
+import SupportPage from './pages/Support'
+
 
 
 
@@ -18,9 +23,12 @@ function App() {
 
   return (
     <>
-    <Footer />
+    
+    <KeyFigures />
+
     </>
   )
 }
 
-export default App
+
+export default App;
