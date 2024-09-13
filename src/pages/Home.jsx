@@ -18,7 +18,7 @@ import icon6 from "../assets/images/using.png";
 import home2 from "../assets/images/homepage2.jpg";
 // import header from "../assets/images/hearderHome.jpg";
 import header from "../assets/images/headerHome.jpg";
-
+import KeyFigures from "../companents/KeyFigures";
 
 import SliderAction from "../companents/SliderAction";
 
@@ -104,7 +104,7 @@ function Homepage() {
             disability is often viewed as a taboo subject due to reincarnation
             beliefs.
           </p>
-          <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6" >
+          <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6">
             Unfortunately, many schools in Cambodia are not equipped to
             accommodate children with intellectual disabilities (CWIDs), with
             only a handful of special education schools available, most of which
@@ -134,11 +134,7 @@ function Homepage() {
         <div className="w-[120px] h-[5px] ml-[60px]  bg-[#F0990E]"></div>
       </div>
 
-      <section className="h-[1000px] w-full flex">
-        {/* <SliderAction/> */}
-        <div className="bg-red-500 w-[50%] h-full"></div>
-        <div className="bg-green-500 w-[50%]" h-full></div>
-      </section>
+      <KeyFigures />
 
       {/* <h1 className="h-[200px] text-[48px] text-center font-bold">CORE VALUES</h1> */}
       <h1 className="h-[200px] text-[48px] text-center font-bold text-[#276BA3] flex items-center justify-center">
