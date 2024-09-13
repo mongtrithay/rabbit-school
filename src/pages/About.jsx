@@ -18,7 +18,9 @@ function AboutPage() {
   return (
     <>
       <div>
-        <div>{/* <Menu /> */}</div>
+        <div>
+          <Menu />
+        </div>
         <div className="flex justify-center items-center">
           <h1 className="text-center text-[28px] sm:text-[50px] mt-5 text-sky-700">
             ABOUT OUR SCHOOL
@@ -132,29 +134,37 @@ function AboutPage() {
             {/* Layout for large screens with borders */}
             <div className="flex flex-wrap gap-4">
               <div className="flex-1 border-l-2 border-sky-700 h-[220px] p-4">
-                <h1 className="ml-3 text-sky-700 text-[40px] sm:text-[50px]">1997</h1>
-                <p className="ml-3 text-neutral-500 text-[20px] sm:text-[20px] mt-2">
+                <h1 className="ml-3 text-sky-700 text-[40px] sm:text-[50px]">
+                  1997
+                </h1>
+                <p className="ml-3 text-neutral-500 text-[15px] sm:text-[20px] mt-2">
                   Creation of the RSO to provide education to children with
                   special needs
                 </p>
               </div>
               <div className="flex-1 border-l-2 border-sky-700 h-[220px] p-4">
-                <h1 className="ml-3 text-sky-700 text-[40px] sm:text-[50px]">2008</h1>
-                <p className="ml-3 text-neutral-500 text-[20px] mt-2">
-                  Opening of the first integrated class and the
-                  vocational training center
+                <h1 className="ml-3 text-sky-700 text-[40px] sm:text-[50px]">
+                  2008
+                </h1>
+                <p className="ml-3 text-neutral-500 text-[15px] sm:text-[20px] mt-2">
+                  Opening of the first integrated class and the vocational
+                  training center
                 </p>
               </div>
-              <div className="flex-1 border-l-2 border-sky-700 h-[220px] p-4">
-                <h1 className="ml-3 text-sky-700 text-[40px] sm:text-[50px]">2012</h1>
-                <p className="ml-3 text-neutral-500 text-[20px] mt-2">
+              <div className="flex-1 border-l-2 border-sky-700 h-[13.75rem] p-4">
+                <h1 className="ml-3 text-sky-700 text-[2.5rem] sm:text-[3.125rem]">
+                  2012
+                </h1>
+                <p className="ml-3 text-neutral-500 text-[0.9375rem] sm:text-[1.25rem] mt-2">
                   Extension of activities in Kanda
                 </p>
               </div>
-              
+
               <div className="flex-1 border-l-2 border-sky-700 border-x-2 border-x-sky-700 h-[220px] p-4">
-                <h1 className="ml-3 text-sky-700 text-[40px] sm:text-[50px]">2013</h1>
-                <p className="ml-3 text-neutral-500 text-[20px] mt-2">
+                <h1 className="ml-3 text-sky-700 text-[40px] sm:text-[50px]">
+                  2013
+                </h1>
+                <p className="ml-3 text-neutral-500 text-[15px] sm:text-[20px] mt-2">
                   Extension of activities in Kampung Speu
                 </p>
               </div>
@@ -166,12 +176,11 @@ function AboutPage() {
 
             {/* Layout for responsive screens with 2 boxes per row */}
             <div className="grid grid-cols-2 gap-4 md:grid-cols-4 ">
-
               <div className="border-l-2 border-sky-700 h-[220px] p-4 ">
                 <h1 className="text-sky-700 text-[40px] sm:text-[50px]">
                   2014
                 </h1>
-                <p className="ml-3 text-neutral-500 text-[20px] mt-2">
+                <p className="ml-3 text-neutral-500 text-[15px] sm:text-[20px] mt-2">
                   Opening of Siem Reap School
                 </p>
               </div>
@@ -180,7 +189,7 @@ function AboutPage() {
                 <h1 className="text-sky-700 text-[40px] sm:text-[50px]">
                   2020
                 </h1>
-                <p className="ml-3 text-neutral-500 text-[20px] mt-2">
+                <p className="ml-3 text-neutral-500 text-[15px] sm:text-[20px] mt-2">
                   Launching of the Out Of School Children Program
                 </p>
               </div>
@@ -188,7 +197,7 @@ function AboutPage() {
                 <h1 className="text-sky-700 text-[40px] sm:text-[50px]">
                   2022
                 </h1>
-                <p className="ml-3 text-neutral-500 text-[20px] mt-2">
+                <p className="ml-3 text-neutral-500 text-[15px] sm:text-[20px] mt-2">
                   Opening of the new Adapted library
                 </p>
               </div>
@@ -196,7 +205,7 @@ function AboutPage() {
                 <h1 className="text-sky-700 text-[40px] sm:text-[50px]">
                   2024
                 </h1>
-                <p className="ml-3 text-neutral-500 text-[15px] mt-2">
+                <p className="ml-3 text-neutral-500 text-[15px] sm:text-[20px] mt-2">
                   Launching of the speech therapy training project
                 </p>
               </div>
@@ -218,7 +227,11 @@ function AboutPage() {
 
         <div className="flex mt-10">
           <div className="flex-1">
-            <img className="w-full h-[430px] object-cover" src={image10} alt="Logo" />
+            <img
+              className="w-full h-[430px] object-cover"
+              src={image10}
+              alt="Logo"
+            />
           </div>
           <div className="flex-1">
             <div className="w-full h-[58px] bg-sky-700 flex justify-center">
@@ -257,13 +270,21 @@ function AboutPage() {
             </p>
           </div>
           <div className="flex-1">
-            <img className="w-full h-[430px] object-cover" src={image11} alt="Logo" />
+            <img
+              className="w-full h-[430px] object-cover"
+              src={image11}
+              alt="Logo"
+            />
           </div>
         </div>
 
         <div className="flex ">
           <div className="flex-1">
-            <img className="w-full h-[430px] object-cover" src={image12} alt="Logo" />
+            <img
+              className="w-full h-[430px] object-cover"
+              src={image12}
+              alt="Logo"
+            />
           </div>
           <div className="flex-1">
             <div className="w-full h-[58px] bg-sky-700 flex justify-center">
@@ -311,7 +332,11 @@ function AboutPage() {
             </p>
           </div>
           <div className="flex-1">
-            <img className="w-full h-[430px] object-cover" src={image13} alt="Logo" />
+            <img
+              className="w-full h-[430px] object-cover"
+              src={image13}
+              alt="Logo"
+            />
           </div>
         </div>
         {/* <Footer /> */}
