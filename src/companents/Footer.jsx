@@ -7,7 +7,6 @@ import {
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import ButtonDonate from "./ButtonDonate";
-// Use the newly uploaded image here
 import RabbitSchoolImage from "../assets/images/footers.jpeg";
 import Image from "../assets/images/img2.png";
 
@@ -15,7 +14,7 @@ function Footer() {
   return (
     <>
       <footer className="w-full">
-        {/* Hero Section with Background Image */}
+       
         <section
           className="relative w-full h-[400px] max-md:h-[500px] bg-cover bg-center bg-no-repeat"
           style={{
@@ -41,15 +40,15 @@ function Footer() {
             </nav>
           </div>
         </section>
-
+        
         {/* Footer Links Section */}
         <section className="w-full bg-[#276BA3] text-white py-12">
-          <div className="container mx-auto flex flex-wrap ">
+          <div className="container mx-auto flex flex-wrap w-[80%] m-auto">
             <div className="max-md:w-1/4 md:w-1/4 max-md:flex max-md:mt-[-30px] max-md:ml-4 md:ml-[1rem]  max-md:justify-center max-md:items-center">
               <img src={Image} alt="logo" className="max-md:w-1/2  md:w-1/2 " />
             </div>
             <div className="max-md:grid max-md:grid-cols-2 max-md:ml-10 max-md:gap-2 md:ml-20 md:space-x-16 max-md:mt-2 flex flex-col md:flex-row md:space-x-16">
-              <div className="mb-6 md:mb-0">
+              <div className="mb-6 md:mb-0 justify-self-end">
                 <h5 className="font-bold text-lg mb-2">About us</h5>
                 <ul>
                   <li>
