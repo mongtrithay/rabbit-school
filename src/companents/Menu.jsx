@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import imageSrc from "../assets/images/img1.png";
+import { Link } from "react-router-dom";
 
 function Menu() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,34 +33,34 @@ function Menu() {
       >
         <ul className="flex max-md:hidden flex-col lg:flex-row items-center lg:gap-10 text-white font-semibold text-xl lg:ml-auto lg:mr-20">
           <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
+            <Link to="/" className="hover:text-gray-400 transition-colors">
               HOME
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
+            <Link to="/aboutpage" className="hover:text-gray-400 transition-colors">
               ABOUT US
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
+            <Link to="/ouraction" className="hover:text-gray-400 transition-colors">
               OUR ACTIONS
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
+            <Link to="/involved" className="hover:text-gray-400 transition-colors">
               GET INVOLVED
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
+            <Link to="/supportpage" className="hover:text-gray-400 transition-colors">
               SUPPORT
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
+            <Link to="/contactpage" className="hover:text-gray-400 transition-colors">
               CONTACT
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -79,24 +80,24 @@ function Menu() {
           }`}
           style={{ transform: "transform o.3s ease, opacity o.3s ease" }}
         >
-          <li className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+          <Link to="/" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             HOME
-          </li>
-          <li className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+          </Link>
+          <Link to="/aboutpage" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             ABOUT US
-          </li>
-          <li className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+          </Link>
+          <Link to="/ouraction" className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             OUR ACTIONS
-          </li>
-          <li className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+          </Link>
+          <Link to="/involved" className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             GET INVOLVED
-          </li>
-          <li className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+          </Link>
+          <Link to="/supportpage" className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             SUPPORT
-          </li>
-          <li className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+          </Link>
+          <Link to="/contactpage" className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             CONTACT
-          </li>
+          </Link>
           <li className="list-none flex justify-center items-center gap-2  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             <li>ENG</li>
             <li>KH</li>
