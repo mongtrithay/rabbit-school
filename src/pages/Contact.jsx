@@ -6,7 +6,7 @@ function ContactPage() {
   return (
     <>
       <div>
-        {/* <Menu /> */}
+        <Menu />
         <h1 className="text-[40px] sm:text-[50px] text-sky-700 font-bold text-center mt-10">
           GET IN TOUCH
         </h1>

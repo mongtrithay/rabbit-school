@@ -29,7 +29,7 @@ function Menu() {
 
       {/* Full menu for larger screens */}
       <header
-        className={`lg:flex lg:flex lg:items-center  lg:justify-between w-full`}
+        className={`lg:flex  lg:items-center  lg:justify-between w-full`}
       >
         <ul className="flex max-md:hidden flex-col lg:flex-row items-center lg:gap-10 text-white font-semibold text-xl lg:ml-auto lg:mr-20">
           <li>
