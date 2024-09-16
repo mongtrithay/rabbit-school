@@ -9,6 +9,7 @@ import Homepage from './pages/Home'
 import OurAction from './pages/OurAction'
 // import ImageSlider from './companents/Slider'
 import AboutPage from './pages/About'
+import ContactPage from './pages/Contact'
 
 
 
@@ -19,7 +20,7 @@ function App() {
   return (
     <>
 
-    <AboutPage/>
+    <ContactPage/>
 
     </>
   )
