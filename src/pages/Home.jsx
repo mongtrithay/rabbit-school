@@ -19,7 +19,7 @@ import home2 from "../assets/images/homepage2.jpg";
 // import header from "../assets/images/hearderHome.jpg";
 import header from "../assets/images/headerHome.jpg";
 import KeyFigures from "../companents/KeyFigures";
-
+import SliderPartner from "../companents/SliderPartner";
 import SliderAction from "../companents/SliderAction";
 
 function Homepage() {
@@ -32,7 +32,7 @@ function Homepage() {
         style={{ backgroundImage: `url(${header})` }}
       >
         <div className="absolute inset-0 flex justify-center items-center">
-          <div className="bg-black bg-opacity-50 w-screen">
+          <div className="bg-black bg-opacity-50  w-screen">
             <h1 className="text-center text-white lg:text-[4.6875rem] text-[1rem] sm:text-[2rem] md:text-[3rem] mt-8">
               Welcome to the Rabbit School Organization
             </h1>
@@ -62,11 +62,11 @@ function Homepage() {
           </div>
         </div>
         <div className="w-full lg:w-[50%] p-4 lg:p-8 flex flex-col justify-center">
-          <h1 className="text-[2rem] lg:text-[3rem] font-bold mb-4">
+          <h1 className="text-[25px] lg:text-[3rem] font-bold lg:mb-4">
             Rabbit School’s Story
           </h1>
-          <div className="w-[100px] h-[5px] bg-[#F0990E] mb-4"></div>
-          <p className="text-[1rem] lg:text-[1.25rem] leading-[1.75rem] lg:leading-[2rem] mb-4 mt-5">
+          <div className="w-[100px] h-[2px] bg-[#F0990E] mb-4"></div>
+          <p className="text-[1rem] lg:text-[1.25rem] leading-[1.75rem] lg:leading-[2rem] mb-4 lg:mt-5">
             The Rabbit School has been working for children with intellectual
             disabilities in Cambodia for over 25 years. We promote the rights of
             Children with Intellectual Disabilities, as we believe that they
@@ -95,10 +95,10 @@ function Homepage() {
 
         {/* Text Section */}
         <div className="h-auto lg:h-full lg:w-[50%] p-4 lg:p-8 flex flex-col justify-center -mt-3">
-          <h1 className="text-[1.5rem] lg:text-[2.25rem] font-bold text-white mb-4 lg:mb-6">
+          <h1 className="text-[25px] lg:text-[2.25rem] font-bold text-white  lg:mb-6">
             Disability in Cambodia, a persistent taboo
           </h1>
-          <div className="w-[10rem] lg:w-[14rem] h-[0.3125rem] bg-[#F0990E] mb-4 lg:mb-6"></div>
+          <div className="w-[10rem] lg:w-[14rem] h-[2px] lg:h-[5px] bg-[#F0990E]  lg:mb-6"></div>
           <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6 mt-5">
             In Cambodia, which has a predominantly Buddhist population,
             disability is often viewed as a taboo subject due to reincarnation
@@ -118,26 +118,26 @@ function Homepage() {
             support for their families while also caring for their child.
           </p>
           <div className="flex flex-wrap mt-1   lg:mt-12">
-            <div className="w-[7.5rem] lg:w-[15.375rem] h-[0.3125rem] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
-            <div className="w-[2.5rem] lg:w-[3.125rem] h-[0.3125rem] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
-            <div className="w-[1.5rem] lg:w-[1.875rem] h-[0.3125rem] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
-            <div className="w-[0.75rem] lg:w-[0.9375rem] h-[0.3125rem] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
-            <div className="w-[0.5rem] lg:w-[0.625rem] h-[0.3125rem] bg-[#F0990E]"></div>
+            <div className="w-[7.5rem] lg:w-[15.375rem] lg:h-[0.3125rem] h-[2px] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
+            <div className="w-[2.5rem] lg:w-[3.125rem] lg:h-[0.3125rem] h-[2px] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
+            <div className="w-[1.5rem] lg:w-[1.875rem] lg:h-[0.3125rem] h-[2px] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
+            <div className="w-[0.75rem] lg:w-[0.9375rem] lg:h-[0.3125rem] h-[2px] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
+            <div className="w-[0.5rem] lg:w-[0.625rem] lg:h-[0.3125rem] h-[2px] bg-[#F0990E]"></div>
           </div>
         </div>
       </section>
 
-      <div className="h-[150px]">
-        <h1 className="h-[100px] text-[48px] font-bold text-[#276BA3] flex items-center ml-[60px]">
+      <div className="lg:h-[150px]">
+        <h1 className="h-[100px] lg:text-[48px] text-[20px] font-bold text-[#276BA3] flex items-center ml-[60px]">
           KEY FIGURES
         </h1>
-        <div className="w-[120px] h-[5px] ml-[60px]  bg-[#F0990E]"></div>
+        <div className="w-[120px] h-[2px] ml-[60px]  bg-[#F0990E]"></div>
       </div>
 
       <KeyFigures />
 
       {/* <h1 className="h-[200px] text-[48px] text-center font-bold">CORE VALUES</h1> */}
-      <h1 className="h-[200px] text-[48px] text-center font-bold text-[#276BA3] flex items-center justify-center">
+      <h1 className="lg:h-[200px] lg:text-[48px] text-[20px] text-center lg:mb-0 mb-5 font-bold text-[#276BA3] flex items-center justify-center">
         CORE VALUES
       </h1>
 
@@ -368,14 +368,14 @@ function Homepage() {
       </section>
 
       <div className="h-[150px] px-4 sm:px-6 lg:px-0">
-        <h1 className="text-[32px] sm:text-[40px] lg:text-[48px] font-bold text-[#276BA3] flex items-center ml-0 sm:ml-[30px] lg:ml-[60px]">
+        <h1 className="text-[20px] sm:text-[40px] lg:text-[48px] font-bold text-[#276BA3] flex items-center ml-0 sm:ml-[30px] lg:ml-[60px]">
           WHERE WE WORK
         </h1>
-        <div className="w-[80px] sm:w-[100px] lg:w-[120px] h-[3px] sm:h-[4px] lg:h-[5px] lg:mt-5 ml-0 sm:ml-[30px] lg:ml-[60px] bg-[#F0990E]"></div>
+        <div className="w-[80px] sm:w-[100px] lg:w-[120px] h-[2px] sm:h-[4px] lg:h-[5px] lg:mt-5 ml-0 sm:ml-[30px] lg:ml-[60px] bg-[#F0990E]"></div>
       </div>
 
       <section className="h-auto w-full px-4 sm:px-6 lg:px-0">
-        <div className="text-base sm:text-lg lg:text-[20px] lg:w-[45%] text-gray-500 ml-0 sm:ml-[20px] lg:ml-[100px] mb-10 lg:mt-0 -mt-[5rem]">
+        <div className="text-base sm:text-lg lg:text-[20px] lg:w-[45%] text-gray-500 ml-0 sm:ml-[20px] lg:ml-[100px] mb-10 lg:mt-0 -mt-[6rem]">
           <p>
             The Rabbit School currently works in Phnom Penh and three provinces
             in Cambodia. We have been active in Cambodia for many years, and
@@ -432,22 +432,22 @@ function Homepage() {
         </div>
       </section>
 
-      <h1 className="h-[200px] text-[48px] text-center font-bold text-[#276BA3] flex items-center justify-center">
+      <h1 className="lg:h-[200px] lg:text-[48px] text-[20px] text-center font-bold text-[#276BA3] flex items-center justify-center lg:mt-0 mt-10">
         PARTNERS
       </h1>
 
-      <section className="bg-blue-200 h-[300px] w-full"></section>
+     <SliderPartner/>
 
       <div className="px-4 md:px-8">
-        <h1 className="text-[28px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:mt-0 mt-2">
+        <h1 className="text-[20px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:mt-0 mt-2">
           MAIN FUNDERS IN 2023
         </h1>
         <div className="flex lg:mt-4 md:mt-6">
-          <div className="w-[100px] md:w-[150px] h-[4px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
-          <div className="w-[30px] md:w-[50px] h-[4px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-          <div className="w-[20px] md:w-[30px] h-[4px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-          <div className="w-[15px] md:w-[20px] h-[4px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-          <div className="w-[10px] md:w-[15px] h-[4px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
+          <div className="w-[100px] md:w-[150px] h-[2px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
+          <div className="w-[30px] md:w-[50px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
+          <div className="w-[20px] md:w-[30px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
+          <div className="w-[15px] md:w-[20px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
+          <div className="w-[10px] md:w-[15px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
         </div>
       </div>
 
