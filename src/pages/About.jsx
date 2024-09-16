@@ -13,6 +13,7 @@ import image10 from "../assets/images/image10.png";
 import image11 from "../assets/images/image11.png";
 import image12 from "../assets/images/image12.png";
 import image13 from "../assets/images/image13.png";
+import ArticleSlider from "../companents/ArticleSlider";
 
 function AboutPage() {
   return (
@@ -213,10 +214,11 @@ function AboutPage() {
           </div>
         </div>
 
-        <div className="w-full h-[833px] bg-sky-700 mt-10">
+        <div className="w-full h-[750px] bg-sky-700 mt-10">
           <h1 className="text-[50px] text-white text-center mt-4">
             Student, Teacher & Volunteer Testimonials
           </h1>
+          <ArticleSlider />
         </div>
 
         <div className="w-full flex justify-center items-center mt-5">
