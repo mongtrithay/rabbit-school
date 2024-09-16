@@ -4,7 +4,7 @@ import Footer from "../companents/Footer";
 const Detail = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* <Menu /> */}
+      <Menu />
       <main className="flex-grow p-4 bg-gray-100">
         <div className="flex flex-col items-center justify-center max-w-4xl mx-auto">
           <h1 className="text-sky-700 text-[30px] sm:text-[40px] md:text-[50px] font-bold mb-4 text-center">

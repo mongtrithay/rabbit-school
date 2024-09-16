@@ -1,161 +1,187 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faPhone,
   faGlobe,
-} from "@fortawesome/free-solid-svg-icons"
-import React from "react"
-import imageSrc from '../assets/images/img2.png';
+} from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import React from "react";
 import ButtonDonate from "./ButtonDonate";
-
+// Use the newly uploaded image here
+import RabbitSchoolImage from "../assets/images/footers.jpeg";
+import Image from "../assets/images/img2.png";
 
 function Footer() {
   return (
     <>
-      <footer className="w-full h-[900px]">
-        <section className=" w-full m-auto  image bg-sky-700 image bg-no-repeat bg-center h-[850px]">
-          <div className="w-full h-full bler bg-black/25 flex items-center">
-            <nav className="w-[60%] h-[250px] mt-[80px] ml-[250px]">
-              <h1 className="text-slate-300  mb-4 text-[48px] font-bold">Rabbit Shcool</h1>
-              <p className="text-white text-[32px] ">
-                At Rabbit School, we are committed to making a positive impact
-                in our community. Your support helps us provide essential
-                services and create meaningful change. Stay connected and join
-                us in our mission to improve lives.
-              </p>
-              <ButtonDonate/>
+      <footer className="w-full">
+        {/* Hero Section with Background Image */}
+        <section
+          className="relative w-full h-[400px] max-md:h-[500px] bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${RabbitSchoolImage})`,
+          }}
+        >
+          <div className="max-md:w-full w-full max-md:h-full h-full max-md:bg-black/50 bg-black/50 max-md:flex max-md:items-center max-md:justify-center">
+            <nav className="max-md:w-[60%] w-[60%] h-full flex items-center  max-md:text-center">
+              <div>
+                <h1 className=" md:ml-[20rem] text-white max-md:mb-4 max-md:text-2xl text-2xl max-md:font-bold">
+                  Rabbit School
+                </h1>
+                <p className=" md:ml-[20rem] text-white text-xl leading-8">
+                  At Rabbit School, we are committed to making a positive impact
+                  in our community. Your support helps us provide essential
+                  services and create meaningful change. Stay connected and join
+                  us in our mission to improve lives.
+                </p>
+                <div className=" md:ml-[20rem] mt-4 max-md:mt-2">
+                  <ButtonDonate />
+                </div>
+              </div>
             </nav>
           </div>
         </section>
-        <section className="w-full m-auto h-[800px] bg-[#276BA3]">
-          <section className="flex justify-start w-[100%] h-[500px] ">
-            <div className="w-[20%] h-[400px] flex justify-center items-center  ml-[3rem] mt-[2.5rem]">
-            <img src={imageSrc} alt="logo" className='ml-[5rem] mt-[3rem] ' />
+
+        {/* Footer Links Section */}
+        <section className="w-full bg-[#276BA3] text-white py-12">
+          <div className="container mx-auto flex flex-wrap ">
+            <div className="max-md:w-1/4 md:w-1/4 max-md:flex max-md:mt-[-30px] max-md:ml-4 md:ml-[1rem]  max-md:justify-center max-md:items-center">
+              <img src={Image} alt="logo" className="max-md:w-1/2  md:w-1/2 " />
             </div>
-            <nav className="w-[1200px] ml-[7rem] mt-[5rem]">
-              <ul className="flex gap-[6rem] text-[2rem] text-white font-bold">
-                <li>
-                  <a href="">Home</a>
-                </li>
-                <li>
-                  <a href="">About us</a>
-                </li>
-                <li>
-                  <a href="">Our action</a>
-                </li>
-                <li>
-                  <a href="">Support</a>
-                </li>
-                <li className="ml-[35px]">
-                  <a href="">Get Involved</a>
-                </li>
-              </ul>
-              <div>
-                <section className="flex gap-[1rem] text-white text-[1.5rem] leading-10 mt-[20px]">
-                  <div className="mr-[0.6rem]">
-                    <ul>
-                      <li>
-                        <a href="">Rabbit History</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className=" mr-[3.3rem]  ">
-                    <ul>
-                      <li>
-                        <a href="">History</a>
-                      </li>
-                      <li>
-                        <a href="">Missions</a>
-                      </li>
-                      <li>
-                        <a href="">Values</a>
-                      </li>
-                      <li>
-                        <a href="">Partners</a>
-                      </li>
-                      <li>
-                        <a href="">News</a>
-                      </li>
-                      <li>
-                        <a href="">Documentation</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="mr-[2rem]">
-                    <ul>
-                      <li>
-                        <a href="">Special Education</a>
-                      </li>
-                      <li>
-                        <a href="">Teacher training</a>
-                      </li>
-                      <li>
-                        <a href="">Vocational training</a>
-                      </li>
-                      <li>
-                        <a href="">Advocacy</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className=" ">
-                    <ul>
-                      <li>
-                        <a href="">Make a donation</a>
-                      </li>
-                      <li>
-                        <a href="">Sponsor a student</a>
-                      </li>
-                      <li>
-                        <a href="">organize a fund collect</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className=" ">
-                    <ul>
-                      <li>
-                        <a href="">Volunteer</a>
-                      </li>
-                      <li>
-                        <a href="">Job offer</a>
-                      </li>
-                    </ul>
-                  </div>
-                </section>
+            <div className="max-md:grid max-md:grid-cols-2 max-md:ml-10 max-md:gap-2 md:ml-20 md:space-x-16 max-md:mt-2 flex flex-col md:flex-row ">
+              <div className="mb-6 md:mb-0">
+                <h5 className="font-bold text-lg mb-2">About us</h5>
+                <ul>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      History
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Missions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Values
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Partners
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      News
+                    </a>
+                  </li>
+                </ul>
               </div>
-            </nav>
-          </section>
-          <hr />
-          <section className="flex">
-            <section className="ml-[4rem]">
-              <h1 className="text-slate-300 text-[40px] font-bold mt-[0.5rem]">
+
+              <div className="mb-2 md:mb-0">
+                <h5 className="font-bold text-lg mb-2">Our Actions</h5>
+                <ul>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Special Education
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Teacher Training
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Vocational Training
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Advocacy
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mb-2 md:mb-0">
+                <h5 className="font-bold text-lg mb-2">Support Us</h5>
+                <ul>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Make a Donation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Sponsor a Student
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Organize a Fund Collect
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h5 className="font-bold text-lg mb-2">Get Involved</h5>
+                <ul>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Volunteer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Job Offer
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Subscribe and Contact Section */}
+        <section className="bg-[#276BA3] py-8">
+          <div className="container flex items-center">
+            <div>
+              <h1 className="max-md:ml-2 md:ml-[11rem] text-slate-300 max-md:text-lg font-bold">
                 Subscribe Now
               </h1>
-              <p className=" text-white text-[20px] ">
-                Stay updated with our latest news <br/> and initiatives
+              <p className="md:ml-[11rem] max-md:ml-2 text-white max-md:text-2lg">
+                Stay updated with our latest news and initiatives
               </p>
-              <input
-                type="text"
-                placeholder="Enter your email address"
-                class="w-[60%] px-6 py-[1rem] my-2 inline-block border border-gray-300 box-border mt-[2.5rem]"
-              />
-              <button className=" px-6 py-[1rem] text-white font-bold bg-[#F0990E]">
-                Send
-              </button>
-            </section>
-            <section className=" w-[40%] h-[300px] gap-[2rem] flex  items-center ml-[4rem] decoration-white">
-              <a className="text-[3rem] ml-[15rem] " href="">
+              <div className="mt-4 max-md:ml-2 flex">
+                <input
+                  type="text"
+                  placeholder="Enter your email address"
+                  className="w-3/4 md:ml-[11rem] px-4 py-2 border border-gray-300"
+                />
+                <button className="px-6 py-2 text-white font-bold bg-[#F0990E]">
+                  Send
+                </button>
+              </div>
+            </div>
+            <div className="flex space-x-2 text-white text-6lg md:space-x-6 text-3xl md:ml-[20rem] md:mt-[3rem] max-md:m-2">
+              <a href="#">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
-              <a className="text-[3rem] decoration-white " href="">
-                <FontAwesomeIcon icon={faPhone}
-/ >
+              <a href="#">
+                <FontAwesomeIcon icon={faFacebookF} />
               </a>
-              <a className="text-[3rem]" href="">
+              <a href="#">
+                <FontAwesomeIcon icon={faPhone} />
+              </a>
+              <a href="#">
                 <FontAwesomeIcon icon={faGlobe} />
               </a>
-              <a href=""></a>
-            </section>
-          </section>
+            </div>
+          </div>
         </section>
       </footer>
     </>

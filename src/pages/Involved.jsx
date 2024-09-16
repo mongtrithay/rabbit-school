@@ -17,7 +17,7 @@ function Involved() {
     // section1
     <div className="min-h-screen bg-gray-100">
       <Menu />
-      <h1 className="text-3xl md:text-5xl font-bold text-center mt-10 text-sky-700 ml-4">
+      <h1 className="text-4xl md:text-5xl font-bold text-center mt-10 text-sky-700 ml-4">
         DO YOU WANT TO GET INVOLVED?
       </h1>
       <div className="flex flex-col md:flex-row max-w-8xl mx-auto bg-sky-700 shadow-lg overflow-hidden mt-8">

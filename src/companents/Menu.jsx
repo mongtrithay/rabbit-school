@@ -1,45 +1,111 @@
-import React from 'react';
-import imageSrc from '../assets/images/img1.png';
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import imageSrc from "../assets/images/img1.png";
+import { Link } from "react-router-dom";
 
 function Menu() {
-    return (
-        <div className="flex items-center p-2 w-full h-200 bg-sky-700">
-            <div className="flex-shrink-0 mx-[50px]">
-                <img className="w-20 h-20 object-contain" src={imageSrc} alt="Logo" />
-            </div>
-            <div className='flex items-center justify-end w-full h-200 '>
-                <div className="mr-[50px] ">
-                    <ul className="flex gap-20 text-white font-semibold ">
-                        <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">HOME</a>
-                        </li>
-                        <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">ABOUT US</a>
-                        </li>
-                        <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">OUR ACTIONS</a>
-                        </li>
-                        <li>
-                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">GET INVOLVED</a>
-                        </li>
-                        <li>
+  const [menuOpen, setMenuOpen] = useState(false);
 
-                            <a href="#" className="hover:text-gray-600 transition-colors">SUPPORT</a>
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
-                        </li>
-                        <li className="">
-                            <a href="#" className="hover:text-gray-600 transition-colors text-[20px]">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="flex items-center gap-4 mr-[50px] ">
-                    <a href="#" className="text-white text-xl font-semibold hover:text-gray-600 transition-colors">ENG</a>
-                    <div className="h-5 border-l border-gray-400"></div>
-                    <a href="#" className="text-white text-xl font-semibold hover:text-gray-600 transition-colors">KH</a>
-                </div>
-            </div>
+  return (
+    <div className="flex items-center p-2 w-full h-20 bg-sky-700">
+      {/* Logo */}
+      <div className="flex-shrink-0 mx-[20px]">
+        <img className="w-16 h-16 object-contain" src={imageSrc} alt="Logo" />
+      </div>
+
+      {/* Hamburger icon for small screens */}
+      <div className="lg:hidden ml-[60%] ">
+        <FontAwesomeIcon
+          icon={faBars}
+          className=" bx bx-menu xl:hidden block text-5xl text-white cursor-pointer "
+          onClick={toggleMenu}
+        />
+      </div>
+
+      {/* Full menu for larger screens */}
+      <header
+        className={`lg:flex  lg:items-center  lg:justify-between w-full`}
+      >
+        <ul className="flex max-md:hidden flex-col lg:flex-row items-center lg:gap-10 text-white font-semibold text-xl lg:ml-auto lg:mr-20">
+          <li>
+            <Link to="/" className="hover:text-gray-400 transition-colors">
+              HOME
+            </Link>
+          </li>
+          <li>
+            <Link to="/aboutpage" className="hover:text-gray-400 transition-colors">
+              ABOUT US
+            </Link>
+          </li>
+          <li>
+            <Link to="/ouraction" className="hover:text-gray-400 transition-colors">
+              OUR ACTIONS
+            </Link>
+          </li>
+          <li>
+            <Link to="/involved" className="hover:text-gray-400 transition-colors">
+              GET INVOLVED
+            </Link>
+          </li>
+          <li>
+            <Link to="/supportpage" className="hover:text-gray-400 transition-colors">
+              SUPPORT
+            </Link>
+          </li>
+          <li>
+            <Link to="/contactpage" className="hover:text-gray-400 transition-colors">
+              CONTACT
+            </Link>
+          </li>
+        </ul>
+
+        {/* Language Toggle */}
+        <div className="flex max-md:hidden items-center gap-4 text-white text-xl font-semibold lg:mr-20">
+          <a href="#" className="hover:text-gray-400 transition-colors">
+            ENG
+          </a>
+          <div className="h-5 max-md:hidden border-l border-gray-400"></div>
+          <a href="#" className="hover:text-gray-400 transition-colors">
+            KH
+          </a>
         </div>
-    );
+        <div
+          className={`absolute xl:hidden top-20 left-0 w-full bg-black flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${
+            menuOpen ? "opacity-100" : "opacity-0"
+          }`}
+          style={{ transform: "transform o.3s ease, opacity o.3s ease" }}
+        >
+          <Link to="/" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+            HOME
+          </Link>
+          <Link to="/aboutpage" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+            ABOUT US
+          </Link>
+          <Link to="/ouraction" className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+            OUR ACTIONS
+          </Link>
+          <Link to="/involved" className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+            GET INVOLVED
+          </Link>
+          <Link to="/supportpage" className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+            SUPPORT
+          </Link>
+          <Link to="/contactpage" className="list-none  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+            CONTACT
+          </Link>
+          <li className="list-none flex justify-center items-center gap-2  w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+            <li>ENG</li>
+            <li>KH</li>
+          </li>
+        </div>
+      </header>
+    </div>
+  );
 }
 
 export default Menu;
