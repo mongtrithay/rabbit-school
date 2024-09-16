@@ -3,10 +3,10 @@ import imageSrc from "../assets/images/pic4.jpeg";
 import services1 from "../assets/images/headerOurAction.png";
 import services2 from "../assets/images/1.jpg";
 import services3 from "../assets/images/3.jpeg";
-import pic1 from "../assets/images/pic1.jpeg";
-import pic2 from "../assets/images/pic2.jpeg";
-import pic3 from "../assets/images/pic3.jpeg";
-import pic4 from "../assets/images/pic4.jpeg";
+import pic1 from "../assets/images/headerOurAction.png";
+import pic2 from "../assets/images/card2.jpg";
+import pic3 from "../assets/images/card3.jpg";
+import pic4 from "../assets/images/card4.jpg";
 import ButtonReadMore from "../companents/ButtonReadMore";
 import ButtonDonate from "../companents/ButtonDonate";
 // import LineStyle from "../companents/LineStyle";
@@ -96,8 +96,8 @@ function OurAction() {
               {/* Additional Text */}
               <div className="w-[80%] mt-4 text-center">
                 <p className="text-white lg:text-[15px] text-[15px] mb-2">
-                  We raise awareness and advocate for the rights of individuals
-                  with disabilities.
+                  The Rabbit School provides different levels of special
+                  education according to the severity of the disability.
                 </p>
               </div>
               <ButtonReadMore />
@@ -123,8 +123,8 @@ function OurAction() {
               {/* Additional Text */}
               <div className="w-[80%] mt-4 text-center">
                 <p className="text-white lg:text-[15px] text-[15px] mb-2">
-                  We offer comprehensive training for teachers and develop
-                  curriculum to enhance educational outcomes.
+                  We prepare teachers to work with children with intellectual
+                  disabilities and make them able to assess...
                 </p>
               </div>
               <ButtonReadMore />
@@ -150,8 +150,8 @@ function OurAction() {
               {/* Additional Text */}
               <div className="w-[80%] mt-4 text-center">
                 <p className="text-white lg:text-[15px] text-[15px] mb-2">
-                  We raise awareness and advocate for the rights of individuals
-                  with disabilities.
+                  At The Rabbit School, we actively engage in a range of
+                  initiatives dedicated to raising awareness ...
                 </p>
               </div>
               <ButtonReadMore />
@@ -177,8 +177,8 @@ function OurAction() {
               {/* Additional Text */}
               <div className="w-[80%] mt-4 text-center">
                 <p className="text-white lg:text-[15px] text-[15px] mb-2">
-                  We provide vocational training and job placement services to
-                  support employment opportunities.
+                  In Cambodia, people with intellectual disabilities have great
+                  difficulty finding a job. 
                 </p>
               </div>
               <ButtonReadMore />
@@ -200,7 +200,7 @@ function OurAction() {
             <div className="w-[10px] lg:w-[15px] md:w-[15px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
           </div>
         </div>
-        
+
         <div className="flex justify-center lg:gap-[2rem] gap-2 ">
           <div
             className="relative lg:w-[500px] w-[150px] lg:h-[350px] h-[100px] bg-cover bg-center "
