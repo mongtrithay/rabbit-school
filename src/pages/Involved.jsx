@@ -17,7 +17,7 @@ function Involved() {
   return (
     // section1
     <div className="min-h-screen bg-gray-100">
-      {/* <Menu /> */}
+      <Menu />
       <h1 className="text-4xl md:text-5xl font-bold text-center mt-10 text-sky-700 ml-4">
         DO YOU WANT TO GET INVOLVED?
       </h1>

@@ -1,7 +1,7 @@
 
 function ButtonDonate() {
   return (
-    <button className=" m-2 px-4 py-2 text-white font-bold bg-[#F0990E] text-[25px] mt-5">
+    <button className=" m-2 lg:px-4 px-2 lg:py-2 py-1 text-white font-bold bg-[#F0990E] lg:text-[25px] mt-5">
         D0NATE
     </button>
   );
