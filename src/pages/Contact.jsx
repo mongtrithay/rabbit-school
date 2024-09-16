@@ -87,7 +87,7 @@ function ContactPage() {
             </h1>
             <p className="text-[18px] sm:text-[20px] text-gray-500">
               sor.sothearom@rabbitschoolcambodia.net <br />
-              hun.touch@rabbitschoolcambodia.net
+              
             </p>
           </div>
           <div className="flex-1 text-center">
