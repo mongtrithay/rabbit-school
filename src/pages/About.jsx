@@ -224,7 +224,7 @@ function AboutPage() {
 
 
         <div className="w-full flex justify-center items-center mt-5">
-          <h1 className="text-sky-700 text-[40px] md:text-[50px] text-center">
+          <h1 className="text-sky-700 text-[40px] md:text-[50px] text-center mt-6">
             Mission & Vision
           </h1>
         </div>
@@ -256,7 +256,7 @@ function AboutPage() {
           </div>
         </div>
 
-        <div className="flex  md:flex-row flex-col-reverse">
+        <div className="flex  md:flex-row flex-col-reverse lg:mt-0 mt-5">
           <div className="flex-1">
             <div className="w-full h-[48px] md:h-[58px] bg-sky-700 flex justify-center">
               <h1 className="text-white text-[20px] md:text-[25px] text-center mt-2">
@@ -275,7 +275,7 @@ function AboutPage() {
           </div>
           <div className="flex-1">
             <img
-              className="w-full h-[230px] md:h-[430px] object-cover"
+              className="w-full h-[230px] md:h-[430px] object-cover "
               src={image11}
               alt="Logo"
             />
@@ -285,7 +285,7 @@ function AboutPage() {
         <div className="flex flex-col md:flex-row">
           <div className="flex-1">
             <img
-              className="w-full h-[230px] md:h-[430px] object-cover"
+              className="w-full h-[230px] md:h-[430px] object-cover lg:mt-0 mt-5"
               src={image12}
               alt="Logo"
             />
@@ -317,7 +317,7 @@ function AboutPage() {
                 Advocacy to local authorities general public
               </h1>
             </div>
-            <p className="text-[18px] md:text-[25px] mt-6 md:mt-12 mx-4 md:ml-32 text-neutral-500">
+            <p className="text-[18px] md:text-[25px] mt-6 md:mt-12 mx-4 md:ml-32 text-neutral-500 ">
               A wide variety of{" "}
               <span className="text-sky-700">
                 advocacy initiatives in local <br className="hidden md:block" />
@@ -337,14 +337,14 @@ function AboutPage() {
           </div>
           <div className="flex-1">
             <img
-              className="w-full h-[230px] md:h-[430px] object-cover"
+              className="w-full h-[230px] md:h-[430px] object-cover lg:mt-0 mt-5"
               src={image13}
               alt="Logo"
             />
           </div>
         </div>
 
-        {/* <Footer /> */}
+        <Footer/>
       </div>
     </>
   );

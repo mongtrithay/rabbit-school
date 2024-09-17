@@ -1,6 +1,6 @@
 import image16 from '../assets/images/image16.png';
 import ButttonReadMore from "../companents/ButtonReadMore";
-import image from '../assets/images/image.png';
+import image from '../assets/images/sakal.jpeg';
 import Banpisey from '../assets/images/BanPisey.jpeg';
 import Rith from '../assets/images/Kheavothearith.jpeg';
 import ven from '../assets/images/DirkSchraven.jpeg';
