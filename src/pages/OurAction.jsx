@@ -20,6 +20,7 @@ import image4 from "../assets/images/pic4.jpeg";
 import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
 import VideoOurAction from "../companents/VideoOurAction";
+import SliderComponent from "../companents/OurActionSlider";
 
 const settings = {
   dots: false,
@@ -191,12 +192,12 @@ function OurAction() {
       </section>
 
       <section>
-        <div className="px-4 md:px-8 lg:mb-[4rem] lg:mt-[2rem] -mt-10 lg:ml-[4rem] mb-10">
+        <div className="px-4 md:px-8 lg:mb-[4rem] lg:mt-[2rem]  -mt-5 lg:ml-[4rem] mb-10">
           <h1 className="text-[20px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:mt-0 mt-2 ">
-            ADDITIONAL SERVICES
+            Additional services
           </h1>
           <div className="flex lg:mt-4 md:mt-6">
-            <div className="w-[115px] lg:w-[280px] md:w-[150px] h-[2px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
+            <div className="w-[75px] lg:w-[280px] md:w-[150px] h-[2px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
             <div className="w-[30px] lg:w-[80px] md:w-[50px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
             <div className="w-[20px] lg:w-[40px] md:w-[30px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
             <div className="w-[15px] lg:w-[25px] md:w-[20px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
@@ -247,24 +248,18 @@ function OurAction() {
       </section>
 
       <section className="h-[10rem] ">
-        <div className="px-4 md:px-8 lg:mb-[4rem] lg:mt-[2rem] lg:ml-[4rem]">
-          <h1 className="text-[20px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:mt-0 mt-2">
+        <div className="px-4 md:px-8 lg:mb-[4rem] lg:mt-[2rem] mt-[2rem] lg:ml-[4rem]">
+          <h1 className="text-[20px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:w-[100] lg:mt-0 mt-2">
             Defending people with disabilities rights at national and local
             level
           </h1>
           <div className="w-[100px] md:w-[150px] h-[2px] lg:h-[5px] lg:ml-[3rem] lg:mt-5 bg-[#F0990E]"></div>
-
           <div className="flex lg:mt-4 md:mt-6"></div>
         </div>
 
-        <div className="w-[85%] m-auto h-[700px] lg:-mt-8 bg-red-500 relative">
-          <img
-            src={pic3}
-            alt="Description of image"
-            className="w-full h-[70%] object-cover"
-          />
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-blue-400 w-[500px] h-[100px]"></div>
-        </div>
+        <dir className="flex justify-center items-center ">
+          <SliderComponent />
+        </dir>
       </section>
       {/* 
       <Slider {...settings}>
@@ -278,6 +273,7 @@ function OurAction() {
               </div>
             ))}
           </Slider> */}
+          <section className="w-full h-[500px] "></section>
     </>
   );
 }

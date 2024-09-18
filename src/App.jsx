@@ -17,6 +17,8 @@ import ReactDOM from 'react-dom';
 import VideoPlayer from './companents/Video';
 // import ImageSlider from './companents/Slider'
 import AboutPage from './pages/About'
+import SliderComponent from './companents/OurActionSlider'
+import KeyFiguresP from './companents/KeyFiguresPhone'
 
 
 
@@ -29,12 +31,14 @@ function App() {
 
     {/* <Involved /> */}
     <Homepage/>
-    <OurAction/>
-    <DetailOurAction1/>
-    <DetailOurAction2/>
-    <DetailOurAction3/>
-    <DetailOurAction4/>
+    {/* <OurAction/> */}
+    {/* <KeyFiguresP/> */}
+    {/* <DetailOurAction1/> */}
+    {/* <DetailOurAction2/> */}
+    {/* <DetailOurAction3/> */}
+    {/* <DetailOurAction4/> */}
     {/* <SliderPartner /> */}
+    {/* <SliderComponent/> */}
     
     {/* <KeyFigures /> */}
 

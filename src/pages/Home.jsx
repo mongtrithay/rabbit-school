@@ -24,6 +24,7 @@ import SliderAction from "../companents/SliderAction";
 import ReactDOM from "react-dom";
 // import VideoPlayer from "../components/Video";
 import VideoPlayer from '../companents/Video';
+import KeyFiguresP from "../companents/KeyFiguresPhone";
 
 
 function Homepage() {
@@ -67,7 +68,7 @@ function Homepage() {
           <h1 className="text-[25px] lg:text-[3rem] font-bold lg:mb-4">
             Rabbit School’s Story
           </h1>
-          <div className="w-[100px] h-[2px] bg-[#F0990E] mb-4"></div>
+          <div className="w-[100px] h-[2px] lg:h-[5px] bg-[#F0990E] mb-4"></div>
           <p className="text-[1rem] lg:text-[1.25rem] leading-[1.75rem] lg:leading-[2rem] mb-4 lg:mt-5">
             The Rabbit School has been working for children with intellectual
             disabilities in Cambodia for over 25 years. We promote the rights of
@@ -129,17 +130,11 @@ function Homepage() {
         </div>
       </section>
 
-      <div className="lg:h-[150px]">
-        <h1 className="h-[100px] lg:text-[48px] text-[20px] font-bold text-[#276BA3] flex items-center ml-[60px]">
-          KEY FIGURES
-        </h1>
-        <div className="w-[120px] h-[5px] ml-[60px]  bg-[#F0990E]"></div>
-      </div>
-
       <KeyFigures />
+      <KeyFiguresP/>
 
       {/* <h1 className="h-[200px] text-[48px] text-center font-bold">CORE VALUES</h1> */}
-      <h1 className="lg:h-[200px] lg:text-[48px] text-[20px] text-center lg:mb-0 mb-5 font-bold text-[#276BA3] flex items-center justify-center">
+      <h1 className="lg:h-[200px] lg:text-[48px] text-[20px] text-center lg:mb-0 mb-5 font-bold text-[#276BA3] flex items-center justify-center lg:mt-[150px]">
         CORE VALUES
       </h1>
 
@@ -390,7 +385,7 @@ function Homepage() {
               <h1 className="text-lg sm:text-[18px] lg:text-[20px] text-blue-500">
                 SIEM REAP
               </h1>
-              <p className="mt-2 sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
+              <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
                 15 Inclusive/Integrated Classes in 5 Primary Schools
               </p>
             </div>
@@ -398,7 +393,7 @@ function Homepage() {
               <h1 className="text-lg sm:text-[18px] lg:text-[20px] text-blue-500">
                 KAMPONG SPEU
               </h1>
-              <p className="mt-2 sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
+              <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
                 15 Inclusive/Integrated Classes in 15 Primary Schools
               </p>
             </div>
@@ -417,16 +412,16 @@ function Homepage() {
               <h1 className="text-lg sm:text-[18px] lg:text-[20px] text-blue-500">
                 PHNOM PENH
               </h1>
-              <p className="mt-2 sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
+              <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
                 18 Inclusive/Integrated Classes at 1 Primary School The
                 Vocational Training and Job Placement Centre in Phnom Penh
               </p>
             </div>
             <div className="w-full flex flex-col items-center text-center mt-8">
               <h1 className="text-lg sm:text-[18px] lg:text-[20px] text-blue-500">
-                SIEM REAP
+              KANDAL
               </h1>
-              <p className="mt-2 sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
+              <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
                 15 Inclusive/Integrated Classes in 5 Primary Schools
               </p>
             </div>
