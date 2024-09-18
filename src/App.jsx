@@ -17,7 +17,7 @@ import AboutPage from './pages/About'
 function App() {
 
   return (
-   
+   <>
     <AboutPage />
  
 
