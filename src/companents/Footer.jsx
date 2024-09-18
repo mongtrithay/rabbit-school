@@ -147,8 +147,8 @@ function Footer() {
 
         {/* Subscribe and Contact Section */}
         <section className="bg-[#276BA3] py-8">
-          <div className="container flex items-center">
-            <div>
+          <div className="container lg:flex items-center md:flex-row">
+            <div className="">
               <h1 className="max-md:ml-2 md:ml-[11rem] text-slate-300 max-md:text-lg font-bold">
                 Subscribe Now
               </h1>
@@ -161,25 +161,24 @@ function Footer() {
                   placeholder="Enter your email address"
                   className="w-3/4 md:ml-[11rem] px-4 py-2 border border-gray-300"
                 />
-                <button className="px-6 py-2 text-white font-bold bg-[#F0990E]">
+                <button className="px-6 py-2 text-white font-bold bg-orange-500">
                   Send
                 </button>
               </div>
             </div>
             <div className="flex space-x-2 text-white text-6lg md:space-x-6 text-3xl md:ml-[20rem] md:mt-[3rem] max-md:m-2">
-              <a href="#">
+              <a href="mailto:info@rabbitschool.org">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/rabbitschoolcbd?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
-              <a href="#">
+              <a href="tel:+85568901971">
                 <FontAwesomeIcon icon={faPhone} />
               </a>
-              <a href="#">
-                <FontAwesomeIcon icon={faGlobe} />
-              </a>
+              
             </div>
+
           </div>
         </section>
       </footer>

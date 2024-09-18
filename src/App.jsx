@@ -23,6 +23,10 @@ import ArticleSlider from './companents/ArticleSlider'
 function App() {
 
   return (
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     <>
     <Footer />
     </>
