@@ -2,17 +2,52 @@ import React from "react";
 import Menu from "../companents/Menu";
 import Footer from "../companents/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import jobofferImage from "../assets/images/joboffer.jpg";
+import offerexpertise from "../assets/images/offerexpertise.jpg";
+
 import {
   faBookOpenReader,
   faUsers,
   faGraduationCap,
-  faHeart,
   faHandshake,
   faRocket,
   faPeopleArrows,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Involved() {
+  const [status, setStatus] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "cc7b7303-711c-4db0-ae53-db458849051d");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      });
+      const result = await res.json();
+
+      if (result.success) {
+        setStatus("Message sent successfully!");
+      } else {
+        setStatus("Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      setStatus("An error occurred. Please try again.");
+    }
+  };
+
   return (
     // section1
     <div className="min-h-screen bg-gray-100">
@@ -39,8 +74,8 @@ function Involved() {
         </div>
         <div className="w-full md:w-1/2">
           <img
-            src="https://media.discordapp.net/attachments/1198512111777763432/1282633933162549298/image.png?ex=66e0116f&is=66debfef&hm=0443d2d5e873ebb6f92bd121bf8ad01a7ec34d8ce3e03556695d73fa5d9039f0&=&format=webp&quality=lossless&width=1173&height=660"
-            alt="Involved"
+            src={jobofferImage}
+            alt="Job Offer"
             className="w-full h-full object-cover"
           />
         </div>
@@ -71,7 +106,6 @@ function Involved() {
                 mission of empowering children with disabilities.
               </p>
             </div>
-            
 
             <div className="mb-6">
               <h2 className="text-[25px] sm:text[30px] font-bold text-sky-700">
@@ -107,7 +141,6 @@ function Involved() {
                 support children with disabilities at our NGO.
               </p>
             </div>
-
           </div>
         </div>
 
@@ -167,11 +200,10 @@ function Involved() {
       </div>
 
       {/* //section3 */}
-
       <div className="flex flex-col md:flex-row max-w-8xl mx-auto bg-sky-700 shadow-lg overflow-hidden h-auto md:h-[500px]">
         <div className="w-full md:w-1/2">
           <img
-            src="https://cdn.discordapp.com/attachments/1198512111777763432/1282634727693488229/image.png?ex=66e0122d&is=66dec0ad&hm=8908f87cca0fcd812f8ac4c4abe45097f8495f628ec67ca9d49a0cc1077464d1&"
+            src={offerexpertise}
             alt="Involved"
             className="w-full h-[300px] md:h-full object-cover"
           />
@@ -195,7 +227,6 @@ function Involved() {
       </div>
 
       {/* //section4 */}
-
       <div className="flex flex-col md:flex-row max-w-10xl mx-auto bg-white overflow-hidden h-auto">
         <div className="w-full md:w-2/2 p-8 bg-white-100">
           <h1 className="text-3xl font-bold text-sky-700 mb-6 text-center text- md-[20px] md:text-[40px]">
@@ -264,10 +295,13 @@ function Involved() {
                 Phone
               </h2>
               <p className="text-[18px] md:text-[25px] text-white">
-                +855 68 901 971
-              </p>
-              <p className="text-[18px] md:text-[25px] text-white">
-                +855 17 525 815
+                <a href="tel:+85568901971" className="underline">
+                  +855 68 901 971
+                </a>
+                <br />
+                <a href="tel:+85517525815" className="underline">
+                  +855 17 525 815
+                </a>
               </p>
             </div>
             <div className="text-center md:text-left">
@@ -275,9 +309,15 @@ function Involved() {
                 Email
               </h2>
               <p className="text-[18px] md:text-[25px] text-white">
-                sor.sothearom@rabbitschoolcambodia.net
+                <a
+                  href="mailto:sor.sothearom@rabbitschoolcambodia.net"
+                  className="underline"
+                >
+                  sor.sothearom@rabbitschoolcambodia.net
+                </a>
               </p>
             </div>
+
             <div className="text-center md:text-left">
               <h2 className="font-bold text-[24px] md:text-[30px] text-white">
                 Address
@@ -295,36 +335,43 @@ function Involved() {
             </div>
           </div>
         </div>
-
         {/* Right Section */}
         <div className="relative w-full md:w-1/2 p-8 bg-white">
           <div className="absolute top-0 left-0 w-full h-[7px] bg-sky-700"></div>
           <h1 className="text-[24px] md:text-[40px] font-bold text-sky-700 mb-6 text-center mt-4">
             GET INVOLVED
           </h1>
-          <form className="space-y-4 flex flex-col items-center">
+          <form
+            onSubmit={onSubmit}
+            className="space-y-4 flex flex-col items-center"
+          >
             <input
               type="text"
+              name="fullName"
               placeholder="Full Name"
               className="w-[90%] md:w-[450px] p-3 text-[16px] md:text-[20px] border border-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500"
             />
             <input
               type="email"
+              name="email"
               placeholder="Email"
               className="w-[90%] md:w-[450px] p-3 text-[16px] md:text-[20px] border border-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500"
             />
             <textarea
+              name="message"
               placeholder="Message"
               className="w-[90%] md:w-[450px] p-3 text-[16px] md:text-[20px] border border-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 h-[150px]"
             />
             <button
               type="submit"
-              className="w-[90%] md:w-[400px] p-2 text-[16px] md:text-[20px] bg-orange-500 text-white font-bold hover:bg-gray-500 focus:outline-none focus:ring-2"
+              className="w-[90%] md:w-[450px] p-2 text-[16px] md:text-[20px] bg-orange-500 text-white font-bold hover:bg-gray-500 focus:outline-none focus:ring-2"
             >
               Submit
             </button>
           </form>
+          {status && <p className="text-center mt-4">{status}</p>}
         </div>
+        );
       </div>
 
       {/* <Footer /> */}
