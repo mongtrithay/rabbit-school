@@ -46,9 +46,7 @@ function Footer() {
           <div className="container mx-auto flex flex-wrap w-[80%] m-auto">
             <div className="max-md:w-1/4 md:w-1/4 max-md:flex max-md:mt-[-30px] max-md:ml-4 md:ml-[1rem]  max-md:justify-center max-md:items-center">
               <img src={Image} alt="logo" className="max-md:w-1/2  md:w-1/2 " />
-            </div>
-            <div className="max-md:grid max-md:grid-cols-2 max-md:ml-10 max-md:gap-2 md:ml-20 md:space-x-16 max-md:mt-2 flex flex-col md:flex-row md:space-x-16">
-              <div className="mb-6 md:mb-0 justify-self-end">
+
                 <h5 className="font-bold text-lg mb-2">About us</h5>
                 <ul>
                   <li>
