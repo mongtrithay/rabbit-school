@@ -29,7 +29,7 @@ const images = [image1, image2, image3, image4, image5, image6, image7, image8, 
 function SliderPartner() {
   return (
     <>
-      <section className="w-full h-auto">
+      <section className="w-full h-auto lg:mb-[5rem] lg:mt-5">
         <div className="w-full h-auto">
           <Slider {...settings}>
             {images.map((image, index) => (
