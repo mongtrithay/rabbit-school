@@ -46,7 +46,11 @@ function App() {
 
     {/* <AboutPage/> */}
 
+=======
+>>>>>>> main
 
+    <>
+    <Footer />
     </>
   )
 }

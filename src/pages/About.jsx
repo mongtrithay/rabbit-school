@@ -13,6 +13,7 @@ import image10 from "../assets/images/image10.png";
 import image11 from "../assets/images/image11.png";
 import image12 from "../assets/images/image12.png";
 import image13 from "../assets/images/image13.png";
+import ArticleSlider from "../companents/ArticleSlider";
 
 function AboutPage() {
   return (
@@ -91,7 +92,7 @@ function AboutPage() {
                 alt="IMAGE5"
               />
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center ">
               <img
                 className="w-full h-auto object-cover"
                 src={image6}
@@ -213,133 +214,137 @@ function AboutPage() {
           </div>
         </div>
 
-        <div className="w-full h-[833px] bg-sky-700 mt-10">
-          <h1 className="text-[50px] text-white text-center mt-4">
+        <div className="w-full h-auto bg-sky-700 mt-10">
+          <h1 className="lg:text-[50px] text-[25px]  text-white text-center mt-4 sm:text-[40px] ">
             Student, Teacher & Volunteer Testimonials
           </h1>
+          <ArticleSlider />
         </div>
 
+
+
         <div className="w-full flex justify-center items-center mt-5">
-          <h1 className="text-sky-700 text-[50px] text-center">
+          <h1 className="text-sky-700 text-[40px] md:text-[50px] text-center mt-6">
             Mission & Vision
           </h1>
         </div>
 
-        <div className="flex mt-10">
+        <div className="flex flex-col md:flex-row mt-10">
           <div className="flex-1">
             <img
-              className="w-full h-[430px] object-cover"
+              className="w-full h-[230px] md:h-[430px] object-cover"
               src={image10}
               alt="Logo"
             />
           </div>
           <div className="flex-1">
-            <div className="w-full h-[58px] bg-sky-700 flex justify-center">
-              <h1 className="text-white text-[25px] text-center mt-2">
+            <div className="w-full h-[48px] md:h-[58px] bg-sky-700 flex justify-center">
+              <h1 className="text-white text-[20px] md:text-[25px] text-center mt-2">
                 Special education for children with disabilities
               </h1>
             </div>
-            <p className="text-[25px] mt-24 ml-20 text-neutral-500">
+            <p className="text-[18px] md:text-[25px] mt-6 md:mt-24 mx-4 md:ml-20 text-neutral-500">
               <span className="text-sky-700">
-                The Rabbit School’s principal activity is to educate <br />
+                The Rabbit School’s principal activity is to educate <br className="hidden md:block" />
                 children with intellectual disabilities from 4 to 25 years{" "}
-                <br />
+                <br className="hidden md:block" />
                 old.
               </span>{" "}
-              Our two principal schools are in Phnom Penh and <br />
+              Our two principal schools are in Phnom Penh and <br className="hidden md:block" />
               Siem Reap, but we also have classes in Kandal and Kampong Speu.
             </p>
           </div>
         </div>
 
-        <div className="flex">
+        <div className="flex  md:flex-row flex-col-reverse lg:mt-0 mt-5">
           <div className="flex-1">
-            <div className="w-full h-[58px] bg-sky-700 flex justify-center">
-              <h1 className="text-white text-[25px] text-center mt-2">
+            <div className="w-full h-[48px] md:h-[58px] bg-sky-700 flex justify-center">
+              <h1 className="text-white text-[20px] md:text-[25px] text-center mt-2">
                 Train teachers for special Education
               </h1>
             </div>
-            <p className="text-[25px] mt-16 ml-28 text-neutral-500">
-              In Cambodia, there is only one institute that provides <br />
-              specialized training for teachers in special education. <br />
+            <p className="text-[18px] md:text-[25px] mt-6 md:mt-16 mx-4 md:ml-28 text-neutral-500">
+              In Cambodia, there is only one institute that provides <br className="hidden md:block" />
+              specialized training for teachers in special education. <br className="hidden md:block" />
               <span className="text-sky-700 ">
-                The Rabbit Schools not only organize such training <br />
-                for their own teachers but also extend their services <br />
+                The Rabbit Schools not only organize such training <br className="hidden md:block" />
+                for their own teachers but also extend their services <br className="hidden md:block" />
                 to other schools.
               </span>
             </p>
           </div>
           <div className="flex-1">
             <img
-              className="w-full h-[430px] object-cover"
+              className="w-full h-[230px] md:h-[430px] object-cover "
               src={image11}
               alt="Logo"
             />
           </div>
         </div>
 
-        <div className="flex ">
+        <div className="flex flex-col md:flex-row">
           <div className="flex-1">
             <img
-              className="w-full h-[430px] object-cover"
+              className="w-full h-[230px] md:h-[430px] object-cover lg:mt-0 mt-5"
               src={image12}
               alt="Logo"
             />
           </div>
           <div className="flex-1">
-            <div className="w-full h-[58px] bg-sky-700 flex justify-center">
-              <h1 className="text-white text-[25px] text-center mt-2">
+            <div className="w-full h-[48px] md:h-[58px] bg-sky-700 flex justify-center">
+              <h1 className="text-white text-[20px] md:text-[25px] text-center mt-2">
                 Vocational training and Job placement
               </h1>
             </div>
-            <p className="text-[25px] mt-16 ml-32 text-neutral-500">
+            <p className="text-[18px] md:text-[25px] mt-6 md:mt-16 mx-4 md:ml-32 text-neutral-500">
               <span className="text-sky-700">
-                Professional inclusion in Cambodia is particularly <br />
+                Professional inclusion in Cambodia is particularly <br className="hidden md:block" />
                 difficult for adults with intellectual disabilities.
               </span>{" "}
-              When <br />
-              they become adults, most of them come back to their <br />
-              families with no job. The Rabbit Schools helps young <br />
-              adults from 17 to 20 (sometimes until 24) to get trained <br />
+              When <br className="hidden md:block" />
+              they become adults, most of them come back to their <br className="hidden md:block" />
+              families with no job. The Rabbit Schools helps young <br className="hidden md:block" />
+              adults from 17 to 20 (sometimes until 24) to get trained <br className="hidden md:block" />
               and obtain a job in a partner company.
             </p>
           </div>
         </div>
 
-        <div className="flex">
+        <div className="flex md:flex-row flex-col-reverse">
           <div className="flex-1">
-            <div className="w-full h-[58px] bg-sky-700 flex justify-center">
-              <h1 className="text-white text-[25px] text-center mt-2">
+            <div className="w-full h-[48px] md:h-[58px] bg-sky-700 flex justify-center">
+              <h1 className="text-white text-[20px] md:text-[25px] text-center mt-2">
                 Advocacy to local authorities general public
               </h1>
             </div>
-            <p className="text-[25px] mt-12 ml-32 text-neutral-500">
+            <p className="text-[18px] md:text-[25px] mt-6 md:mt-12 mx-4 md:ml-32 text-neutral-500 ">
               A wide variety of{" "}
               <span className="text-sky-700">
-                advocacy initiatives in local <br />
+                advocacy initiatives in local <br className="hidden md:block" />
                 communities
               </span>
-              , direct support programs for parents to <br />
-              define their child’s development and opportunities and <br />
+              , direct support programs for parents to <br className="hidden md:block" />
+              define their child’s development and opportunities and <br className="hidden md:block" />
               the choice to integrate the Rabbit School activities{" "}
               <span className="text-sky-700">
-                in <br />
+                in <br className="hidden md:block" />
                 normal Public Schools
               </span>{" "}
-              (specific classrooms on the <br />
-              Public Schools premises) is slowly removing the taboo <br />
+              (specific classrooms on the <br className="hidden md:block" />
+              Public Schools premises) is slowly removing the taboo <br className="hidden md:block" />
               on mental disability in Cambodia
             </p>
           </div>
           <div className="flex-1">
             <img
-              className="w-full h-[430px] object-cover"
+              className="w-full h-[230px] md:h-[430px] object-cover lg:mt-0 mt-5"
               src={image13}
               alt="Logo"
             />
           </div>
         </div>
-        {/* <Footer /> */}
+
+        <Footer/>
       </div>
     </>
   );
