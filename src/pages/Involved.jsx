@@ -295,10 +295,13 @@ function Involved() {
                 Phone
               </h2>
               <p className="text-[18px] md:text-[25px] text-white">
-                +855 68 901 971
-              </p>
-              <p className="text-[18px] md:text-[25px] text-white">
-                +855 17 525 815
+                <a href="tel:+85568901971" className="underline">
+                  +855 68 901 971
+                </a>
+                <br />
+                <a href="tel:+85517525815" className="underline">
+                  +855 17 525 815
+                </a>
               </p>
             </div>
             <div className="text-center md:text-left">
@@ -306,9 +309,15 @@ function Involved() {
                 Email
               </h2>
               <p className="text-[18px] md:text-[25px] text-white">
-                sor.sothearom@rabbitschoolcambodia.net
+                <a
+                  href="mailto:sor.sothearom@rabbitschoolcambodia.net"
+                  className="underline"
+                >
+                  sor.sothearom@rabbitschoolcambodia.net
+                </a>
               </p>
             </div>
+
             <div className="text-center md:text-left">
               <h2 className="font-bold text-[24px] md:text-[30px] text-white">
                 Address
