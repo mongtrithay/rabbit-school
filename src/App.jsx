@@ -9,8 +9,6 @@ import Homepage from './pages/Home'
 import OurAction from './pages/OurAction'
 // import ImageSlider from './companents/Slider'
 import AboutPage from './pages/About'
-import ContactPage from './pages/Contact'
-import Involved from './pages/Involved'
 
 
 
@@ -19,9 +17,10 @@ import Involved from './pages/Involved'
 function App() {
 
   return (
-    <>
+   
+    <AboutPage />
+ 
 
-    <Involved/>
 
     </>
   )
