@@ -123,7 +123,12 @@ function ContactPage() {
               Email
             </h1>
             <p className="text-[18px] sm:text-[20px] text-gray-500">
-              sor.sothearom@rabbitschoolcambodia.net <br />
+              <a
+                href="mailto:sor.sothearom@rabbitschoolcambodia.net"
+                className="underline"
+              >
+                sor.sothearom@rabbitschoolcambodia.net
+              </a>
             </p>
           </div>
           <div className="flex-1 text-center">
@@ -131,8 +136,13 @@ function ContactPage() {
               Phone
             </h1>
             <p className="text-[18px] sm:text-[20px] text-gray-500">
-              +855 68 901 971 <br />
-              +855 17 525 815
+              <a href="tel:+85568901971" className="underline">
+                +855 68 901 971
+              </a>
+              <br />
+              <a href="tel:+85517525815" className="underline">
+                +855 17 525 815
+              </a>
             </p>
           </div>
         </div>
