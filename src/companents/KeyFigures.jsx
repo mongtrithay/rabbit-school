@@ -32,7 +32,7 @@ function KeyFigures() {
 
             <div className="lg:w-[48%] w-[48%] lg:h-full lg:ml-5  lg:-mt-[6rem] ">
             <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
-                <div className="lg:h-[80px] h-[30px] w-[30px] lg:w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
+                <div className="lg:h-[80px] h-[40px] w-[50px] lg:w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
                   <span className="lg:text-[2rem] text-[1rem] font-bold rotate-[-45deg]">
 
                     268
@@ -48,6 +48,52 @@ function KeyFigures() {
               </div>
 
 
+              {/* <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
+                <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
+                  <span className="text-[2rem] font-bold rotate-[-45deg]">
+                    268
+                  </span>
+                </div>
+                <div className="w-full h-full flex justify-center items-center">
+                  <p className="ml-[25px] text-[20px] leading-[1.5]">
+                    Children with intellectual disabilities access to school
+                    thanks to the RSO in 2023. The biggest school, in Phnom
+                    Penh, welcomes 198 students.
+                  </p>
+                </div>
+              </div> */}
+
+
+              {/* <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
+                <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
+                  <span className="text-[2rem] font-bold rotate-[-45deg]">
+                    268
+                  </span>
+                </div>
+                <div className="w-full h-full flex justify-center items-center">
+                  <p className="ml-[25px] text-[20px] leading-[1.5]">
+                    Children with intellectual disabilities access to school
+                    thanks to the RSO in 2023. The biggest school, in Phnom
+                    Penh, welcomes 198 students.
+                  </p>
+                </div>
+              </div> */}
+
+              {/* <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
+                <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
+                  <span className="text-[2rem] font-bold rotate-[-45deg]">
+                    268
+                  </span>
+                </div>
+                <div className="w-full h-full flex justify-center items-center">
+                  <p className="ml-[25px] text-[20px] leading-[1.5]">
+                    Children with intellectual disabilities access to school
+                    thanks to the RSO in 2023. The biggest school, in Phnom
+                    Penh, welcomes 198 students.
+                  </p>
+                </div>
+              </div> */}
+{/* 
               <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
                 <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
                   <span className="text-[2rem] font-bold rotate-[-45deg]">
@@ -61,9 +107,23 @@ function KeyFigures() {
                     Penh, welcomes 198 students.
                   </p>
                 </div>
-              </div>
+              </div> */}
 
-
+              {/* <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
+                <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
+                  <span className="text-[2rem] font-bold rotate-[-45deg]">
+                    268
+                  </span>
+                </div>
+                <div className="w-full h-full flex justify-center items-center">
+                  <p className="ml-[25px] text-[20px] leading-[1.5]">
+                    Children with intellectual disabilities access to school
+                    thanks to the RSO in 2023. The biggest school, in Phnom
+                    Penh, welcomes 198 students.
+                  </p>
+                </div>
+              </div> */}
+{/* 
               <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
                 <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
                   <span className="text-[2rem] font-bold rotate-[-45deg]">
@@ -77,67 +137,7 @@ function KeyFigures() {
                     Penh, welcomes 198 students.
                   </p>
                 </div>
-              </div>
-
-              <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
-                <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
-                  <span className="text-[2rem] font-bold rotate-[-45deg]">
-                    268
-                  </span>
-                </div>
-                <div className="w-full h-full flex justify-center items-center">
-                  <p className="ml-[25px] text-[20px] leading-[1.5]">
-                    Children with intellectual disabilities access to school
-                    thanks to the RSO in 2023. The biggest school, in Phnom
-                    Penh, welcomes 198 students.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
-                <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
-                  <span className="text-[2rem] font-bold rotate-[-45deg]">
-                    268
-                  </span>
-                </div>
-                <div className="w-full h-full flex justify-center items-center">
-                  <p className="ml-[25px] text-[20px] leading-[1.5]">
-                    Children with intellectual disabilities access to school
-                    thanks to the RSO in 2023. The biggest school, in Phnom
-                    Penh, welcomes 198 students.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
-                <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
-                  <span className="text-[2rem] font-bold rotate-[-45deg]">
-                    268
-                  </span>
-                </div>
-                <div className="w-full h-full flex justify-center items-center">
-                  <p className="ml-[25px] text-[20px] leading-[1.5]">
-                    Children with intellectual disabilities access to school
-                    thanks to the RSO in 2023. The biggest school, in Phnom
-                    Penh, welcomes 198 students.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
-                <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
-                  <span className="text-[2rem] font-bold rotate-[-45deg]">
-                    268
-                  </span>
-                </div>
-                <div className="w-full h-full flex justify-center items-center">
-                  <p className="ml-[25px] text-[20px] leading-[1.5]">
-                    Children with intellectual disabilities access to school
-                    thanks to the RSO in 2023. The biggest school, in Phnom
-                    Penh, welcomes 198 students.
-                  </p>
-                </div>
-              </div>
+              </div> */}
 
             </div>
 

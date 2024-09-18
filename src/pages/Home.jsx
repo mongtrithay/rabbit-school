@@ -21,12 +21,17 @@ import header from "../assets/images/headerHome.jpg";
 import KeyFigures from "../companents/KeyFigures";
 import SliderPartner from "../companents/SliderPartner";
 import SliderAction from "../companents/SliderAction";
+import ReactDOM from "react-dom";
+// import VideoPlayer from "../components/Video";
+import VideoPlayer from '../companents/Video';
+
 
 function Homepage() {
   return (
     <>
       {/* <Menu /> */}
       {/* <SliderAction/> */}
+
       <div
         className="relative w-full lg:h-[43.75rem] h-[25rem] bg-cover bg-center"
         style={{ backgroundImage: `url(${header})` }}
@@ -53,13 +58,10 @@ function Homepage() {
 
       <section className="w-full flex flex-col lg:flex-row h-auto lg:h-[600px]">
         <div className="w-full lg:w-[50%] flex justify-center items-center p-4 lg:p-0">
-          <div className="bg-orange-300 h-[300px] lg:h-[400px] w-full lg:w-[80%] max-w-[800px]">
-            <img
-              src={pic1}
-              alt="Description of image"
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <div className=" h-auto lg:h-[400px] w-full lg:w-[80%] max-w-[800px]">
+      <VideoPlayer />
+      
+        </div>
         </div>
         <div className="w-full lg:w-[50%] p-4 lg:p-8 flex flex-col justify-center">
           <h1 className="text-[25px] lg:text-[3rem] font-bold lg:mb-4">
@@ -131,7 +133,7 @@ function Homepage() {
         <h1 className="h-[100px] lg:text-[48px] text-[20px] font-bold text-[#276BA3] flex items-center ml-[60px]">
           KEY FIGURES
         </h1>
-        <div className="w-[120px] h-[2px] ml-[60px]  bg-[#F0990E]"></div>
+        <div className="w-[120px] h-[5px] ml-[60px]  bg-[#F0990E]"></div>
       </div>
 
       <KeyFigures />
@@ -436,7 +438,7 @@ function Homepage() {
         PARTNERS
       </h1>
 
-     <SliderPartner/>
+      <SliderPartner />
 
       <div className="px-4 md:px-8">
         <h1 className="text-[20px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:mt-0 mt-2">

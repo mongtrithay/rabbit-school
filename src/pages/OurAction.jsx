@@ -19,6 +19,7 @@ import image3 from "../assets/images/pic3.jpeg";
 import image4 from "../assets/images/pic4.jpeg";
 import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
+import VideoOurAction from "../companents/VideoOurAction";
 
 const settings = {
   dots: false,
@@ -65,8 +66,10 @@ function OurAction() {
 
       <section className="h-auto md:h-[800px] w-full flex flex-col md:flex-row justify-center items-center px-4">
         <div className="w-full max-w-[1000px]">
-          <div className="bg-black bg-opacity-50 lg:h-[500px] h-[200px] w-full lg:mt-0 mt-4"></div>
-          <p className=" md:text-2xl mt-5 text-center text-black ">
+          <div className="bg-black bg-opacity-50 lg:h-[500px] h-[200px] w-full lg:mt-0 mt-4">
+            <VideoOurAction />
+          </div>
+          <p className=" md:text-2xl lg:mt-[100px] mt-5 text-center text-black ">
             The Rabbit School provides different levels of special education
             according to the severity of the disability. The child can run all
             the programs or just choose one specific program, according to his
@@ -178,7 +181,7 @@ function OurAction() {
               <div className="w-[80%] mt-4 text-center">
                 <p className="text-white lg:text-[15px] text-[15px] mb-2">
                   In Cambodia, people with intellectual disabilities have great
-                  difficulty finding a job. 
+                  difficulty finding a job.
                 </p>
               </div>
               <ButtonReadMore />
@@ -254,8 +257,17 @@ function OurAction() {
           <div className="flex lg:mt-4 md:mt-6"></div>
         </div>
 
-        <div className=" w-[85%] m-[auto] h-[100%] lg:-mt-8 ">
-          <Slider {...settings}>
+        <div className="w-[85%] m-auto h-[700px] lg:-mt-8 bg-red-500 relative">
+          <img
+            src={pic3}
+            alt="Description of image"
+            className="w-full h-[70%] object-cover"
+          />
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-blue-400 w-[500px] h-[100px]"></div>
+        </div>
+      </section>
+      {/* 
+      <Slider {...settings}>
             {images.map((image, index) => (
               <div key={index}>
                 <img
@@ -265,9 +277,7 @@ function OurAction() {
                 />
               </div>
             ))}
-          </Slider>
-        </div>
-      </section>
+          </Slider> */}
     </>
   );
 }
