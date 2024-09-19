@@ -24,7 +24,9 @@ import FontStyle from "./companents/FontStyle";
 function App() {
   return (
     <>
-      <Homepage/>
+
+    <Footer />
+
     </>
   );
 }

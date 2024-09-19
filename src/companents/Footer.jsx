@@ -39,6 +39,7 @@ const Footer = () => {
               </ul>
             </div>
 
+
             <div className="w-1/4">
               <h5 className="font-bold text-lg mb-2">Our Actions</h5>
               <ul>
@@ -70,22 +71,37 @@ const Footer = () => {
 
         <section className="bg-[#276BA3] py-8">
           <div className="container lg:flex items-center md:flex-row">
+
+            <div className="">
+              <h1 className="max-md:ml-2 md:ml-[11rem] text-slate-300 max-md:text-lg font-bold">
+                Subscribe Now
+              </h1>
+              <p className="md:ml-[11rem] max-md:ml-2 text-white max-md:text-2lg">
+                Stay updated with our latest news and initiatives
+              </p>
+              <div className="mt-4 max-md:ml-2 flex">
+
             <div>
               <h1 className="text-slate-300 text-lg font-bold">Subscribe Now</h1>
               <p className="text-white">Stay updated with our latest news and initiatives</p>
               <div className="mt-4 flex">
+
                 <input
                   type="text"
                   placeholder="Enter your email address"
                   className="w-3/4 px-4 py-2 border border-gray-300"
                   required
                 />
-                <button type="submit" className="px-6 py-2 text-white font-bold bg-orange-500">
+
                   Send
                 </button>
               </div>
             </div>
+
+            <div className="flex space-x-2 text-white text-6lg md:space-x-6 text-3xl md:ml-[20rem] md:mt-[3rem] max-md:m-2">
+
             <div className="flex space-x-6 text-white text-3xl ml-auto mt-3">
+
               <a href="mailto:info@rabbitschool.org">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
@@ -95,7 +111,9 @@ const Footer = () => {
               <a href="tel:+85568901971">
                 <FontAwesomeIcon icon={faPhone} />
               </a>
+
             </div>
+
           </div>
         </section>
       </footer>
