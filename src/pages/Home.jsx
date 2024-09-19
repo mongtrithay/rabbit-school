@@ -45,18 +45,18 @@ function Homepage() {
       >
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="bg-black bg-opacity-50  w-screen">
-            <h1 className="text-center text-white lg:text-[4.6875rem] text-[1rem] sm:text-[2rem] md:text-[3rem] mt-8">
+            <h1 className="text-center text-white lg:text-[83px] text-[1.20rem] sm:text-[2rem] md:text-[3rem] mt-8">
               Welcome to the Rabbit School Organization
             </h1>
             <div className="flex flex-wrap justify-center mt-[3.50rem]  lg:-ml-[20rem] -ml-[4rem] lg:mt-[4rem]">
-              <div className="lg:w-[15.375rem] w-[3rem] lg:h-[0.3125rem] h-[0.15rem] lg:ml-[3.125rem] ml-[1.5rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
+              <div className="lg:w-[15.375rem] w-[2rem] lg:h-[0.3125rem] h-[0.15rem] lg:ml-[3.125rem] ml-[1.5rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
               <div className="lg:w-[5.125rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
               <div className="lg:w-[2.875rem] lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
               <div className="lg:w-[1.9375rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
               <div className="lg:w-[0.625rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
-              <p className="text-white lg:text-[1.25rem] text-[0.40rem] sm:text-[0.75rem] md:text-[1rem] lg:-mt-[4.0625rem] -mt-[3.00rem] lg:ml-[1.875rem] ml-[0.75rem]">
+              <p className="text-white lg:text-[1.25rem] text-[0.50rem] sm:text-[0.75rem] md:text-[1rem] lg:-mt-[4.0625rem] -mt-[3.00rem] lg:ml-[1.875rem] ml-[0.75rem]">
                 The Rabbit School is a Cambodian NGO that was established in May
-                1997.
+                1997
               </p>
             </div>
           </div>
@@ -110,21 +110,21 @@ function Homepage() {
           <div className="w-[10rem] lg:w-[14rem] h-[2px] lg:h-[5px] bg-[#F0990E]  lg:mb-6"></div>
           <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6 mt-5">
             In Cambodia, which has a predominantly Buddhist population,
-            disability is often viewed as a taboo subject due to reincarnation
+            disability is often viewed as a taboo subject due to <span className="text-[#F0990E] font-bold">  reincarnation </span>
             beliefs.
           </p>
           <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6">
-            Unfortunately, many schools in Cambodia are not equipped to
-            accommodate children with intellectual disabilities (CWIDs), with
+            Unfortunately, many schools in Cambodia are  <span className="text-[#F0990E] font-bold">not equipped to
+            accommodate children with intellectual disabilities </span>(CWIDs), with
             only a handful of special education schools available, most of which
             are private and charge high fees that are out of reach for most
             families.
           </p>
           <p className="text-[1rem] lg:text-[1.25rem] leading-[1.5rem] lg:leading-[1.75rem] text-white mb-6">
             As a result, children with disabilities have limited options and are
-            often kept at home. This places a heavy burden on parents,
+            often kept at home. This places a <span className="text-[#F0990E] font-bold"> heavy burden on parents,
             particularly mothers, who are unable to work and provide financial
-            support for their families while also caring for their child.
+            support </span> for their families while also caring for their child.
           </p>
           <div className="flex flex-wrap mt-1   lg:mt-12">
             <div className="w-[7.5rem] lg:w-[15.375rem] lg:h-[0.3125rem] h-[2px] bg-[#F0990E] mb-2 lg:mb-0 mr-4"></div>
@@ -158,7 +158,7 @@ function Homepage() {
               alt="Description of image"
               className="w-[150px] h-[150px] object-cover -mt-5"
             />
-            <p className="w-[90%] text-center mt-4 text-white">
+            <p className="w-[90%]   text-center mt-4 text-white">
               Dignity covers all aspects of daily life, including respect,
               privacy, autonomy, and self-worth.
             </p>
@@ -176,7 +176,7 @@ function Homepage() {
               alt="Description of image"
               className="w-[160px] h-[160px] object-cover -mt-8"
             />
-            <p className="w-[90%] text-center mt-4 text-white">
+            <p className="w-[90%]   text-center mt-4 text-white">
               In essence, it’s about personal growth and contributing to the
               growth of others.
             </p>
@@ -194,7 +194,7 @@ function Homepage() {
               alt="Description of image"
               className="w-[160px] h-[160px] object-cover -mt-8"
             />
-            <p className="w-[90%] text-center mt-4 text-white">
+            <p className="w-[90%]   text-center mt-4 text-white">
               Women and men, and girls and boys, enjoy the same rights,
               resources, opportunities, and protections.
             </p>
@@ -214,7 +214,7 @@ function Homepage() {
               alt="Description of image"
               className="w-[150px] h-[150px] object-cover -mt-5"
             />
-            <p className="w-[90%] text-center mt-4 text-white">
+            <p className="w-[90%]  text-center mt-4 text-white">
               Dignity covers all aspects of daily life, including respect,
               privacy, autonomy, and self-worth.
             </p>
@@ -232,7 +232,7 @@ function Homepage() {
               alt="Description of image"
               className="w-[160px] h-[160px] object-cover -mt-8"
             />
-            <p className="w-[90%] text-center mt-4 text-white">
+            <p className="w-[90%]   text-center mt-4 text-white">
               In essence, it’s about personal growth and contributing to the
               growth of others.
             </p>
@@ -250,7 +250,7 @@ function Homepage() {
               alt="Description of image"
               className="w-[160px] h-[160px] object-cover -mt-8"
             />
-            <p className="w-[90%] text-center mt-4 text-white">
+            <p className="w-[90%]   text-center mt-4 text-white">
               Women and men, and girls and boys, enjoy the same rights,
               resources, opportunities, and protections.
             </p>
@@ -270,7 +270,7 @@ function Homepage() {
               alt="Description of image"
               className="w-[150px] h-[150px] object-cover"
             />
-            <p className="w-[90%] text-center mt-4 text-white">
+            <p className="w-[90%]   text-center mt-4 text-white">
               These concepts emphasize active involvement and a sense of
               responsibility.
             </p>
@@ -288,7 +288,7 @@ function Homepage() {
               alt="Description of image"
               className="w-[150px] h-[150px] -mt-5"
             />
-            <p className="w-[90%] text-center mt-4 text-white">
+            <p className="w-[90%]   text-center mt-4 text-white">
               Encouragement of initiative ideas means supporting and motivating
               new and creative ideas.
             </p>
@@ -306,7 +306,7 @@ function Homepage() {
               alt="Description of image"
               className="w-[150px] h-[150px] object-cover -mt-5"
             />
-            <p className="w-[90%] text-center mt-4 text-white">
+            <p className="w-[90%]   text-center mt-4 text-white">
               Using existing resources means utilizing what is already available
               to achieve goals efficiently.
             </p>
@@ -463,7 +463,7 @@ function Homepage() {
           />
         </div>
       </section>
-      {/* <Footer /> */}
+      <Footer />
       </StyledDiv>
     </>
   );
