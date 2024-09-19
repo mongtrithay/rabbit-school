@@ -21,6 +21,14 @@ import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
 import VideoOurAction from "../companents/VideoOurAction";
 import SliderComponent from "../companents/OurActionSlider";
+import React from 'react';
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+    font-family: 'Inika', serif;  /* Use the Inika font */
+    font-size: 22px;
+    color: black;
+`;
 
 const settings = {
   dots: false,
@@ -39,6 +47,7 @@ const images = [image1, image2, image3, image4, image5, image6];
 function OurAction() {
   return (
     <>
+    <StyledDiv>
       <Menu />
       <div
         className="relative w-full lg:h-[700px] h-[400px] bg-cover bg-center"
@@ -261,19 +270,8 @@ function OurAction() {
           <SliderComponent />
         </dir>
       </section>
-      {/* 
-      <Slider {...settings}>
-            {images.map((image, index) => (
-              <div key={index}>
-                <img
-                  src={image}
-                  alt={`Slide ${index + 1}`}
-                  className="w-[100%] lg:h-[700px] object-cover mt-10 mb-[50rem] "
-                />
-              </div>
-            ))}
-          </Slider> */}
-          <section className="w-full h-[500px] "></section>
+
+        </StyledDiv>
     </>
   );
 }

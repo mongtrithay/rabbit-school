@@ -19,6 +19,14 @@ import image3 from "../assets/images/pic3.jpeg";
 import image4 from "../assets/images/pic4.jpeg";
 import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
+import React from 'react';
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+    font-family: 'Inika', serif;  /* Use the Inika font */
+    font-size: 22px;
+    color: black;
+`;
 
 import education1 from "../assets/images/detail4.jpg";
 
@@ -40,6 +48,7 @@ const images = [image1, image2, image3, image4, image5, image6];
 function DetailOurAction4() {
   return (
     <>
+    <StyledDiv>
       <Menu />
       <div
         className="relative w-full lg:h-[700px] h-[250px] bg-cover bg-center lg:mb-[200px]"
@@ -217,6 +226,7 @@ function DetailOurAction4() {
           </div>
         </div>
       </section>
+      </StyledDiv>
     </>
   );
 }

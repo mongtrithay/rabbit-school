@@ -25,14 +25,20 @@ import ReactDOM from "react-dom";
 // import VideoPlayer from "../components/Video";
 import VideoPlayer from '../companents/Video';
 import KeyFiguresP from "../companents/KeyFiguresPhone";
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+    font-family: 'Inika', serif;  /* Use the Inika font */
+    font-size: 22px;
+    color: black;
+`;
 
 
 function Homepage() {
   return (
     <>
-      {/* <Menu /> */}
-      {/* <SliderAction/> */}
-
+    <StyledDiv>
+      <Menu />
       <div
         className="relative w-full lg:h-[43.75rem] h-[25rem] bg-cover bg-center"
         style={{ backgroundImage: `url(${header})` }}
@@ -457,8 +463,8 @@ function Homepage() {
           />
         </div>
       </section>
-
       {/* <Footer /> */}
+      </StyledDiv>
     </>
   );
 }

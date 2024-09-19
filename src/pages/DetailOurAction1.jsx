@@ -19,6 +19,14 @@ import image3 from "../assets/images/pic3.jpeg";
 import image4 from "../assets/images/pic4.jpeg";
 import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
+import React from 'react';
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+    font-family: 'Inika', serif;  /* Use the Inika font */
+    font-size: 22px;
+    color: black;
+`;
 
 import education1 from "../assets/images/education1.jpeg";
 
@@ -40,6 +48,8 @@ const images = [image1, image2, image3, image4, image5, image6];
 function DetailOurAction() {
   return (
     <>
+      <StyledDiv>
+            
       <Menu />
       <div
         className="relative w-full lg:h-[700px] h-[250px] bg-cover bg-center lg:mb-[200px]"
@@ -73,7 +83,7 @@ function DetailOurAction() {
 
       <section className="lg:mt-[50px] mt-[50px] flex  md:flex-row  flex-col-reverse">
         <div className="lg:w-[50%] lg:ml-[30px]">
-          <div className=" px-4 sm:px-6 lg:px-0  ">
+          <div className=" px-4 sm:px-6 lg:px-0 lg:mt-0 mt-10 ">
             <h1 className="text-[20px] sm:text-[40px] lg:text-[48px] font-bold text-[#276BA3] flex items-center ml-0 sm:ml-[30px] lg:ml-[60px]">
               Special Class
             </h1>
@@ -116,7 +126,7 @@ function DetailOurAction() {
           </p>
         </div>
 
-        <div className="lg:w-[50%] h-[auto] lg:ml-[50px]">
+        <div className="lg:w-[50%] h-[auto] lg:ml-[50px] " >
           <div className=" w-[100%] m-[auto] h-[100%] ">
             <Slider {...settings}>
               {images.map((image, index) => (
@@ -218,6 +228,7 @@ function DetailOurAction() {
           </div>
         </div>
       </section>
+      </StyledDiv>
 
     </>
   );
