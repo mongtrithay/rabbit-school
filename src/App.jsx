@@ -8,14 +8,8 @@ import KeyFigures from './companents/KeyFigures'
 import Homepage from './pages/Home'
 import OurAction from './pages/OurAction'
 // import ImageSlider from './companents/Slider'
-import Involved from './pages/Involved'
-import SliderAction from './companents/SliderAction'
-import StaticAutoSlider from './companents/StaticAutoSlider'
-import SliderPartner from './companents/SliderPartner'
 import AboutPage from './pages/About'
-import Contact from './pages/Contact'
-import SupportPage from './pages/Support'
-import ArticleSlider from './companents/ArticleSlider'
+
 
 
 
@@ -23,10 +17,6 @@ import ArticleSlider from './companents/ArticleSlider'
 function App() {
 
   return (
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
     <>
     <Footer />
     </>

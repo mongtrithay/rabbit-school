@@ -31,7 +31,7 @@ function KeyFigures() {
             <span class="text-blue-600 font-bold text-[2.5rem] m-[3rem]">
               KEY FIGURES
             </span>
-            <div class=" ml-[3rem] h-[3px] w-20 h-1 bg-orange-400"></div>
+            <div class=" ml-[3rem] h-[3px] w-20  bg-orange-400"></div>
           </div>
           <div className="w-full h-full flex justify-evenly mt-[1rem] items-center">
             <div className="w-[48%] h-full ">
