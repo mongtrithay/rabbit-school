@@ -206,11 +206,11 @@ function OurAction() {
             Additional services
           </h1>
           <div className="flex lg:mt-4 md:mt-6">
-            <div className="w-[75px] lg:w-[280px] md:w-[150px] h-[2px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
-            <div className="w-[30px] lg:w-[80px] md:w-[50px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-            <div className="w-[20px] lg:w-[40px] md:w-[30px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-            <div className="w-[15px] lg:w-[25px] md:w-[20px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-            <div className="w-[10px] lg:w-[15px] md:w-[15px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
+            <div className="w-[65px] lg:w-[180px] md:w-[150px] h-[2px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
+            <div className="w-[30px] lg:w-[60px] md:w-[50px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
+            <div className="w-[15px] lg:w-[40px] md:w-[30px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
+            <div className="w-[10px] lg:w-[25px] md:w-[20px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
+            <div className="w-[5px] lg:w-[15px] md:w-[15px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
           </div>
         </div>
 
