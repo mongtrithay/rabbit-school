@@ -37,7 +37,7 @@ function Menu() {
           </li>
           <li>
             <Link
-              to="/aboutpage"
+              to="/about"
               className="hover:text-gray-400 transition-colors"
             >
               ABOUT US
