@@ -40,7 +40,7 @@ function ContactPage() {
     <>
       <div>
         <Menu />
-        <h1 className="text-[40px] sm:text-[50px] text-sky-700 font-bold text-center mt-10">
+        <h1 className="text-[40px] sm:text-[50px] text-sky-700 font-bold text-center mt-10 font-inika">
           GET IN TOUCH
         </h1>
 
@@ -48,7 +48,7 @@ function ContactPage() {
           <div className="flex-1 w-full">
             <form onSubmit={onSubmit} className="space-y-4">
               <div>
-                <label htmlFor="fullName" className="block text-gray-700">
+                <label htmlFor="fullName" className="block text-gray-700 font-inika">
                   Full Name
                 </label>
                 <input
@@ -60,7 +60,7 @@ function ContactPage() {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-gray-700">
+                <label htmlFor="email" className="block text-gray-700 font-inika">
                   Email
                 </label>
                 <input
@@ -72,7 +72,7 @@ function ContactPage() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-gray-700">
+                <label htmlFor="message" className="block text-gray-700 font-inika">
                   Message
                 </label>
                 <textarea
@@ -84,7 +84,7 @@ function ContactPage() {
 
               <button
                 type="submit"
-                className="w-full sm:w-[433px] bg-orange-500 text-white p-2 rounded"
+                className="w-full sm:w-[433px] bg-orange-500 text-white p-2 rounded font-inika"
               >
                 Submit
               </button>
@@ -102,9 +102,9 @@ function ContactPage() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row w-[90%] sm:w-[65%] m-auto gap-6 sm:gap-10 mt-10">
+        <div className="flex flex-col sm:flex-row w-[90%] sm:w-[65%] m-auto gap-6 sm:gap-10 mt-10 ">
           <div className="flex-1 text-center">
-            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold">
+            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold font-inika">
               Address
             </h1>
             <p className="text-[18px] sm:text-[20px] text-white">
@@ -119,12 +119,12 @@ function ContactPage() {
             </p>
           </div>
           <div className="flex-1 text-center">
-            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold">
+            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold font-inika">
               Email
             </h1>
             <p className="text-[18px] sm:text-[20px] text-gray-500">
               <a
-                href="mailto:sor.sothearom@rabbitschoolcambodia.net"
+                href="mailto:sor.sothearom@rabbitschoolcambodia.net font-inika"
                 className="underline"
               >
                 sor.sothearom@rabbitschoolcambodia.net
@@ -132,15 +132,15 @@ function ContactPage() {
             </p>
           </div>
           <div className="flex-1 text-center">
-            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold">
+            <h1 className="text-[25px] sm:text-[30px] text-sky-700 font-bold font-inika">
               Phone
             </h1>
-            <p className="text-[18px] sm:text-[20px] text-gray-500">
+            <p className="text-[18px] sm:text-[20px] text-gray-500 font-inika">
               <a href="tel:+85568901971" className="underline">
                 +855 68 901 971
               </a>
               <br />
-              <a href="tel:+85517525815" className="underline">
+              <a href="tel:+85517525815" className="underline font-inika">
                 +855 17 525 815
               </a>
             </p>
