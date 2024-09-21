@@ -26,7 +26,9 @@ function App() {
   return (
     <>
 
+
     <Footer />
+
 
     </>
   );
