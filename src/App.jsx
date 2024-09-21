@@ -3,7 +3,7 @@ import Menu from "./companents/Menu";
 import ButtonDonate from "./companents/ButtonDonate";
 import ButtonReadMore from "./companents/ButtonReadMore";
 import ButtonTranslate from "./companents/ButtonTranslate";
-import Footer from "./companents/Footer";
+
 import KeyFigures from "./companents/KeyFigures";
 import Homepage from "./pages/Home";
 import OurAction from "./pages/OurAction";
@@ -20,12 +20,15 @@ import AboutPage from "./pages/About";
 import SliderComponent from "./companents/OurActionSlider";
 import KeyFiguresP from "./companents/KeyFiguresPhone";
 import FontStyle from "./companents/FontStyle";
+import Footer from "./companents/Footer";
 
 function App() {
   return (
     <>
 
+
     <Homepage />
+
 
     </>
   );
