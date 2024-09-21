@@ -25,7 +25,7 @@ const images = [image1, image2, image3, image4, image5, image6];
 function KeyFiguresP() {
   return (
     <>
-    <section>
+    <section className="">
       <div className="block lg:hidden">
       <h1 className="text-center mt-5 text-[20px]  font-bold text-[#276BA3]">KEY FIGURES</h1>
         <div className="block lg:hidden flex justify-center mb-[50px] mt-10">
