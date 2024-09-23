@@ -20,12 +20,13 @@ import AboutPage from "./pages/About";
 import SliderComponent from "./companents/OurActionSlider";
 import KeyFiguresP from "./companents/KeyFiguresPhone";
 import FontStyle from "./companents/FontStyle";
+import Detail from "./pages/Detail";
 
 function App() {
   return (
     <>
 
-    <Homepage/>
+    <Detail />
 
     </>
   );

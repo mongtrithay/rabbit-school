@@ -14,7 +14,7 @@ import Detail from "./pages/Detail.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Homepage />,
   },
   {
     path: "/about",

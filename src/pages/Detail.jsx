@@ -1,7 +1,48 @@
 import React from "react";
 import Menu from "../companents/Menu";
-import Footer from "../companents/Footer";
+import Footer from "../companents/Footer"; // Corrected path from 'companents' to 'components'
+import { useEffect, useState } from "react";
+
 const Detail = () => {
+  const [imageUrl, setImageUrl] = useState(null);
+  const [dataDetail, setDataDetail] = useState([]);
+  const url = `https://rabbit-api.onrender.com/api/details/${1}?populate=*`;
+  const token =
+    "93812113f85245dee16a45d5f5c6f023b35ac249bc796c511ba1fc348343f9d07235711df77886de46406ba3f3152e632009efbbb11a89293ccd2d83e5ee14058b0539d4e7cdb45b311025a84fb44de783fd6e36105340ac8032d5482e90c66d157b4de78a48c1af77e550b10dce988a6a68aeb537b1be68ff0e4b2943bed9b5";
+
+  useEffect(() => {
+    const fetchImage = async () => {
+      try {
+        const response = await fetch(url, {
+          method: "GET",
+          headers: {
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "application/json",
+          },
+        });
+
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        console.log(data);
+        setDataDetail(data) // Log the full response for inspection
+
+        // Adjust the path based on your response structure
+        const imgUrl = data.data[0]?.attributes.media.data?.attributes?.url;
+        setImageUrl(imgUrl);
+        
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchImage();
+  }, [url, token]);
+  console.log(imageUrl);
+  
+
   return (
     <div className="flex flex-col min-h-screen">
       <Menu />
@@ -16,11 +57,15 @@ const Detail = () => {
             headquarters. Sakal has an intellectual disability, and was unable
             to walk until he was 12 years old.
           </p>
-          <img
-            src="https://cdn.discordapp.com/attachments/1198512111777763432/1282960151053209692/image.png?ex=66e14140&is=66dfefc0&hm=13ca01c0d31ac162c8af4b0735f9887244ce68b3e31a530455730650db7bf83f&"
-            alt="Sakal"
-            className="mb-8 w-[619px] h-[500px] object-cover "
-          />
+          {imageUrl ? (
+            <img
+              src={imageUrl}
+              alt="Sakal"
+              className="mb-8 w-[619px] h-[500px] object-cover"
+            />
+          ) : (
+            <p>Loading image...</p> // Optional loading state
+          )}
           <p className="text-gray-600 text-[20px] text-left mb-8">
             At the age of 7, Sakal began to attend The Rabbit School. When he
             began formal education, Sakal had some behavioural issues, such as
