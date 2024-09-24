@@ -21,12 +21,14 @@ import SliderComponent from "./companents/OurActionSlider";
 import KeyFiguresP from "./companents/KeyFiguresPhone";
 import FontStyle from "./companents/FontStyle";
 import Detail from "./pages/Detail";
+import SliderAction from "./companents/SliderAction";
+import ArticleSlider from "./companents/ArticleSlider";
 
 function App() {
   return (
     <>
 
-    <Detail />
+    <ArticleSlider />
 
     </>
   );
