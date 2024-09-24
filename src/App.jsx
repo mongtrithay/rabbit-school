@@ -20,12 +20,11 @@ import AboutPage from "./pages/About";
 import SliderComponent from "./companents/OurActionSlider";
 import KeyFiguresP from "./companents/KeyFiguresPhone";
 import FontStyle from "./companents/FontStyle";
-import Menu from "./companents/Menu";
+import CardAction from "./companents/CardAction";
 
 function App() {
   return (
     <>
-
     <AboutPage />
 
     </>

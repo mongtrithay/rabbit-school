@@ -9,14 +9,15 @@ import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
 
 const settings = {
-  dots: false,
+  dots: true,
   arrows: false,
   infinite: true,
   speed: 1000,
   slidesToShow: 1,
   slidesToScroll: 1,
+  fade: true,
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 5000,
   pauseOnHover: false,
 };
 
