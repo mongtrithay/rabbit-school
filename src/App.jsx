@@ -21,11 +21,12 @@ import SliderComponent from "./companents/OurActionSlider";
 import KeyFiguresP from "./companents/KeyFiguresPhone";
 import FontStyle from "./companents/FontStyle";
 
+
 function App() {
   return (
     <>
 
-    <Homepage/>
+    <Menu />
 
     </>
   );
