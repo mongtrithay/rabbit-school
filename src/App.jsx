@@ -28,7 +28,7 @@ function App() {
     <>
 
 
-    <Menu />
+    <Homepage/>
 
     </>
   );
