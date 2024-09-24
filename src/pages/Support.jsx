@@ -8,7 +8,7 @@ function SupportPage() {
       <div>
         <Menu />
         <h1 className="text-[30px] sm:text-[40px] text-sky-700 font-bold text-center mt-12 sm:mt-24 font-inika">
-          Support Rabbit School
+          Support The Rabbit School
         </h1>
         <p className="text-[16px] sm:text-[20px] text-gray-500 text-center px-4 sm:px-0 font-inika">
           We are in need of various resources to support our educational and

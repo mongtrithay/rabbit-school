@@ -1,5 +1,5 @@
 import "./App.css";
-import Menu from "./companents/Menu";
+
 import ButtonDonate from "./companents/ButtonDonate";
 import ButtonReadMore from "./companents/ButtonReadMore";
 import ButtonTranslate from "./companents/ButtonTranslate";
@@ -20,11 +20,13 @@ import AboutPage from "./pages/About";
 import SliderComponent from "./companents/OurActionSlider";
 import KeyFiguresP from "./companents/KeyFiguresPhone";
 import FontStyle from "./companents/FontStyle";
+import CardAction from "./companents/CardAction";
 
 
 function App() {
   return (
     <>
+
 
     <Menu />
 

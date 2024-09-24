@@ -45,7 +45,7 @@ function SliderPartner() {
               <img 
                 src={image} 
                 alt={`Slide ${index + 1}`} 
-                className="w-[200px] h-[80px] object-contain"  
+                className="w-[300px] h-[200px] object-contain"  
               />
             </div>
           ))}
