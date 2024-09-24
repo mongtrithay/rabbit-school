@@ -31,14 +31,14 @@ function Menu() {
       <header className={`lg:flex  lg:items-center  lg:justify-between w-full`}>
         <ul className="flex max-md:hidden flex-col lg:flex-row items-center lg:gap-10 text-white font-semibold text-xl lg:ml-auto lg:mr-20">
           <li>
-            <Link to="/" className="hover:text-gray-400 transition-colors">
+            <Link to="/" className="hover:text-gray-400 transition-colors font-inika">
               HOME
             </Link>
           </li>
           <li>
             <Link
               to="/aboutpage"
-              className="hover:text-gray-400 transition-colors"
+              className="hover:text-gray-400 transition-colors font-inika"
             >
               ABOUT US
             </Link>
@@ -46,7 +46,7 @@ function Menu() {
           <li>
             <Link
               to="/ouraction"
-              className="hover:text-gray-400 transition-colors"
+              className="hover:text-gray-400 transition-colors font-inika"
             >
               OUR ACTIONS
             </Link>
@@ -54,7 +54,7 @@ function Menu() {
           <li>
             <Link
               to="/involved"
-              className="hover:text-gray-400 transition-colors"
+              className="hover:text-gray-400 transition-colors font-inika"
             >
               GET INVOLVED
             </Link>
@@ -62,7 +62,7 @@ function Menu() {
           <li>
             <Link
               to="/supportpage"
-              className="hover:text-gray-400 transition-colors"
+              className="hover:text-gray-400 transition-colors font-inika"
             >
               SUPPORT
             </Link>
@@ -70,7 +70,7 @@ function Menu() {
           <li>
             <Link
               to="/contactpage"
-              className="hover:text-gray-400 transition-colors"
+              className="hover:text-gray-400 transition-colors font-inika"
             >
               CONTACT
             </Link>
@@ -78,11 +78,11 @@ function Menu() {
         </ul>
 
         {/* Language Toggle */}
-        <div className="flex max-md:hidden items-center gap-4 text-white text-xl font-semibold lg:mr-20">
+        <div className="flex max-md:hidden items-center gap-4 text-white text-xl font-semibold lg:mr-20 font-inika">
           <a href="#" className="hover:text-gray-400 transition-colors">
             ENG
           </a>
-          <div className="h-5 max-md:hidden border-l border-gray-400"></div>
+          <div className="h-5 max-md:hidden border-l border-gray-400 font-inika"></div>
           <a href="#" className="hover:text-gray-400 transition-colors">
             KH
           </a>

@@ -22,10 +22,13 @@ import KeyFiguresP from "./companents/KeyFiguresPhone";
 import FontStyle from "./companents/FontStyle";
 import CardAction from "./companents/CardAction";
 
+
 function App() {
   return (
     <>
-    <AboutPage />
+
+
+    <Menu />
 
     </>
   );
