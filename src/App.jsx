@@ -23,10 +23,14 @@ import FontStyle from "./companents/FontStyle";
 import CardAction from "./companents/CardAction";
 import MainFunders from "./companents/MainFunders";
 
+
 function App() {
   return (
     <>
-    <Homepage />
+
+
+
+    <Homepage/>
 
     </>
   );
