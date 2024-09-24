@@ -146,7 +146,7 @@ function ContactPage() {
             </p>
           </div>
         </div>
-        <div className="mt-20">{/* <Footer /> */}</div>
+        <div className="mt-20"><Footer /></div>
       </div>
     </>
   );
