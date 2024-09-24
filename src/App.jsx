@@ -21,11 +21,12 @@ import SliderComponent from "./companents/OurActionSlider";
 import KeyFiguresP from "./companents/KeyFiguresPhone";
 import FontStyle from "./companents/FontStyle";
 import CardAction from "./companents/CardAction";
+import MainFunders from "./companents/MainFunders";
 
 function App() {
   return (
     <>
-    <AboutPage />
+    <Homepage />
 
     </>
   );
