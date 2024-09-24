@@ -26,7 +26,7 @@ import ReactDOM from "react-dom";
 import VideoPlayer from "../companents/Video";
 import KeyFiguresP from "../companents/KeyFiguresPhone";
 import styled from "styled-components";
-// import MainFunders from "../companents/MainFunders";
+import MainFunders from "../companents/MainFunders";
 
 const StyledDiv = styled.div`
   font-family: "Inika", serif; /* Use the Inika font */
@@ -449,8 +449,8 @@ function Homepage() {
 
         <SliderPartner />
 
-        {/* <MainFunders /> */}
-        <div className="px-4 md:px-8">
+        <MainFunders />
+        {/* <div className="px-4 md:px-8">
         <h1 className="text-[20px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:mt-0 mt-2">
           MAIN FUNDERS IN 2023
         </h1>
@@ -471,7 +471,7 @@ function Homepage() {
             className="w-full h-auto object-cover"
           />
         </div>
-      </section>
+      </section> */}
         <Footer />
       </StyledDiv>
     </>
