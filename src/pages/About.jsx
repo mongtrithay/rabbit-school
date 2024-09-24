@@ -22,7 +22,7 @@ function AboutPage() {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const response = await fetch("http://0.0.0.0:1337/api/history-of-rabbits");
+        const response = await fetch("http://rabbit-api.onrender.com/api/history-of-rabbits");
         const data = await response.json();
         setHistoryData(data.data);
       } catch (error) {
