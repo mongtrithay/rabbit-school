@@ -48,8 +48,9 @@ const images = [image1, image2, image3, image4, image5, image6];
 function OurAction() {
   return (
     <>
-      <StyledDiv>
         <Menu />
+
+      <StyledDiv>
         <div
           className="relative w-full lg:h-[700px] h-[400px] bg-cover bg-center"
           style={{ backgroundImage: `url(${imageSrc})` }}
@@ -58,14 +59,14 @@ function OurAction() {
             <div className="bg-black bg-opacity-30 h-full w-full flex flex-col justify-center items-start px-4 sm:px-8 md:px-12 lg:px-16">
               <div className="flex flex-col items-start gap-4 sm:gap-6 md:gap-8 lg:gap-10 ">
                 <div className="flex  sm:flex-row sm:items-center lg:w-[auto] w-[500px] gap-3 sm:gap-10">
-                  <h1 className="font-bold text-[50px] sm:text-[60px] md:text-[75px] lg:text-[90px] text-[#F0990E]">
+                  <h1 className="font-bold text-[50px] sm:text-[60px] md:text-[75px] lg:text-[100px] text-[#F0990E]">
                     What
                   </h1>
-                  <h1 className="font-bold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[80px] text-white mt-2 sm:mt-0 ">
+                  <h1 className="font-bold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[90px] text-white mt-2 sm:mt-0 ">
                     we do
                   </h1>
                 </div>
-                <p className="text-white text-[15px] sm:text-[18px]  md:text-[20px] lg:w-[500px] w-[250px] lg:-mt-10 -mt-5 ml-[5px] lg:-mb-0 -mb-5">
+                <p className="text-white text-[15px] sm:text-[18px]  md:text-[20px] lg:text-[25px] lg:w-[500px] w-[250px] lg:-mt-10 -mt-5 ml-[5px] lg:-mb-0 -mb-5">
                   We provide different levels of Individual adapted education to
                   Children with intellectual disabilities
                 </p>

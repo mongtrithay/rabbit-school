@@ -37,8 +37,9 @@ const StyledDiv = styled.div`
 function Homepage() {
   return (
     <>
-      <StyledDiv>
         <Menu />
+
+      <StyledDiv>
         <div
           className="relative w-full lg:h-[43.75rem] h-[25rem] bg-cover bg-center"
           style={{ backgroundImage: `url(${header})` }}
@@ -54,9 +55,8 @@ function Homepage() {
                 <div className="lg:w-[2.875rem] lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
                 <div className="lg:w-[1.9375rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
                 <div className="lg:w-[0.625rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
-                <p className="text-white lg:text-[1.25rem] text-[0.50rem] sm:text-[0.75rem] md:text-[1rem] lg:-mt-[4.0625rem] -mt-[3.00rem] lg:ml-[1.875rem] ml-[0.75rem]">
-                  The Rabbit School is a Cambodian NGO that was established in
-                  May 1997
+                <p className="text-white lg:text-[2.30rem] text-[0.50rem] sm:text-[0.75rem] md:text-[1rem] lg:-mt-[4.0625rem] -mt-[3.00rem] lg:ml-[1.875rem] ml-[0.75rem]">
+               " Where all children can Learn and Grow " 
                 </p>
               </div>
             </div>
@@ -157,7 +157,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center lg:text-left">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center lg:text-left">
                 Respect of each person’s dignity
               </h2>
               <img
@@ -175,7 +175,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center lg:text-left">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center lg:text-left">
                 Learning and sharing
               </h2>
               <img
@@ -193,7 +193,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center lg:text-left">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center lg:text-left">
                 Gender equality
               </h2>
               <img
@@ -213,7 +213,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center">
                 Respect of each person’s dignity
               </h2>
               <img
@@ -231,7 +231,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center">
                 Learning and sharing
               </h2>
               <img
@@ -249,7 +249,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center">
                 Gender equality
               </h2>
               <img
@@ -269,7 +269,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center lg:text-left">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center lg:text-left">
                 Community participation and ownership
               </h2>
               <img
@@ -287,7 +287,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center lg:text-left">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center lg:text-left">
                 Encouragement of initiative ideas
               </h2>
               <img
@@ -305,7 +305,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center lg:text-left">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center lg:text-left">
                 Using of existing resources
               </h2>
               <img
@@ -325,7 +325,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center">
                 Community participation and ownership
               </h2>
               <img
@@ -343,7 +343,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center">
                 Encouragement of initiative ideas
               </h2>
               <img
@@ -361,7 +361,7 @@ function Homepage() {
               <div className="flex w-full justify-start">
                 <div className="w-[70px] h-[5px] bg-white mt-5 ml-10"></div>
               </div>
-              <h2 className="h-[100px] w-[280px] text-2xl mt-5 font-bold ml-5 text-center">
+              <h2 className="h-[100px] w-[280px] text-[25px] mt-5 font-bold ml-5 text-center">
                 Using of existing resources
               </h2>
               <img
@@ -393,21 +393,21 @@ function Homepage() {
               operate.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-row mt-10">
-            <div className="w-full sm:w-[25%] lg:w-[25%] flex flex-col items-center justify-between mb-8 sm:mb-0">
+          <div className="flex flex-col sm:flex-row lg:flex-row mt-10 justify-center">
+            <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mb-8 sm:mb-0">
               <div className="w-full flex flex-col items-center text-center">
-                <h1 className="text-lg sm:text-[18px] lg:text-[20px] text-blue-500">
+                <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
                   SIEM REAP
                 </h1>
-                <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
+                <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 5 Primary Schools
                 </p>
               </div>
               <div className="w-full flex flex-col items-center text-center mt-8">
-                <h1 className="text-lg sm:text-[18px] lg:text-[20px] text-blue-500">
+                <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
                   KAMPONG SPEU
                 </h1>
-                <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
+                <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 15 Primary Schools
                 </p>
               </div>
@@ -421,21 +421,21 @@ function Homepage() {
               />
             </div>
 
-            <div className="w-full sm:w-[25%] lg:w-[25%] flex flex-col items-center justify-between mt-8 sm:mt-0">
+            <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mt-8 sm:mt-0">
               <div className="w-full flex flex-col items-center text-center">
-                <h1 className="text-lg sm:text-[18px] lg:text-[20px] text-blue-500">
+                <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
                   PHNOM PENH
                 </h1>
-                <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
+                <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   18 Inclusive/Integrated Classes at 1 Primary School The
                   Vocational Training and Job Placement Centre in Phnom Penh
                 </p>
               </div>
               <div className="w-full flex flex-col items-center text-center mt-8">
-                <h1 className="text-lg sm:text-[18px] lg:text-[20px] text-blue-500">
+                <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
                   KANDAL
                 </h1>
-                <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[20px]">
+                <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 5 Primary Schools
                 </p>
               </div>
@@ -449,8 +449,8 @@ function Homepage() {
 
         <SliderPartner />
 
-        <MainFunders />
-        {/* <div className="px-4 md:px-8">
+        {/* <MainFunders /> */}
+        <div className="px-4 md:px-8">
         <h1 className="text-[20px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:mt-0 mt-2">
           MAIN FUNDERS IN 2023
         </h1>
@@ -471,7 +471,7 @@ function Homepage() {
             className="w-full h-auto object-cover"
           />
         </div>
-      </section> */}
+      </section>
         <Footer />
       </StyledDiv>
     </>

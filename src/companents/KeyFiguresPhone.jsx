@@ -43,8 +43,10 @@ function KeyFiguresP() {
     fetchKeyFigures();
   }, []);
 
-  return (
-    <section>
+return (
+    <>
+    <section className="">
+
       <div className="block lg:hidden">
         <h1 className="text-center mt-5 text-[20px] font-bold text-[#276BA3]">KEY FIGURES</h1>
         <div className="block lg:hidden flex justify-center mb-[50px] mt-10">
@@ -63,23 +65,8 @@ function KeyFiguresP() {
         </div>
       </div>
 
-      {/* Uncomment to enable slider */}
-      {/* <div className="lg:w-[50%] lg:h-[1100px] lg:-mt-[0.50rem] lg:-ml-[5rem] ">
-        <div className="w-[100%] m-[auto] h-[100%] ">
-          <Slider {...settings}>
-            {images.map((image, index) => (
-              <div key={index}>
-                <img
-                  src={image}
-                  alt={`Slide ${index + 1}`}
-                  className="w-[100%] h-[1060px] object-cover"
-                />
-              </div>
-            ))}
-          </Slider>
-        </div>
-      </div> */}
     </section>
+    </>
   );
 }
 
