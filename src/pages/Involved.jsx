@@ -25,7 +25,7 @@ function Involved() {
     const fetchPositions = async () => {
       try {
         const response = await fetch(
-          "http://localhost:1337/api/available-positions?populate=*"
+          "https://rabbit-api.onrender.com/api/available-positions?populate=*"
         );
         const data = await response.json();
 
@@ -192,8 +192,8 @@ function Involved() {
                   Collaborative and Inclusive Culture
                 </p>
                 <p className="text-[20px] text-gray-700 font-inika">
-                Work alongside passionate professionals in a diverse and
-                inclusive community that values your contributions
+                  Work alongside passionate professionals in a diverse and
+                  inclusive community that values your contributions
                 </p>
               </div>
             </li>
