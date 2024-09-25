@@ -8,7 +8,7 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import ButtonDonate from "./ButtonDonate";
 // Use the newly uploaded image here
-import RabbitSchoolImage from "../assets/images/footers.jpeg";
+import RabbitSchoolImage from "../assets/images/lastfooter.png";
 import Image from "../assets/images/img2.png";
 
 function Footer() {
@@ -167,7 +167,7 @@ function Footer() {
                   className="w-4/5 md:ml-[11rem] px-4 py-2 border border-gray-300"
                 />
 
-                <button className="px-6 py-2 text-white font-bold bg-[#F0990E]">
+                <button className="px-6 py-2 text-white font-bold bg-orange-500">
                   Send
                 </button>
               </div>
