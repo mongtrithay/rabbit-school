@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import {
   faEnvelope,
   faPhone,
@@ -36,9 +37,11 @@ function Footer() {
                     us in our mission to improve lives.
                   </p>
                 </div>
+          
+                <Link to="/buttonDonate">
 
                 <div className="md:ml-[20rem] mt-4 max-md:mt-2 max-md:flex max-md:justify-center  font-inika">
-                  <ButtonDonate />
+                </Link>
                 </div>
               </div>
             </nav>

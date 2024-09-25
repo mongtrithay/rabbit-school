@@ -73,7 +73,7 @@ function OurAction() {
                   Children with intellectual disabilities
                 </p>
 
-                <Link to="/buttonDonate">
+                <Link to="/buttonDonate"  component={ButtonDonate}>
                   <ButtonDonate />
                 </Link>
               </div>
@@ -162,10 +162,11 @@ function OurAction() {
           </div>
         </section>
 
-        <section>
+        
+      </StyledDiv>
+      <section>
           <Footer />
         </section>
-      </StyledDiv>
     </>
   );
 }

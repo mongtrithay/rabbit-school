@@ -27,6 +27,7 @@ import VideoPlayer from "../companents/Video";
 import KeyFiguresP from "../companents/KeyFiguresPhone";
 import styled from "styled-components";
 import MainFunders from "../companents/MainFunders";
+import { Link } from "react-router-dom";
 
 const StyledDiv = styled.div`
   font-family: "Inika", serif; /* Use the Inika font */
@@ -84,7 +85,9 @@ function Homepage() {
             </p>
             {/* Button alignment is controlled here */}
             <div className="flex justify-start mt-4">
-              <ButtonReadMore />
+              <Link to="/read">
+                <ButtonReadMore />
+              </Link>
             </div>
           </div>
         </section>
@@ -394,13 +397,18 @@ function Homepage() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row lg:flex-row mt-10 justify-center">
-            <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mb-8 sm:mb-0">
+            <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mt-8 sm:mt-0">
               <div className="w-full flex flex-col items-center text-center">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
+
+                  1 PHNOM PENH
+
                   4 SIEM REAP
+
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
-                  15 Inclusive/Integrated Classes in 5 Primary Schools
+                  18 Inclusive/Integrated Classes at 1 Primary School The
+                  Vocational Training and Job Placement Centre in Phnom Penh
                 </p>
               </div>
               <div className="w-full flex flex-col items-center text-center mt-8">
@@ -421,19 +429,21 @@ function Homepage() {
               />
             </div>
 
-            <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mt-8 sm:mt-0">
-              <div className="w-full flex flex-col items-center text-center">
-                <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
-                  1 PHNOM PENH
+            <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mb-8 sm:mb-0">
+              <div className="w-full flex flex-col items-center text-center mt-8">
+
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
-                  18 Inclusive/Integrated Classes at 1 Primary School The
-                  Vocational Training and Job Placement Centre in Phnom Penh
+                  15 Inclusive/Integrated Classes in 5 Primary Schools
                 </p>
               </div>
-              <div className="w-full flex flex-col items-center text-center mt-8">
+              <div className="w-full flex flex-col items-center text-center">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
+
+                  4 SIEM REAP
+
                   2 KANDAL
+
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 5 Primary Schools
@@ -450,8 +460,10 @@ function Homepage() {
         <SliderPartner />
 
         <MainFunders />
-        <Footer />
+
       </StyledDiv>
+      <Footer />
+
     </>
   );
 }
