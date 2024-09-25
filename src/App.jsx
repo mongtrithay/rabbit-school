@@ -28,7 +28,7 @@ import MainFunders from "./companents/MainFunders";
 
 function App() {
   return (
-    <
+    <>
 
 
     <Homepage/>
