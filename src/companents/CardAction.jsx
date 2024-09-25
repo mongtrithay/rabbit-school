@@ -3,16 +3,17 @@ import pic1 from "../assets/images/headerOurAction.png";
 import pic2 from "../assets/images/card2.jpg";
 import pic3 from "../assets/images/card3.jpg";
 import pic4 from "../assets/images/card4.jpg";
-import ButtonReadMore from "../companents/ButtonReadMore";
+import ReadMoreAction from "../companents/ReadMoreAction";
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
 
 
 
 function CardAction() {
   return (
     <>
-      <section className="lg:p-4 p-8">
+      <section className="lg:p-4 p-8 lg:mt-[50px] lg:mb-[50px]">
         <div className="flex lg:items-center lg:justify-center lg:gap-[5rem] overflow-x-auto gap-4 snap-x snap-mandatory ">
           {/* Block 1 */}
           <div className="flex-shrink-0 w-[20rem] h-[25rem] flex flex-col snap-start">
@@ -37,7 +38,9 @@ function CardAction() {
                   education according to the severity of the disability.
                 </p>
               </div>
-              <ButtonReadMore />
+              <Link to='/DetailOurAction1'>
+              <ReadMoreAction />
+              </Link>
             </div>
           </div>
 
@@ -64,7 +67,10 @@ function CardAction() {
                   disabilities and make them able to assess...
                 </p>
               </div>
-              <ButtonReadMore />
+
+              <Link to='/DetailOurAction2'>
+              <ReadMoreAction />
+              </Link>
             </div>
           </div>
 
@@ -91,7 +97,9 @@ function CardAction() {
                   initiatives dedicated to raising awareness ...
                 </p>
               </div>
-              <ButtonReadMore />
+              <Link to='/DetailOurAction3'>
+              <ReadMoreAction />
+              </Link>
             </div>
           </div>
 
@@ -118,7 +126,9 @@ function CardAction() {
                   difficulty finding a job.
                 </p>
               </div>
-              <ButtonReadMore />
+              <Link to='/DetailOurAction4'>
+              <ReadMoreAction />
+              </Link>
             </div>
           </div>
         </div>

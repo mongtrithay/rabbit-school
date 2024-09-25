@@ -1,16 +1,16 @@
-// SliderComponent.js
+// OurActionSlider.js
 import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Slider from 'react-slick';
 import image1 from "../assets/images/s1.jpg";
-import image2 from "../assets/images/s2.jpg";
+import image2 from "../assets/images/new8.jpg";
 import image3 from "../assets/images/s3.jpg";
-import image4 from "../assets/images/s4.jpg";
-import image5 from "../assets/images/s5.jpg";
+import image4 from "../assets/images/new7.jpg";
+import image5 from "../assets/images/new1.jpg";
 
-const SliderComponent = () => {
+const OurActionSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -22,7 +22,7 @@ const SliderComponent = () => {
   };
 
   return (
-    <Slider {...settings} className='lg:w-[1600px] w-[80%] lg:ml-0 -ml-[40px]'>
+    <Slider {...settings} className='lg:w-[1600px] w-[80%] lg:mt-0 mt-[30px] '>
       <div className="relative lg:h-[700px]">
         <img
           src={image1}
@@ -77,4 +77,4 @@ const SliderComponent = () => {
   );
 };
 
-export default SliderComponent;
+export default OurActionSlider;

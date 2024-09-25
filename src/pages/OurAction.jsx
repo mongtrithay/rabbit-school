@@ -1,5 +1,5 @@
 import Menu from "../companents/Menu";
-import imageSrc from "../assets/images/pic4.jpeg";
+import imageSrc from "../assets/images/image6.jpg";
 import services1 from "../assets/images/headerOurAction.png";
 import services2 from "../assets/images/1.jpg";
 import services3 from "../assets/images/3.jpeg";
@@ -20,10 +20,11 @@ import image4 from "../assets/images/pic4.jpeg";
 import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
 import VideoOurAction from "../companents/VideoOurAction";
-import SliderComponent from "../companents/OurActionSlider";
+import OurActionSlider from "../companents/OurActionSlider";
 import React from "react";
 import styled from "styled-components";
 import CardAction from "../companents/CardAction";
+import Footer from "../companents/Footer";
 
 const StyledDiv = styled.div`
   font-family: "Inika", serif; /* Use the Inika font */
@@ -96,11 +97,8 @@ function OurAction() {
               Additional services
             </h1>
             <div className="flex lg:mt-4 md:mt-6">
-              <div className="w-[65px] lg:w-[180px] md:w-[150px] h-[2px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
-              <div className="w-[30px] lg:w-[60px] md:w-[50px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-              <div className="w-[15px] lg:w-[40px] md:w-[30px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-              <div className="w-[10px] lg:w-[25px] md:w-[20px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-              <div className="w-[5px] lg:w-[15px] md:w-[15px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
+              <div className="w-[65px] lg:w-[150px] md:w-[150px] h-[2px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
+
             </div>
           </div>
 
@@ -146,7 +144,7 @@ function OurAction() {
           </div>
         </section>
 
-        <section className="h-[10rem] ">
+        <section className="lg:mb-[50px] ">
           <div className="px-4 md:px-8 lg:mb-[4rem] lg:mt-[2rem] mt-[2rem] lg:ml-[4rem]">
             <h1 className="text-[20px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:w-[100] lg:mt-0 mt-2">
               Defending people with disabilities rights at national and local
@@ -156,11 +154,17 @@ function OurAction() {
             <div className="flex lg:mt-4 md:mt-6"></div>
           </div>
 
-          <dir className="flex justify-center items-center ">
-            <SliderComponent />
-          </dir>
+          <div className="flex justify-center items-center ">
+            <OurActionSlider />
+          </div>
         </section>
+
+        <section>
+          <Footer/>
+        </section>
+
       </StyledDiv>
+
     </>
   );
 }

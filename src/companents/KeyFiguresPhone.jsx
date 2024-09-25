@@ -29,17 +29,17 @@ function KeyFiguresP() {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <section className="p-5">
+    <section className="p-5 block lg:hidden">
       <h1 className="text-center mt-5 text-[20px] font-bold text-[#276BA3]">KEY FIGURES</h1>
-      <div className="block lg:hidden flex flex-col items-center mt-10">
+      <div className=" flex flex-col items-center mt-10">
         {keyFigures.map((figure) => (
-          <div key={figure.id} className="w-[80%] mb-5 bg-[#276BA3] rounded-lg">
-            <div className="h-[100px] bg-[#276BA3] flex justify-center items-center">
+          <div key={figure.id} className="w-[80%] mb-5">
+            <div className="h-[50px] text-[5px] bg-[#276BA3] flex justify-center items-center">
               <h1 className="font-bold text-[30px] text-white">
                 {figure.attributes.number}
               </h1>
             </div>
-            <div className="h-[60px] bg-[#276BA3] bg-opacity-50 flex justify-center items-center">
+            <div className="h-[200px] bg-[#276ba3aa]  flex justify-center items-center">
               <p className="text-center w-[90%] text-[18px] text-white">
                 {figure.attributes.desrciption}
               </p>
