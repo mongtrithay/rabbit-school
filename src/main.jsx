@@ -10,6 +10,11 @@ import Involved from "./pages/Involved.jsx";
 import OurAction from "./pages/OurAction.jsx";
 import SupportPage from "./pages/Support.jsx";
 import Detail from "./pages/Detail.jsx";
+import DetailOurAction1 from "./pages/DetailOurAction1.jsx";
+import DetailOurAction2 from "./pages/DetailOurAction2.jsx";
+import DetailOurAction3 from "./pages/DetailOurAction3.jsx";
+import DetailOurAction4 from "./pages/DetailOurAction4.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -39,6 +44,20 @@ const router = createBrowserRouter([
   {
     path: '/detail',
     element: <Detail />
+  },
+  {
+    path: '/detailOurAction1',
+    element: <DetailOurAction1 />
+  },
+  {
+    path: '/detailOurAction2',
+    element: <DetailOurAction2 />
+  },  {
+    path: '/detailOurAction3',
+    element: <DetailOurAction3 />
+  },  {
+    path: '/detailOurAction4',
+    element: <DetailOurAction4 />
   },
 ]);
 

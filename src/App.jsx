@@ -28,10 +28,11 @@ import MainFunders from "./companents/MainFunders";
 
 function App() {
   return (
-    <>
+    <
 
-    <Footer />
 
+    <Homepage/>
+    
 
     </>
   );

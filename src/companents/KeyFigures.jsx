@@ -56,11 +56,10 @@ function KeyFigures() {
     <>
       <section>
         <div className="w-[100%] h-[1100px] hidden lg:block lg:mt-[100px]">
-          <div className="lg:h-[150px] lg:-ml-0 -ml-10 -mt-[60px] mb-[80px]">
+          <div className="lg:h-[150px] lg:-ml-0 -ml-10 -mt-[60px] mb-[20px] flex justify-center">
             <h1 className="h-[100px] lg:text-[48px] text-[20px] font-bold text-[#276BA3] flex items-center ml-[60px]">
               KEY FIGURES
             </h1>
-            <div className="w-[120px] lg:h-[5px] ml-[60px] lg:-mt-0 -mt-5 bg-[#F0990E]"></div>
           </div>
 
           <div className="w-full h-full flex justify-evenly mt-[1rem] items-center ml-8">
@@ -68,12 +67,12 @@ function KeyFigures() {
               {figures.map((figure) => (
                 <div key={figure.id} className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
                   <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
-                    <span className="text-[2rem] font-bold rotate-[-45deg]">
+                    <span className="text-[25px] font-bold rotate-[-45deg]">
                       {figure.attributes.number}
                     </span>
                   </div>
-                  <div className="w-full h-full flex justify-center items-center">
-                    <p className="ml-[25px] text-[20px] leading-[1.5]">
+                  <div className="w-full h-full flex items-center">
+                    <p className="ml-[25px] text-[20px] leading-[1.5] ">
                       {figure.attributes.desrciption}
                     </p>
                   </div>

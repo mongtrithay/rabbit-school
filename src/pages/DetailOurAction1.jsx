@@ -1,6 +1,6 @@
 import Menu from "../companents/Menu";
 // import imageSrc from "../assets/images/pic4.jpeg";
-import imageSrc from "../assets/images/image5.png";
+import imageSrc from "../assets/images/headerHome.jpg";
 import services2 from "../assets/images/1.jpg";
 import services3 from "../assets/images/3.jpeg";
 // import pic1 from "../assets/images/HeaderOurAction.jpeg";
@@ -13,13 +13,14 @@ import ButtonDonate from "../companents/ButtonDonate";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import image1 from "../assets/images/pic1.jpeg";
-import image2 from "../assets/images/pic2.jpeg";
+import image1 from "../assets/images/image3.png";
+import image2 from "../assets/images/image2.png";
 import image3 from "../assets/images/pic3.jpeg";
 import image4 from "../assets/images/pic4.jpeg";
 import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
 import CardAction from "../companents/CardAction";
+import Footer from "../companents/Footer";
 import React from "react";
 import styled from "styled-components";
 
@@ -46,7 +47,7 @@ const settings = {
 
 const images = [image1, image2, image3, image4, image5, image6];
 
-function DetailOurAction() {
+function DetailOurAction1() {
   return (
     <>
       <StyledDiv>
@@ -83,7 +84,7 @@ function DetailOurAction() {
           </div>
         </section>
 
-        <section className="lg:mt-[50px] mt-[50px] flex  md:flex-row  flex-col-reverse">
+        <section className="lg:mt-[100px] mt-[50px] flex  md:flex-row  flex-col-reverse ">
           <div className="lg:w-[50%] lg:ml-[30px]">
             <div className=" px-4 sm:px-6 lg:px-0 lg:mt-0 mt-10 ">
               <h1 className="text-[20px] sm:text-[40px] lg:text-[48px] font-bold text-[#276BA3] flex items-center ml-0 sm:ml-[30px] lg:ml-[60px]">
@@ -145,9 +146,10 @@ function DetailOurAction() {
           </div>
         </section>
         <CardAction />
+        <Footer/>
       </StyledDiv>
     </>
   );
 }
 
-export default DetailOurAction;
+export default DetailOurAction1;

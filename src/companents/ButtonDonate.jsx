@@ -2,7 +2,7 @@
 function ButtonDonate() {
   return (
 
-    <button className=" m-2 px-4 py-2 text-white font-bold bg-orange-500 text-[25px] mt-5">
+    <button className="lg:m-2 lg:px-4 px-2 lg:py-2 py-1 text-white font-bold bg-orange-500 lg:text-[25px] text-[15px] mt-5">
         D0NATE
     </button>
   );

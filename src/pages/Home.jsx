@@ -50,12 +50,12 @@ function Homepage() {
                 Welcome to the Rabbit School Organization
               </h1>
               <div className="flex flex-wrap justify-center mt-[3.50rem]  lg:-ml-[20rem] -ml-[4rem] lg:mt-[4rem]">
-                <div className="lg:w-[15.375rem] w-[2rem] lg:h-[0.3125rem] h-[0.15rem] lg:ml-[3.125rem] ml-[1.5rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
+                <div className="lg:w-[15.375rem] w-[9rem] lg:h-[0.3125rem] h-[0.10rem] lg:ml-[3.125rem] ml-[1.5rem] lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
                 <div className="lg:w-[5.125rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
                 <div className="lg:w-[2.875rem] lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
                 <div className="lg:w-[1.9375rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
                 <div className="lg:w-[0.625rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
-                <p className="text-white lg:text-[2.30rem] text-[0.50rem] sm:text-[0.75rem] md:text-[1rem] lg:-mt-[4.0625rem] -mt-[3.00rem] lg:ml-[1.875rem] ml-[0.75rem]">
+                <p className="text-white lg:text-[2.30rem] text-[0.50rem] sm:text-[0.75rem] md:text-[1rem] lg:-mt-[4.0625rem] -mt-[3.20rem] lg:ml-[1.875rem] ml-[0.75rem]">
                " Where all children can Learn and Grow " 
                 </p>
               </div>
@@ -397,7 +397,7 @@ function Homepage() {
             <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mb-8 sm:mb-0">
               <div className="w-full flex flex-col items-center text-center">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
-                  SIEM REAP
+                 4 SIEM REAP
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 5 Primary Schools
@@ -405,7 +405,7 @@ function Homepage() {
               </div>
               <div className="w-full flex flex-col items-center text-center mt-8">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
-                  KAMPONG SPEU
+                 3 KAMPONG SPEU
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 15 Primary Schools
@@ -424,7 +424,7 @@ function Homepage() {
             <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mt-8 sm:mt-0">
               <div className="w-full flex flex-col items-center text-center">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
-                  PHNOM PENH
+                 1 PHNOM PENH
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   18 Inclusive/Integrated Classes at 1 Primary School The
@@ -433,7 +433,7 @@ function Homepage() {
               </div>
               <div className="w-full flex flex-col items-center text-center mt-8">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
-                  KANDAL
+                2 KANDAL
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 5 Primary Schools

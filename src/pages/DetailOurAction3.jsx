@@ -2,7 +2,7 @@ import Menu from "../companents/Menu";
 // import imageSrc from "../assets/images/pic4.jpeg";
 import imageSrc from "../assets/images/image5.png";
 import services2 from "../assets/images/1.jpg";
-import detail3 from "../assets/images/detail3.jpg";
+import detail3 from "../assets/images/new10.jpg";
 import pic1 from "../assets/images/headerOurAction.png";
 import pic2 from "../assets/images/card2.jpg";
 import pic3 from "../assets/images/card3.jpg";
@@ -13,13 +13,14 @@ import ButtonDonate from "../companents/ButtonDonate";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import image1 from "../assets/images/pic1.jpeg";
-import image2 from "../assets/images/pic2.jpeg";
-import image3 from "../assets/images/pic3.jpeg";
-import image4 from "../assets/images/pic4.jpeg";
+import image1 from "../assets/images/new7.jpg";
+import image2 from "../assets/images/new2.jpg";
+import image3 from "../assets/images/new10.jpg";
+import image4 from "../assets/images/new11.jpg";
 import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
 import React from "react";
+import Footer from "../companents/Footer";
 import styled from "styled-components";
 import CardAction from "../companents/CardAction";
 
@@ -81,7 +82,7 @@ function DetailOurAction3() {
           </div>
         </section>
 
-        <section className="lg:mt-[50px] mt-[50px] flex  md:flex-row  flex-col-reverse">
+        <section className="lg:mt-[100px] mt-[50px] flex  md:flex-row  flex-col-reverse">
           <div className="lg:w-[50%] lg:ml-[30px]">
             <div className=" px-4 sm:px-6 lg:px-0  ">
               <h1 className="text-[20px] sm:text-[40px] lg:text-[48px] font-bold text-[#276BA3] flex items-center ml-0 sm:ml-[30px] lg:ml-[60px]">
@@ -138,6 +139,7 @@ function DetailOurAction3() {
         </section>
 
         <CardAction />
+        <Footer/>
       </StyledDiv>
     </>
   );
