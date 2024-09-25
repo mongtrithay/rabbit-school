@@ -25,6 +25,8 @@ import React from "react";
 import styled from "styled-components";
 import CardAction from "../companents/CardAction";
 import Footer from "../companents/Footer";
+import { Link } from 'react-router-dom';
+
 
 const StyledDiv = styled.div`
   font-family: "Inika", serif; /* Use the Inika font */
@@ -49,7 +51,7 @@ const images = [image1, image2, image3, image4, image5, image6];
 function OurAction() {
   return (
     <>
-        <Menu />
+      <Menu />
 
       <StyledDiv>
         <div
@@ -71,7 +73,11 @@ function OurAction() {
                   We provide different levels of Individual adapted education to
                   Children with intellectual disabilities
                 </p>
-                <ButtonDonate className="mt-4 sm:mt-6 md:mt-8 lg:mt-10" />
+
+                <Link to="/buttonDonate">
+                  <ButtonDonate />
+                </Link>
+
               </div>
             </div>
           </div>
@@ -98,7 +104,6 @@ function OurAction() {
             </h1>
             <div className="flex lg:mt-4 md:mt-6">
               <div className="w-[65px] lg:w-[150px] md:w-[150px] h-[2px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
-
             </div>
           </div>
 
@@ -160,11 +165,9 @@ function OurAction() {
         </section>
 
         <section>
-          <Footer/>
+          <Footer />
         </section>
-
       </StyledDiv>
-
     </>
   );
 }

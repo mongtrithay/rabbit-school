@@ -16,6 +16,7 @@ import DetailOurAction3 from "./pages/DetailOurAction3.jsx";
 import DetailOurAction4 from "./pages/DetailOurAction4.jsx";
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -58,6 +59,9 @@ const router = createBrowserRouter([
   },  {
     path: '/detailOurAction4',
     element: <DetailOurAction4 />
+  },{
+    path: '/buttonDonate',
+    element: <SupportPage />
   },
 ]);
 
