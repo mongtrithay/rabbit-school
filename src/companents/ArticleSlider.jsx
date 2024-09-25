@@ -58,7 +58,6 @@ const ArticleSlider = () => {
         }
 
         const data = await response.json();
-        console.log(data.data);
         const shortData = data.data;
         setDataDetail(shortData);
         // Log the full response for inspection

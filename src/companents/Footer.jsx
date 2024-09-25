@@ -28,25 +28,19 @@ function Footer() {
         }
 
         const data = await response.json();
-        console.log(data.data);
         setContacts(data.data[0]?.attributes);
 
         setLoading(false);
       } catch (error) {
         console.log("error", error);
-        
       }
     };
 
     fetchContacts();
   }, []);
-  console.log(contacts);
   const email = contacts.email;
-  console.log(email);
   const phoneMF = contacts.phone_number_mf;
   const phoneSM = contacts.phone_number_sm;
-  console.log(phoneMF);
-  console.log(phoneSM);
 
   return (
     <>

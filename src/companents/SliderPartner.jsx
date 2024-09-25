@@ -21,12 +21,15 @@ function SliderPartner() {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await fetch("https://rabbit-api.onrender.com/api/partner-images?populate=*");
+        const response = await fetch(
+          "https://rabbit-api.onrender.com/api/partner-images?populate=*"
+        );
         const data = await response.json();
-        console.log(data); 
+        console.log(data);
 
-       
-        const fetchedImages = data.data.map(item => item.attributes.image.data[0].attributes.url);
+        const fetchedImages = data.data.map(
+          (item) => item.attributes.image.data[0].attributes.url
+        );
         setImages(fetchedImages);
       } catch (error) {
         console.error("Error fetching images:", error);
@@ -42,10 +45,10 @@ function SliderPartner() {
         <Slider {...settings}>
           {images.map((image, index) => (
             <div key={index} className="px-1 flex justify-center items-center">
-              <img 
-                src={image} 
-                alt={`Slide ${index + 1}`} 
-                className="w-[300px] h-[200px] object-contain"  
+              <img
+                src={image}
+                alt={`Slide ${index + 1}`}
+                className="w-[300px] h-[200px] object-contain"
               />
             </div>
           ))}

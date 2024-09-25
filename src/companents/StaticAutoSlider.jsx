@@ -9,16 +9,16 @@ import image5 from "../assets/images/pic5.jpeg";
 import image6 from "../assets/images/pic6.jpeg";
 
 const settings = {
-  dots: false,           
-  arrows: false,         
-  infinite: true,        
-  speed: 1000,           
-  slidesToShow: 1,       
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: true,        
-  autoplaySpeed: 3000,   
-  fade: true,            
-  pauseOnHover: false,   
+  autoplay: true,
+  autoplaySpeed: 3000,
+  fade: true,
+  pauseOnHover: false,
 };
 
 const images = [image1, image2, image3, image4, image5, image6];
@@ -28,7 +28,11 @@ function StaticAutoSlider() {
     <Slider {...settings}>
       {images.map((image, index) => (
         <div key={index}>
-          <img src={image} alt={`Slide ${index + 1}`} style={{ width: '100%', height: 'auto' }} />
+          <img
+            src={image}
+            alt={`Slide ${index + 1}`}
+            style={{ width: "100%", height: "auto" }}
+          />
         </div>
       ))}
     </Slider>

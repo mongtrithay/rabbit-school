@@ -37,7 +37,7 @@ const StyledDiv = styled.div`
 function Homepage() {
   return (
     <>
-        <Menu />
+      <Menu />
 
       <StyledDiv>
         <div
@@ -56,7 +56,7 @@ function Homepage() {
                 <div className="lg:w-[1.9375rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
                 <div className="lg:w-[0.625rem]  lg:h-[0.3125rem] h-[0.20rem] lg:ml-[1.25rem]  lg:-mt-[3.125rem] -mt-[3rem] bg-[#F0990E]"></div>
                 <p className="text-white lg:text-[2.30rem] text-[0.50rem] sm:text-[0.75rem] md:text-[1rem] lg:-mt-[4.0625rem] -mt-[3.20rem] lg:ml-[1.875rem] ml-[0.75rem]">
-               " Where all children can Learn and Grow " 
+                  " Where all children can Learn and Grow "
                 </p>
               </div>
             </div>
@@ -397,7 +397,7 @@ function Homepage() {
             <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mb-8 sm:mb-0">
               <div className="w-full flex flex-col items-center text-center">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
-                 4 SIEM REAP
+                  4 SIEM REAP
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 5 Primary Schools
@@ -405,7 +405,7 @@ function Homepage() {
               </div>
               <div className="w-full flex flex-col items-center text-center mt-8">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
-                 3 KAMPONG SPEU
+                  3 KAMPONG SPEU
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 15 Primary Schools
@@ -424,7 +424,7 @@ function Homepage() {
             <div className="w-full sm:w-[25%] lg:w-[15%] flex flex-col items-center justify-between mt-8 sm:mt-0">
               <div className="w-full flex flex-col items-center text-center">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
-                 1 PHNOM PENH
+                  1 PHNOM PENH
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   18 Inclusive/Integrated Classes at 1 Primary School The
@@ -433,7 +433,7 @@ function Homepage() {
               </div>
               <div className="w-full flex flex-col items-center text-center mt-8">
                 <h1 className="text-lg sm:text-[18px] lg:text-[30px] text-blue-500">
-                2 KANDAL
+                  2 KANDAL
                 </h1>
                 <p className="mt-2 lg:w-[300px] sm:mt-4 text-base sm:text-[16px] lg:text-[25px] leading-9 text-gray-600">
                   15 Inclusive/Integrated Classes in 5 Primary Schools
@@ -450,28 +450,6 @@ function Homepage() {
         <SliderPartner />
 
         <MainFunders />
-        {/* <div className="px-4 md:px-8">
-        <h1 className="text-[20px] md:text-[48px] font-bold text-[#276BA3] -ml-1 lg:ml-[50px] mx-auto max-w-[90%] md:max-w-[80%] lg:mt-0 mt-2">
-          MAIN FUNDERS IN 2023
-        </h1>
-        <div className="flex lg:mt-4 md:mt-6">
-          <div className="w-[100px] md:w-[150px] h-[2px] md:h-[5px] lg:ml-[50px] -ml-1  mx-1 md:mx-2 bg-[#F0990E]"></div>
-          <div className="w-[30px] md:w-[50px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-          <div className="w-[20px] md:w-[30px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-          <div className="w-[15px] md:w-[20px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-          <div className="w-[10px] md:w-[15px] h-[2px] md:h-[5px] mx-1 md:mx-2 bg-[#F0990E]"></div>
-        </div>
-      </div>
-
-      <section className="w-full flex justify-center items-center mt-8 mb-8 px-4 md:px-8">
-        <div className="w-full max-w-[90%] md:max-w-[70%] h-auto">
-          <img
-            src={pic6}
-            alt="Description of image"
-            className="w-full h-auto object-cover"
-          />
-        </div>
-      </section> */}
         <Footer />
       </StyledDiv>
     </>

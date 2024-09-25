@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Menu from "../companents/Menu";
 import image13 from "../assets/images/image13.png";
 
@@ -6,6 +6,34 @@ import Footer from "../companents/Footer";
 
 function ContactPage() {
   const [status, setStatus] = useState("");
+  const [contacts, setContacts] = useState([]);
+
+  useEffect(() => {
+    const fetchContacts = async () => {
+      try {
+        const response = await fetch(
+          "https://rabbit-api.onrender.com/api/dynamic-contacts"
+        );
+
+        // Check if the response is okay
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        setContacts(data.data[0]?.attributes);
+
+        setLoading(false);
+      } catch (error) {
+        console.log("error", error);
+      }
+    };
+
+    fetchContacts();
+  }, []);
+  const email = contacts.email;
+  const phoneMF = contacts.phone_number_mf;
+  const phoneSM = contacts.phone_number_sm;
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -49,7 +77,10 @@ function ContactPage() {
           <div className="flex-1 w-full">
             <form onSubmit={onSubmit} className="space-y-4">
               <div>
-                <label htmlFor="fullName" className="block text-gray-700 font-inika">
+                <label
+                  htmlFor="fullName"
+                  className="block text-gray-700 font-inika"
+                >
                   Full Name
                 </label>
                 <input
@@ -61,7 +92,10 @@ function ContactPage() {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-gray-700 font-inika">
+                <label
+                  htmlFor="email"
+                  className="block text-gray-700 font-inika"
+                >
                   Email
                 </label>
                 <input
@@ -73,7 +107,10 @@ function ContactPage() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-gray-700 font-inika">
+                <label
+                  htmlFor="message"
+                  className="block text-gray-700 font-inika"
+                >
                   Message
                 </label>
                 <textarea
@@ -125,10 +162,10 @@ function ContactPage() {
             </h1>
             <p className="text-[18px] sm:text-[20px] text-gray-500">
               <a
-                href="mailto:sor.sothearom@rabbitschoolcambodia.net font-inika"
+                href={`mailto:${email}`}
                 className="underline"
               >
-                sor.sothearom@rabbitschoolcambodia.net
+                {email}
               </a>
             </p>
           </div>
@@ -137,17 +174,19 @@ function ContactPage() {
               Phone
             </h1>
             <p className="text-[18px] sm:text-[20px] text-gray-500 font-inika">
-              <a href="tel:+85568901971" className="underline">
-                +855 68 901 971
+              <a href={`tel:+${phoneMF}`} className="underline">
+                +{phoneMF}
               </a>
               <br />
-              <a href="tel:+85517525815" className="underline font-inika">
-                +855 17 525 815
+              <a href={`tel:+${phoneSM}`} className="underline font-inika">
+                +{phoneSM}
               </a>
             </p>
           </div>
         </div>
-        <div className="mt-20"><Footer /></div>
+        <div className="mt-20">
+          <Footer />
+        </div>
       </div>
     </>
   );

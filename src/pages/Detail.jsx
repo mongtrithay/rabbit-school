@@ -27,7 +27,6 @@ const Detail = () => {
         }
 
         const data = await response.json();
-        console.log(data); // Log the response data to inspect its structure
         setDataDetail(data.data); // Set data from API to state
       } catch (error) {
         console.error(error);
@@ -47,10 +46,13 @@ const Detail = () => {
       <main className="flex-grow p-4 bg-gray-100">
         <div className="flex flex-col items-center justify-center max-w-4xl mx-auto">
           <h1 className="text-sky-700 text-[30px] sm:text-[40px] md:text-[50px] font-bold mb-4 text-center">
-            {dataDetail.attributes.name || "Unnamed Detail"} {/* Fallback text */}
+            {dataDetail.attributes.name || "Unnamed Detail"}{" "}
+            {/* Fallback text */}
           </h1>
           <p className="text-gray-600 text-[20px] mb-4 text-center">
-            {dataDetail.attributes.main_description || "No description available."} {/* Fallback text */}
+            {dataDetail.attributes.main_description ||
+              "No description available."}{" "}
+            {/* Fallback text */}
           </p>
 
           <img
@@ -60,7 +62,9 @@ const Detail = () => {
           />
 
           <p className="text-gray-600 text-[20px] text-left mb-8">
-            {dataDetail.attributes.additional_descriptions || "No additional descriptions available."} {/* Fallback text */}
+            {dataDetail.attributes.additional_descriptions ||
+              "No additional descriptions available."}{" "}
+            {/* Fallback text */}
           </p>
         </div>
       </main>

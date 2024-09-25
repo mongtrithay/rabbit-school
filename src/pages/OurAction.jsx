@@ -25,8 +25,7 @@ import React from "react";
 import styled from "styled-components";
 import CardAction from "../companents/CardAction";
 import Footer from "../companents/Footer";
-import { Link } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 
 const StyledDiv = styled.div`
   font-family: "Inika", serif; /* Use the Inika font */
@@ -77,7 +76,6 @@ function OurAction() {
                 <Link to="/buttonDonate">
                   <ButtonDonate />
                 </Link>
-
               </div>
             </div>
           </div>
