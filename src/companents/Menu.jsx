@@ -63,15 +63,7 @@ function Menu() {
         </ul>
 
         {/* Language Toggle */}
-        <div className="flex max-md:hidden items-center gap-4 text-white text-xl font-semibold lg:mr-20 font-inika">
-          <a href="#" className="hover:text-gray-400 transition-colors">
-            ENG
-          </a>
-          <div className="h-5 max-md:hidden border-l border-gray-400 font-inika"></div>
-          <a href="#" className="hover:text-gray-400 transition-colors">
-            KH
-          </a>
-        </div>
+        
         <div
           className={`absolute xl:hidden top-20 left-0 w-full bg-black flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${
             menuOpen ? "opacity-100" : "opacity-0"
@@ -96,10 +88,7 @@ function Menu() {
           <Link to="/contact" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             CONTACT
           </Link>
-          <li className="list-none flex justify-center items-center gap-2 w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
-            <li>ENG</li>
-            <li>KH</li>
-          </li>
+          
         </div>
       </header>
     </div>

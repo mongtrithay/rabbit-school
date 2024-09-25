@@ -24,17 +24,20 @@ import SliderAction from "./companents/SliderAction";
 import ArticleSlider from "./companents/ArticleSlider";
 import CardAction from "./companents/CardAction";
 import MainFunders from "./companents/MainFunders";
+import Menu from "./companents/Menu";
 
 
 function App() {
   return (
-    <>
+
+ <>
+ <Menu />
+ </>
 
 
-    <Homepage/>
-    
+  
 
-    </>
+   
   );
 }
 
