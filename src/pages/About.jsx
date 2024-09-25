@@ -13,7 +13,7 @@ import image9 from "../assets/images/image9.png";
 import image10 from "../assets/images/image10.png";
 import image11 from "../assets/images/image11.png";
 import image12 from "../assets/images/image12.png";
-import image13 from "../assets/images/image13.png";
+import imageabout from "../assets/images/imageabout.jpg";
 import ArticleSlider from "../companents/ArticleSlider";
 
 function AboutPage() {
@@ -312,7 +312,7 @@ function AboutPage() {
           <div className="flex-1">
             <img
               className="w-full h-[230px] md:h-[430px] object-cover lg:mt-0 mt-5"
-              src={image13}
+              src={imageabout}
               alt="Logo"
             />
           </div>
