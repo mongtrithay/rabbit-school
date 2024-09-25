@@ -19,14 +19,14 @@ import DetailOurAction4 from "./pages/DetailOurAction4.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Homepage />,
   },
   {
-    path: "/aboutpage",
+    path: "/about",
     element: <AboutPage />,
   },
   {
-    path: '/contactpage',
+    path: '/contact',
     element: <ContactPage />
   },
   {
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
     element: <OurAction />
   },
   {
-    path: '/supportpage',
+    path: '/support',
     element: <SupportPage />
   },
   {

@@ -8,10 +8,46 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import ButtonDonate from "./ButtonDonate";
 // Use the newly uploaded image here
-import RabbitSchoolImage from "../assets/images/footers.jpeg";
+import RabbitSchoolImage from "../assets/images/lastfooter.png";
 import Image from "../assets/images/img2.png";
+import { useEffect, useState } from "react";
 
 function Footer() {
+  const [contacts, setContacts] = useState([]);
+
+  useEffect(() => {
+    const fetchContacts = async () => {
+      try {
+        const response = await fetch(
+          "https://rabbit-api.onrender.com/api/dynamic-contacts"
+        );
+
+        // Check if the response is okay
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        console.log(data.data);
+        setContacts(data.data[0]?.attributes);
+
+        setLoading(false);
+      } catch (error) {
+        console.log("error", error);
+        
+      }
+    };
+
+    fetchContacts();
+  }, []);
+  console.log(contacts);
+  const email = contacts.email;
+  console.log(email);
+  const phoneMF = contacts.phone_number_mf;
+  const phoneSM = contacts.phone_number_sm;
+  console.log(phoneMF);
+  console.log(phoneSM);
+
   return (
     <>
       <footer className="w-full">
@@ -30,10 +66,10 @@ function Footer() {
                 </h1>
                 <div className="max-md:m-auto">
                   <p className="md:ml-[20rem] text-white text-xl leading-8">
-                    At Rabbit School, we are committed to making a positive impact
-                    in our community. Your support helps us provide essential
-                    services and create meaningful change. Stay connected and join
-                    us in our mission to improve lives.
+                    At Rabbit School, we are committed to making a positive
+                    impact in our community. Your support helps us provide
+                    essential services and create meaningful change. Stay
+                    connected and join us in our mission to improve lives.
                   </p>
                 </div>
 
@@ -43,7 +79,6 @@ function Footer() {
               </div>
             </nav>
           </div>
-
         </section>
 
         {/* Footer Links Section */}
@@ -167,7 +202,7 @@ function Footer() {
                   className="w-4/5 md:ml-[11rem] px-4 py-2 border border-gray-300"
                 />
 
-                <button className="px-6 py-2 text-white font-bold bg-[#F0990E]">
+                <button className="px-6 py-2 text-white font-bold bg-orange-500">
                   Send
                 </button>
               </div>
@@ -180,17 +215,25 @@ function Footer() {
                   </a>
                 </div>
                 <div className="text-[15px]">
-                  <a href="mailto:sor.sothearom@rabbitschoolcambodia.net">sor.sothearom@rabbitschoolcambodia.net</a>
+                  <a href={`mailto:${email}`}>{email}</a>
                 </div>
               </div>
               <div className="flex gap-2">
                 <div>
-                  <a href="https://www.facebook.com/rabbitschoolcbd" target="_blank">
+                  <a
+                    href="https://www.facebook.com/rabbitschoolcbd"
+                    target="_blank"
+                  >
                     <FontAwesomeIcon icon={faFacebookF} />
                   </a>
                 </div>
                 <div className="text-[15px]">
-                  <a href="https://www.facebook.com/rabbitschoolcbd" target="_blank">www.facebook.com/rabbitschoolcbd</a>
+                  <a
+                    href="https://www.facebook.com/rabbitschoolcbd"
+                    target="_blank"
+                  >
+                    www.facebook.com/rabbitschoolcbd
+                  </a>
                 </div>
               </div>
               <div className="flex gap-2">
@@ -200,15 +243,14 @@ function Footer() {
                   </a>
                 </div>
                 <div className="text-[15px]">
-                  <a href="tel:+85568901971">+85568901971 / <a href="tel:+85517525815">+85517525815</a></a>
+                  <a href={`tel:+${phoneMF}`}>
+                    +{phoneMF} / <a href={`tel:+${phoneSM}`}>+{phoneSM}</a>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
-
-
       </footer>
     </>
   );

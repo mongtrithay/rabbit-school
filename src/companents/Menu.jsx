@@ -36,7 +36,7 @@ function Menu() {
             </Link>
           </li>
           <li>
-            <Link to="/aboutpage" className="hover:text-gray-400 transition-colors font-inika">
+            <Link to="/about" className="hover:text-gray-400 transition-colors font-inika">
               ABOUT US
             </Link>
           </li>
@@ -51,12 +51,12 @@ function Menu() {
             </Link>
           </li>
           <li>
-            <Link to="/supportpage" className="hover:text-gray-400 transition-colors font-inika">
+            <Link to="/support" className="hover:text-gray-400 transition-colors font-inika">
               SUPPORT
             </Link>
           </li>
           <li>
-            <Link to="/contactpage" className="hover:text-gray-400 transition-colors font-inika">
+            <Link to="/contact" className="hover:text-gray-400 transition-colors font-inika">
               CONTACT
             </Link>
           </li>
@@ -81,7 +81,7 @@ function Menu() {
           <Link to="/" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             HOME
           </Link>
-          <Link to="/aboutpage" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+          <Link to="/about" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             ABOUT US
           </Link>
           <Link to="/ouraction" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
@@ -90,10 +90,10 @@ function Menu() {
           <Link to="/involved" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             GET INVOLVED
           </Link>
-          <Link to="/supportpage" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+          <Link to="/support" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             SUPPORT
           </Link>
-          <Link to="/contactpage" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
+          <Link to="/contact" className="list-none w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">
             CONTACT
           </Link>
           <li className="list-none flex justify-center items-center gap-2 w-full text-center p-4 hover:bg-sky-400 text-white transition-all cursor-pointer">

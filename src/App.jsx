@@ -15,19 +15,20 @@ import PlayerComponent from "./companents/Video";
 import React from "react";
 import ReactDOM from "react-dom";
 import VideoPlayer from "./companents/Video";
-// import ImageSlider from './companents/Slider'
 import AboutPage from "./pages/About";
 import SliderComponent from "./companents/OurActionSlider";
 import KeyFiguresP from "./companents/KeyFiguresPhone";
 import FontStyle from "./companents/FontStyle";
+import Detail from "./pages/Detail";
+import SliderAction from "./companents/SliderAction";
+import ArticleSlider from "./companents/ArticleSlider";
 import CardAction from "./companents/CardAction";
 import MainFunders from "./companents/MainFunders";
 
 
 function App() {
   return (
-    <>
-
+    <
 
 
     <Homepage/>
