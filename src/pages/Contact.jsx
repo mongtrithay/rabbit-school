@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Menu from "../companents/Menu";
-import image14 from "../assets/images/image14.png";
+import image13 from "../assets/images/image13.png";
+
 import Footer from "../companents/Footer";
 
 function ContactPage() {
@@ -95,7 +96,7 @@ function ContactPage() {
           {/* Image Section */}
           <div className="flex-1 w-full sm:w-[552px] h-[400px] sm:h-[480px] mt-10 sm:mt-0">
             <img
-              src={image14}
+              src={image13}
               alt=""
               className="w-[600px] h-[360px] object-cover mt-6"
             />
