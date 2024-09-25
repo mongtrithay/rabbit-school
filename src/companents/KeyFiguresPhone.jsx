@@ -8,9 +8,11 @@ function KeyFiguresP() {
   useEffect(() => {
     const fetchKeyFigures = async () => {
       try {
-        const response = await fetch("https://rabbit-api.onrender.com/api/key-figures?populate=*");
+        const response = await fetch(
+          "https://rabbit-api.onrender.com/api/key-figures?populate=*"
+        );
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
         const data = await response.json();
         setKeyFigures(data.data);
@@ -30,7 +32,9 @@ function KeyFiguresP() {
 
   return (
     <section className="p-5 block lg:hidden">
-      <h1 className="text-center mt-5 text-[20px] font-bold text-[#276BA3]">KEY FIGURES</h1>
+      <h1 className="text-center mt-5 text-[20px] font-bold text-[#276BA3]">
+        KEY FIGURES
+      </h1>
       <div className=" flex flex-col items-center mt-10">
         {keyFigures.map((figure) => (
           <div key={figure.id} className="w-[80%] mb-5">

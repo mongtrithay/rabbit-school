@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import axios from 'axios';
+import axios from "axios";
 import image1 from "../assets/images/pic1.jpeg";
 import image2 from "../assets/images/pic2.jpeg";
 import image3 from "../assets/images/pic3.jpeg";
@@ -33,11 +33,14 @@ function KeyFigures() {
   useEffect(() => {
     const fetchFigures = async () => {
       try {
-        const response = await axios.get('https://rabbit-api.onrender.com/api/key-figures?populate=*', {
-          headers: {
-            Authorization: `Bearer 93812113f85245dee16a45d5f5c6f023b35ac249bc796c511ba1fc348343f9d07235711df77886de46406ba3f3152e632009efbbb11a89293ccd2d83e5ee14058b0539d4e7cdb45b311025a84fb44de783fd6e36105340ac8032d5482e90c66d157b4de78a48c1af77e550b10dce988a6a68aeb537b1be68ff0e4b2943bed9b5`
+        const response = await axios.get(
+          "https://rabbit-api.onrender.com/api/key-figures?populate=*",
+          {
+            headers: {
+              Authorization: `Bearer 93812113f85245dee16a45d5f5c6f023b35ac249bc796c511ba1fc348343f9d07235711df77886de46406ba3f3152e632009efbbb11a89293ccd2d83e5ee14058b0539d4e7cdb45b311025a84fb44de783fd6e36105340ac8032d5482e90c66d157b4de78a48c1af77e550b10dce988a6a68aeb537b1be68ff0e4b2943bed9b5`,
+            },
           }
-        });
+        );
         setFigures(response.data.data);
       } catch (err) {
         setError(err.message);
@@ -65,7 +68,10 @@ function KeyFigures() {
           <div className="w-full h-full flex justify-evenly mt-[1rem] items-center ml-8">
             <div className="lg:w-[48%] w-[48%] lg:h-full lg:ml-5 lg:-mt-[6rem] ">
               {figures.map((figure) => (
-                <div key={figure.id} className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50">
+                <div
+                  key={figure.id}
+                  className="flex items-center m-[3rem] w-[80%] h-[110px] bg-[#276BA3] bg-opacity-50"
+                >
                   <div className="h-[80px] w-[82px] bg-[#276BA3] text-white ml-[-40px] rotate-[45deg] flex justify-center items-center">
                     <span className="text-[25px] font-bold rotate-[-45deg]">
                       {figure.attributes.number}

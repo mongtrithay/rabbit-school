@@ -28,7 +28,11 @@ function SliderAction() {
           <Slider {...settings}>
             {images.map((image, index) => (
               <div key={index}>
-                <img src={image} alt={`Slide ${index + 1}`} className="w-[100%] h-[100%]" />
+                <img
+                  src={image}
+                  alt={`Slide ${index + 1}`}
+                  className="w-[100%] h-[100%]"
+                />
               </div>
             ))}
           </Slider>

@@ -139,7 +139,7 @@ function DetailOurAction3() {
         </section>
 
         <CardAction />
-        <Footer/>
+        <Footer />
       </StyledDiv>
     </>
   );

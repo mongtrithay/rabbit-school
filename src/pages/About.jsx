@@ -4,7 +4,7 @@ import Menu from "../companents/Menu";
 import images from "../assets/images/image3.png";
 import image2 from "../assets/images/image2.png";
 import image3 from "../assets/images/image.png";
-import education1 from "../assets/images/education1.jpeg"
+import education1 from "../assets/images/education1.jpeg";
 import image5 from "../assets/images/image5.png";
 import image6 from "../assets/images/image6.jpg";
 import image7 from "../assets/images/image7.jpeg";
@@ -13,7 +13,7 @@ import image9 from "../assets/images/image9.png";
 import image10 from "../assets/images/image10.jpg";
 import image11 from "../assets/images/image11.png";
 import image12 from "../assets/images/image12.png";
-import image13 from "../assets/images/image13.png";
+import imageabout from "../assets/images/imageabout.jpg";
 import ArticleSlider from "../companents/ArticleSlider";
 
 function AboutPage() {
@@ -22,7 +22,9 @@ function AboutPage() {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const response = await fetch("https://rabbit-api.onrender.com/api/history-of-rabbits");
+        const response = await fetch(
+          "https://rabbit-api.onrender.com/api/history-of-rabbits"
+        );
         const data = await response.json();
         setHistoryData(data.data);
       } catch (error) {
@@ -138,15 +140,18 @@ function AboutPage() {
             HISTORY OF RABBIT SCHOOL
           </h1>
           <p className="text-neutral-500 text-[15px] sm:text-[20px] mt-5">
-            For the past 25 years, The Rabbit School (RSO) has been fighting
-            for equal rights to education for CWID’s
+            For the past 25 years, The Rabbit School (RSO) has been fighting for
+            equal rights to education for CWID’s
           </p>
 
           <div className="w-full h-[50px] bg-sky-700 mt-10"></div>
 
           <div className="flex flex-wrap ">
             {historyData.slice(0, 4).map((item) => (
-              <div key={item.id} className="flex-1 border-x-[1px] max-md:border-[1px] border-sky-700 h-[220px] p-4">
+              <div
+                key={item.id}
+                className="flex-1 border-x-[1px] max-md:border-[1px] border-sky-700 h-[220px] p-4"
+              >
                 <h1 className="ml-3 text-sky-700 text-[40px] sm:text-[50px]">
                   {item.attributes.number_years}
                 </h1>
@@ -163,7 +168,10 @@ function AboutPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 ">
             {historyData.slice(4).map((item) => (
-              <div key={item.id} className="border-x-[1px] border-sky-700 h-[220px] p-4 max-md:border-[1px]">
+              <div
+                key={item.id}
+                className="border-x-[1px] border-sky-700 h-[220px] p-4 max-md:border-[1px]"
+              >
                 <h1 className="text-sky-700 text-[40px] sm:text-[50px]">
                   {item.attributes.number_years}
                 </h1>
@@ -240,7 +248,6 @@ function AboutPage() {
             </p>
           </div>
 
-
           <div className="flex-1">
             <img
               className="w-full h-[230px] md:h-[430px] object-cover "
@@ -312,12 +319,11 @@ function AboutPage() {
           <div className="flex-1">
             <img
               className="w-full h-[230px] md:h-[430px] object-cover lg:mt-0 mt-5"
-              src={image13}
+              src={imageabout}
               alt="Logo"
             />
           </div>
         </div>
-
 
         <Footer />
       </div>

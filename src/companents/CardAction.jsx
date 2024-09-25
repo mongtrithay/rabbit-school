@@ -1,14 +1,11 @@
-
 import pic1 from "../assets/images/headerOurAction.png";
 import pic2 from "../assets/images/card2.jpg";
 import pic3 from "../assets/images/card3.jpg";
 import pic4 from "../assets/images/card4.jpg";
 import ReadMoreAction from "../companents/ReadMoreAction";
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 import { Link } from "react-router-dom";
-
-
 
 function CardAction() {
   return (
@@ -38,8 +35,8 @@ function CardAction() {
                   education according to the severity of the disability.
                 </p>
               </div>
-              <Link to='/DetailOurAction1'>
-              <ReadMoreAction />
+              <Link to="/DetailOurAction1">
+                <ReadMoreAction />
               </Link>
             </div>
           </div>
@@ -68,8 +65,8 @@ function CardAction() {
                 </p>
               </div>
 
-              <Link to='/DetailOurAction2'>
-              <ReadMoreAction />
+              <Link to="/DetailOurAction2">
+                <ReadMoreAction />
               </Link>
             </div>
           </div>
@@ -97,8 +94,8 @@ function CardAction() {
                   initiatives dedicated to raising awareness ...
                 </p>
               </div>
-              <Link to='/DetailOurAction3'>
-              <ReadMoreAction />
+              <Link to="/DetailOurAction3">
+                <ReadMoreAction />
               </Link>
             </div>
           </div>
@@ -126,14 +123,13 @@ function CardAction() {
                   difficulty finding a job.
                 </p>
               </div>
-              <Link to='/DetailOurAction4'>
-              <ReadMoreAction />
+              <Link to="/DetailOurAction4">
+                <ReadMoreAction />
               </Link>
             </div>
           </div>
         </div>
       </section>
-
     </>
   );
 }

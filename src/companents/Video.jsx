@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 // import Css from './App.css';
 
 const VideoPlayer = () => {
-  const videoId = 'weoz8UpPkJY';
-  
+  const videoId = "weoz8UpPkJY";
+
   return (
     <div className="video-wrapper">
       <iframe
