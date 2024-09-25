@@ -19,7 +19,7 @@ import DetailOurAction4 from "./pages/DetailOurAction4.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Homepage />,
+    element: <App />,
   },
   {
     path: "/about",
