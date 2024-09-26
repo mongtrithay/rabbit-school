@@ -33,7 +33,7 @@ function Menu() {
       <header
         className={`lg:flex lg:items-center max-md:hidden lg:justify-between w-full `}
       >
-        <ul className="flex  flex-col lg:flex-row items-center lg:gap-10 text-white font-semibold text-xl lg:ml-auto lg:mr-10">
+        <ul className="flex  flex-col lg:flex-row items-center lg:gap-10 text-white font-semibold text-xl lg:ml-auto lg:mr-5">
           <li>
             <Link
               to="/"
