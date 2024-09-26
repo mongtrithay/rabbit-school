@@ -85,7 +85,7 @@ function Homepage() {
             </p>
             {/* Button alignment is controlled here */}
             <div className="flex justify-start mt-4">
-              <Link to="/read">
+              <Link to="/about">
                 <ButtonReadMore />
               </Link>
             </div>

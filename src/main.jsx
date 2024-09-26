@@ -62,9 +62,6 @@ const router = createBrowserRouter([
   },{
     path: '/buttonDonate',
     element: <SupportPage />
-  },{
-    path: '/read',
-    element: <AboutPage />
   },
 ]);
 
