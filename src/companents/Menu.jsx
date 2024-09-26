@@ -12,9 +12,9 @@ function Menu() {
   };
 
   return (
-    <div className="flex justify-between items-center p-2 w-full h-20 bg-sky-700 sticky top-0 z-10">
+    <div className="flex justify-between items-center p-2  h-20 bg-sky-700 sticky top-0 z-10">
       {/* Logo */}
-      <div className="flex justify-between items-center w-full">
+      <div className="flex justify-between items-center w-[600px]">
         <div className="flex-shrink-0">
           <img className="w-16 h-16 object-contain" src={imageSrc} alt="Logo" />
         </div>
