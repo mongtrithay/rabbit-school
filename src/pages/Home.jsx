@@ -84,7 +84,7 @@ function Homepage() {
               whatever the origin, nature, or severity of their impairments.
             </p>
             {/* Button alignment is controlled here */}
-            <div className="flex justify-start mt-4">
+            <div className="flex justify-start p-2 mt-4">
               <Link to="/about">
                 <ButtonReadMore />
               </Link>
