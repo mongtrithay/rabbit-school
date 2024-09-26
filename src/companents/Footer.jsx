@@ -62,11 +62,11 @@ function Footer() {
           <div className="max-md:w-full w-full max-md:h-full h-full max-md:bg-black/50 bg-black/50 max-md:flex max-md:items-center max-md:justify-center">
             <nav className="max-md:w-[80%] w-[60%] h-full flex items-center ">
               <div>
-                <h1 className="md:ml-[20rem] text-white max-md:mb-4 max-md:text-2xl text-2xl max-md:font-bold">
+                <h1 className="md:ml-[20rem] font-inika text-white max-md:mb-4 max-md:text-2xl text-2xl max-md:font-bold">
                   Rabbit School
                 </h1>
                 <div className="max-md:m-auto">
-                  <p className="md:ml-[20rem] text-white text-xl leading-8">
+                  <p className="md:ml-[20rem] font-inika text-white text-xl leading-8">
                     At Rabbit School, we are committed to making a positive
                     impact in our community. Your support helps us provide
                     essential services and create meaningful change. Stay
@@ -74,7 +74,7 @@ function Footer() {
                   </p>
                 </div>
 
-                <div className="md:ml-[20rem] mt-4 max-md:mt-2 max-md:flex max-md:justify-center">
+                <div className="md:ml-[20rem] mt-4 font-inika max-md:mt-2 max-md:flex max-md:justify-center">
                 <Link to="/buttonDonate">
                   <ButtonDonate />
                 </Link>
@@ -92,30 +92,30 @@ function Footer() {
             </div>
             <div className="max-md:grid max-md:grid-cols-2 max-md:ml-10 max-md:gap-2 md:ml-20 max-md:mt-2 flex flex-col md:flex-row md:space-x-16">
               <div className="mb-6 md:mb-0">
-                <h5 className="font-bold text-lg mb-2">About us</h5>
+                <h5 className="font-bold text-lg mb-2 font-inika">About us</h5>
                 <ul>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       History
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Missions
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Values
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Partners
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       News
                     </a>
                   </li>
@@ -123,25 +123,25 @@ function Footer() {
               </div>
 
               <div className="mb-2 md:mb-0">
-                <h5 className="font-bold text-lg mb-2">Our Actions</h5>
+                <h5 className="font-bold text-lg mb-2 font-inika">Our Actions</h5>
                 <ul>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Special Education
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Teacher Training
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Vocational Training
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Advocacy
                     </a>
                   </li>
@@ -149,20 +149,20 @@ function Footer() {
               </div>
 
               <div className="mb-2 md:mb-0">
-                <h5 className="font-bold text-lg mb-2">Support Us</h5>
+                <h5 className="font-bold text-lg mb-2 font-inika">Support Us</h5>
                 <ul>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Make a Donation
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Sponsor a Student
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Organize a Fund Collect
                     </a>
                   </li>
@@ -170,15 +170,15 @@ function Footer() {
               </div>
 
               <div>
-                <h5 className="font-bold text-lg mb-2">Get Involved</h5>
+                <h5 className="font-bold text-lg mb-2 font-inika">Get Involved</h5>
                 <ul>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Volunteer
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline font-inika">
                       Job Offer
                     </a>
                   </li>
@@ -192,10 +192,10 @@ function Footer() {
         <section className="bg-[#276BA3] w-full  py-8 ">
           <div className=" flex items-center w-[100%] gap-20 max-md:gap-3 flex-col md:flex-row">
             <div className="flex flex-col items-center md:items-start ">
-              <h1 className="max-md:ml-2 md:ml-[11rem] text-slate-300 max-md:text-lg font-bold">
+              <h1 className="max-md:ml-2 md:ml-[11rem] font-inika text-slate-300 max-md:text-lg font-bold">
                 Subscribe Now
               </h1>
-              <p className="md:ml-[11rem] max-md:ml-2 text-white max-md:text-2lg">
+              <p className="md:ml-[11rem] font-inika max-md:ml-2 text-white max-md:text-2lg">
                 Stay updated with our latest news and initiatives
               </p>
               <div className="mt-4 max-md:ml-2 flex">
@@ -205,7 +205,7 @@ function Footer() {
                   className="w-4/5 md:ml-[11rem] px-4 py-2 border border-gray-300"
                 />
 
-                <button className="px-6 py-2 text-white font-bold bg-orange-500">
+                <button className="px-6 py-2 text-white font-inika font-bold bg-orange-500">
                   Send
                 </button>
               </div>
@@ -230,7 +230,7 @@ function Footer() {
                     <FontAwesomeIcon icon={faFacebookF} />
                   </a>
                 </div>
-                <div className="text-[15px]">
+                <div className="text-[15px] font-inika">
                   <a
                     href="https://www.facebook.com/rabbitschoolcbd"
                     target="_blank"
