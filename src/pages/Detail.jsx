@@ -68,7 +68,7 @@ const Detail = () => {
           </p>
         </div>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
