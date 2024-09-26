@@ -52,7 +52,7 @@ function CardAction() {
             </div>
             <div className="w-full lg:h-[50%] h-[47%] bg-[#276BA3] bg-opacity-80 flex flex-col justify-center items-center">
               {/* Blue Box Header */}
-              <div className="w-[15rem] h-[4rem] bg-[#276BA3] flex justify-center items-center lg:-mt-[2rem] -mt-[2rem] shadow-xl">
+              <div className="w-[18rem] h-[4rem] bg-[#276BA3] flex justify-center items-center lg:-mt-[2rem] -mt-[2rem] shadow-xl">
                 <p className="text-white lg:text-[18px] text-[18px] text-center font-bold">
                   Teacher Training and Curriculum Development
                 </p>
