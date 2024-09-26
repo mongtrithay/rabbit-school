@@ -31,7 +31,7 @@ function StaticAutoSlider() {
           <img
             src={image}
             alt={`Slide ${index + 1}`}
-            style={{ width: "100%", height: "auto" }}
+            style={{ width: "90%", height: "auto" }}
           />
         </div>
       ))}

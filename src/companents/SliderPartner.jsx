@@ -40,7 +40,7 @@ function SliderPartner() {
   }, []);
 
   return (
-    <section className="w-full h-auto lg:mb-[5rem] lg:mt-5">
+    <section className="w-[90%] h-auto lg:mb-[5rem] lg:mt-5 m-auto">
       <div className="w-full h-auto">
         <Slider {...settings}>
           {images.map((image, index) => (

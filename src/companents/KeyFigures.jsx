@@ -58,7 +58,7 @@ function KeyFigures() {
   return (
     <>
       <section>
-        <div className="w-[100%] h-[1100px] hidden lg:block lg:mt-[100px]">
+        <div className="w-[90%] h-[1100px] hidden lg:block lg:mt-[100px]">
           <div className="lg:h-[150px] lg:-ml-0 -ml-10 -mt-[60px] mb-[20px] flex justify-center">
             <h1 className="h-[100px] lg:text-[48px] text-[20px] font-bold text-[#276BA3] flex items-center ml-[60px]">
               KEY FIGURES

@@ -99,7 +99,7 @@ const ArticleSlider = () => {
   };
 
   return (
-    <div className="w-[100%] m-auto h-auto mt-10">
+    <div className="w-[90%] m-auto h-auto mt-10">
       <Slider {...settings}>
         {dataDetail.map((data, index) => {
           const { attributes } = data; // Destructure to access attributes directly
